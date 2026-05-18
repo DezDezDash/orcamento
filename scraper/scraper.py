@@ -418,9 +418,6 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
                     buscar_codigo(page, code)
                     data = ler_linha(page, code)
                     if data is None:
-                        buscar_codigo(page, code)
-                        data = ler_linha(page, code)
-                    if data is None:
                         rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": "N/D", "LINHA": "", "PRECO": ""})
                     else:
                         data["EMPRESA"] = loja
