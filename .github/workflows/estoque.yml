@@ -117,6 +117,11 @@ jobs:
             git pull --rebase origin "$(git rev-parse --abbrev-ref HEAD)" || true
             if git push; then
               echo "✅ Push OK na tentativa $i"
+              curl -s -X POST \
+                -H "Authorization: Bearer ${{ secrets.DISPATCH_PAT }}" \
+                -H "Accept: application/vnd.github+json" \
+                https://api.github.com/repos/DezDezDash/Gestao-de-Estoque/dispatches \
+                -d '{"event_type":"orcamento-atualizado"}'
               exit 0
             fi
             sleep $((RANDOM % 10 + 2))
