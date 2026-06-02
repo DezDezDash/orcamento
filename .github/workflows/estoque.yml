@@ -7,14 +7,24 @@ on:
   workflow_dispatch:    # botão "Run workflow" na aba Actions
 
 permissions:
-  contents: write       # job precisa commitar estoque.json
+  contents: write       # job consolidar precisa commitar estoque.json
 
 jobs:
 
-  atualizar:
-    name: Coletar e publicar estoque.json
+  scrape:
+    name: ${{ matrix.loja }} chunk ${{ matrix.chunk }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30     # exporta o Excel de cada loja — roda em poucos minutos
+    timeout-minutes: 360    # 6h — teto do plano Free
+    strategy:
+      fail-fast: false      # se 1 job quebrar, os outros continuam
+      max-parallel: 20      # roda os 20 simultaneamente
+      matrix:
+        loja:
+          - { codigo: CAM, nome: "Camaragibe"   }
+          - { codigo: CAV, nome: "Cavaleiro"    }
+          - { codigo: CAX, nome: "Caxangá"      }
+          - { codigo: SLM, nome: "São Lourenço" }
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]   # 10 chunks por loja → 4 × 10 = 40 jobs em 2 ondas de 20
 
     steps:
       - name: Checkout
@@ -32,15 +42,54 @@ jobs:
           pip install -r scraper/requirements.txt
           playwright install --with-deps chromium
 
-      - name: Coleta estoque (exporta Excel de cada loja)
+      - name: Coleta estoque
         env:
           WEBAPP_USERNAME: ${{ secrets.WEBAPP_USERNAME }}
           WEBAPP_PASSWORD: ${{ secrets.WEBAPP_PASSWORD }}
         run: |
           mkdir -p resultados
-          python scraper/scraper.py --saida-dir resultados
+          python scraper/scraper.py \
+            --produtos scraper/produtos.xlsx \
+            --saida   resultados/excel_${{ matrix.loja.codigo }}_${{ matrix.chunk }}.xlsx \
+            --json    resultados/json_${{ matrix.loja.codigo }}_${{ matrix.chunk }}.json \
+            --empresa "${{ matrix.loja.nome }}" \
+            --batch   ${{ matrix.chunk }} \
+            --total   10
 
-      - name: Lista arquivos coletados
+      - name: Upload artefato deste job
+        if: always()        # sobe o que conseguiu coletar, mesmo em falha parcial
+        uses: actions/upload-artifact@v4
+        with:
+          name: estoque-${{ matrix.loja.codigo }}-${{ matrix.chunk }}
+          path: resultados/
+          retention-days: 7
+
+  consolidar:
+    name: Consolidar e publicar estoque.json
+    needs: scrape
+    if: always()            # mesmo se algum chunk falhou, consolida o que tem
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instala dependências
+        run: pip install pandas openpyxl
+
+      - name: Baixa todos os artefatos dos jobs
+        uses: actions/download-artifact@v4
+        with:
+          path: resultados
+          merge-multiple: true
+
+      - name: Lista artefatos baixados
         run: |
           echo "Arquivos coletados:"
           ls -la resultados/ || true
@@ -63,7 +112,7 @@ jobs:
             exit 0
           fi
           git commit -m "chore: atualiza estoque [$(TZ=America/Sao_Paulo date +'%Y-%m-%d %H:%M')]"
-          # loop de pull-rebase pra tolerar push concorrente
+          # loop de pull-rebase pra tolerar push concorrente (mesmo padrão dos outros workflows seus)
           for i in 1 2 3 4 5; do
             git pull --rebase origin "$(git rev-parse --abbrev-ref HEAD)" || true
             if git push; then
