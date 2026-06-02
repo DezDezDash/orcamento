@@ -283,11 +283,25 @@ def exportar_excel(page, out_path: Path):
     except:
         pass
 
+    # O botão é um <button type="submit">; sem no_wait_after o Playwright
+    # fica esperando uma "navegação" que nunca termina (o que ocorre é um
+    # download), estourando o timeout do click antes do arquivo chegar.
     with page.expect_download(timeout=120000) as dl_info:
-        alvo.click(timeout=5000)
+        alvo.click(timeout=15000, no_wait_after=True)
     download = dl_info.value
-    download.save_as(str(out_path))
-    log(f"Excel baixado: {out_path}")
+
+    # O webapp exporta .xls (Excel 97-2003), não .xlsx. Respeita a extensão
+    # real sugerida pelo download pra que o pandas escolha o engine certo.
+    sugerido = (download.suggested_filename or "").lower()
+    ext = ".xls"
+    if sugerido.endswith(".xlsx"):
+        ext = ".xlsx"
+    elif sugerido.endswith(".xls"):
+        ext = ".xls"
+    out_real = out_path.with_suffix(ext)
+    download.save_as(str(out_real))
+    log(f"Excel baixado: {out_real} (sugerido: {download.suggested_filename})")
+    return out_real
 
 
 def estoque_num(s):
@@ -328,7 +342,9 @@ def _achar_coluna(cols, *palavras):
 
 def xlsx_para_registros(xlsx_path: Path, empresa: str):
     """Lê o Excel exportado e devolve lista de registros no formato do consolidar."""
-    df = pd.read_excel(xlsx_path, dtype=str).fillna("")
+    # Escolhe o engine pela extensão real: .xls -> xlrd, .xlsx -> openpyxl.
+    engine = "xlrd" if str(xlsx_path).lower().endswith(".xls") else "openpyxl"
+    df = pd.read_excel(xlsx_path, dtype=str, engine=engine).fillna("")
     cols = list(df.columns)
     log(f"Colunas do Excel ({loja_codigo(empresa)}): {cols}")
 
@@ -404,9 +420,9 @@ def run(saida_dir: Path, username: str, password: str, headful: bool, empresa: s
                 nap(0.5)
 
                 xlsx_path = saida_dir / f"raw_{cod}.xlsx"
-                exportar_excel(page, xlsx_path)
+                xlsx_real = exportar_excel(page, xlsx_path)
 
-                registros = xlsx_para_registros(xlsx_path, loja)
+                registros = xlsx_para_registros(xlsx_real, loja)
                 write_json(registros, saida_dir / f"json_{cod}.json")
             except Exception as e:
                 log(f"[{loja}] ERRO: {e}")
