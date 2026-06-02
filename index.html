@@ -209,6 +209,32 @@ main { padding: 16px; max-width: 1280px; margin: 0 auto; }
 }
 .last-update .lu-label { color: var(--dim); margin-right: 4px; }
 .last-update.stale { color: var(--amarelo); }
+
+/* Barra de cobertura */
+.stats-bar {
+  background: var(--primaria);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 5px 16px;
+  display: none;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  align-items: center;
+  font-size: 11px;
+  color: rgba(255,255,255,0.7);
+  position: sticky; top: 56px; z-index: 48;
+}
+.stats-bar strong { color: var(--verde-marca); font-weight: 700; }
+.stat-loja {
+  background: rgba(255,255,255,0.08);
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+}
+.stat-loja.atual { background: var(--verde-marca); color: var(--primaria); }
+
 .catalogo-loading {
   position: fixed; top: 0; left: 0; right: 0;
   background: var(--primaria); color: white;
@@ -498,6 +524,16 @@ main { padding: 16px; max-width: 1280px; margin: 0 auto; }
     </div>
   </header>
 
+  <!-- Barra de cobertura do estoque -->
+  <div class="stats-bar" id="statsBar">
+    <span>📦 <strong id="statTotal">—</strong> produtos</span>
+    <span>✅ <strong id="statComEstoque">—</strong> com estoque</span>
+    <span class="stat-loja" id="statCAM">CAM —</span>
+    <span class="stat-loja" id="statCAV">CAV —</span>
+    <span class="stat-loja" id="statCAX">CAX —</span>
+    <span class="stat-loja" id="statSLM">SLM —</span>
+  </div>
+
   <div class="tabs">
     <div class="tab active" data-tab="novo">Novo Orçamento</div>
     <div class="tab" data-tab="historico">
@@ -657,6 +693,7 @@ function salvarLojaAtual() {
   const loja = document.getElementById('lojaAtual').value;
   localStorage.setItem(LOJA_KEY, loja);
   atualizarPrecosPorLoja(loja);
+  atualizarStatLoja(loja);
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -1326,6 +1363,22 @@ async function carregarCatalogo() {
       }
     }
 
+    // Barra de cobertura
+    const sb = document.getElementById('statsBar');
+    if (sb) {
+      document.getElementById('statTotal').textContent =
+        (data.total_produtos ?? CATALOGO.length).toLocaleString('pt-BR');
+      document.getElementById('statComEstoque').textContent =
+        (data.com_estoque ?? '—').toLocaleString('pt-BR');
+      const por = data.cobertura_por_loja || {};
+      for (const l of LOJAS) {
+        const el = document.getElementById('stat' + l);
+        if (el) el.textContent = l + ' ' + (por[l] != null ? por[l].toLocaleString('pt-BR') : '—');
+      }
+      sb.style.display = 'flex';
+      atualizarStatLoja(lojaCorrente());
+    }
+
     loadEl.style.display = 'none';
     console.log(`Catálogo carregado: ${CATALOGO.length} produtos`);
     return true;
@@ -1335,6 +1388,13 @@ async function carregarCatalogo() {
     loadEl.classList.add('erro');
     return false;
   }
+}
+
+function atualizarStatLoja(loja) {
+  LOJAS.forEach(l => {
+    const el = document.getElementById('stat' + l);
+    if (el) el.classList.toggle('atual', l === loja);
+  });
 }
 
 function atualizarPrecosPorLoja(loja) {
