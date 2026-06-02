@@ -1291,7 +1291,7 @@ async function carregarCatalogo() {
     loadEl.style.display = 'block';
 
     // cache-bust pra não pegar versão antiga
-    const r = await fetch('estoque.json?t=' + Date.now());
+    const r = await fetch('https://raw.githubusercontent.com/DezDezDash/orcamento/main/estoque.json?t=' + Date.now());
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const data = await r.json();
 
