@@ -17,9 +17,27 @@ DEFAULT_COMPANIES = [
     "Comercial Dezdez Caxangá",
 ]
 
+# Nome da empresa -> código curto da loja (para nomear arquivos)
+EMPRESA_TO_LOJA = {
+    "camaragibe": "CAM",
+    "cavaleiro":  "CAV",
+    "caxang":     "CAX",
+    "lourenço":   "SLM",
+    "lourenco":   "SLM",
+    "são lou":    "SLM",
+}
+
 
 def log(x): print(time.strftime("%H:%M:%S"), "|", x, flush=True)
 def nap(s=0.30): time.sleep(s)
+
+
+def loja_codigo(nome):
+    low = (nome or "").lower()
+    for chave, cod in EMPRESA_TO_LOJA.items():
+        if chave in low:
+            return cod
+    return re.sub(r"[^A-Za-z0-9]", "", nome)[:6].upper() or "LOJA"
 
 
 def pf_idle(page, timeout=10000):
@@ -222,25 +240,6 @@ def clear_filters(page):
         pass
 
 
-def find_code_input(page):
-    for xp in [
-        "xpath=//input[contains(@id,':codigo') and @type='text' and not(@role='combobox')]",
-        "xpath=//input[contains(@name,':codigo') and @type='text' and not(@role='combobox')]",
-        "xpath=(//input[contains(@placeholder,'Linha de Produto')]/preceding::input[@type='text' and not(@role='combobox')])[1]",
-    ]:
-        loc = page.locator(xp).first
-        try:
-            loc.wait_for(state="visible", timeout=1500)
-            print(f"Campo de código: id='{loc.get_attribute('id')}'", flush=True)
-            return loc
-        except:
-            continue
-    loc = page.locator("css=input[type='text']:not([role='combobox'])").first
-    loc.wait_for(state="visible", timeout=2500)
-    print(f"Campo de código (fallback): id='{loc.get_attribute('id')}'", flush=True)
-    return loc
-
-
 def click_buscar(page):
     for s in ["xpath=//button[contains(.,'Buscar')]", "css=button:has-text('Buscar')", "role=button[name='Buscar']"]:
         try: page.locator(s).first.click(timeout=2000); return True
@@ -248,77 +247,53 @@ def click_buscar(page):
     return False
 
 
-def wait_table_has_code(page, code, timeout=9000):
-    end = time.time() + timeout / 1000.0
-    xp = f"//table[.//th[contains(.,'Descrição')] and .//th[contains(.,'Estoque')]]//tbody//tr"
-    while time.time() < end:
+def exportar_excel(page, out_path: Path):
+    """Clica no botão de exportar Excel da tabela e captura o arquivo baixado."""
+    # Candidatos para o botão/ícone de export Excel do PrimeFaces.
+    # A tela mostra um ícone verde de planilha acima da tabela.
+    candidatos = [
+        "css=img[src*='excel']",
+        "css=img[src*='xls']",
+        "css=a[id*='xls'] img, a[id*='excel'] img",
+        "css=button[id*='xls'], button[id*='excel'], a[id*='xls'], a[id*='excel']",
+        "css=[title*='Excel'], [title*='excel'], [title*='xcel']",
+        "css=[onclick*='xls'], [onclick*='excel']",
+        "xpath=//*[contains(@id,'xls') or contains(@id,'excel')]",
+        "css=.ui-datatable img[src*='.png']",  # fallback: ícone clicável acima da tabela
+    ]
+
+    alvo = None
+    usado = None
+    for sel in candidatos:
         try:
-            rows = page.locator(f"xpath={xp}")
-            n = rows.count()
-            for i in range(n):
-                r = rows.nth(i)
-                c0 = r.locator("xpath=./td[1]").inner_text().strip().replace('\xa0', '')
-                if c0 == str(code): return True
-            if page.locator('text=Nenhum registro encontrado').count():
-                return True
+            loc = page.locator(sel).first
+            if loc.count() > 0 and loc.is_visible():
+                alvo = loc
+                usado = sel
+                break
         except:
-            pass
-        nap(0.25)
-    return False
+            continue
 
+    if alvo is None:
+        raise RuntimeError("Botão de exportar Excel não encontrado na tela.")
 
-def buscar_codigo(page, code):
-    clear_filters(page)
-    pf_idle(page, timeout=6000)
-    inp = find_code_input(page)
+    log(f"Botão de exportar localizado via: {usado}")
     try:
-        inp.click()
-        page.keyboard.press("Control+A"); page.keyboard.press("Delete")
-        inp.fill(str(code))
-    except:
-        try:
-            el = inp.element_handle()
-            page.evaluate("""(el, v) => { el.value=''; el.dispatchEvent(new Event('input',{bubbles:true})); el.value=v; el.dispatchEvent(new Event('input',{bubbles:true})); }""", el, str(code))
-        except:
-            pass
-    nap(0.1)
-    click_buscar(page)
-    pf_idle(page, timeout=10000)
-    wait_table_has_code(page, code, timeout=12000)
-
-
-def ler_linha(page, code):
-    xp = f"//table[.//th[contains(.,'Descrição')] and .//th[contains(.,'Estoque')]]//tbody//tr"
-    rows = page.locator(f"xpath={xp}")
-    try:
-        n = rows.count()
-    except:
-        n = 0
-    for i in range(n):
-        r = rows.nth(i)
-        try:
-            c0 = r.locator("xpath=./td[1]").inner_text().strip().replace('\xa0', '')
-            if c0 == str(code):
-                linha = r.locator("xpath=./td[2]").inner_text().strip()
-                desc = r.locator("xpath=./td[3]").inner_text().strip()
-                est = r.locator("xpath=./td[4]").inner_text().strip()
-                try:
-                    preco = r.locator("xpath=./td[5]").inner_text().strip()
-                except:
-                    preco = ""
-                return {"CODIGO": c0, "LINHA": linha, "DESCRICAO": desc, "ESTOQUE": est, "PRECO": preco}
-        except:
-            pass
-    try:
-        if page.locator("text=Nenhum registro encontrado").is_visible(): return None
+        alvo.scroll_into_view_if_needed()
     except:
         pass
-    return None
+
+    with page.expect_download(timeout=120000) as dl_info:
+        alvo.click(timeout=5000)
+    download = dl_info.value
+    download.save_as(str(out_path))
+    log(f"Excel baixado: {out_path}")
 
 
 def estoque_num(s):
-    if not s or not isinstance(s, str): return None
-    if s.strip().upper() == "N/D": return None
+    if s is None: return None
+    s = str(s).strip()
+    if not s or s.upper() == "N/D": return None
     m = re.findall(r"[\d\.,]+", s)
     if not m: return None
     x = m[0].replace(".", "").replace(",", ".")
@@ -329,7 +304,9 @@ def estoque_num(s):
 
 
 def preco_num(s):
-    if not s or not isinstance(s, str): return None
+    if s is None: return None
+    s = str(s).strip()
+    if not s: return None
     m = re.findall(r"[\d\.,]+", s)
     if not m: return None
     x = m[0].replace(".", "").replace(",", ".")
@@ -339,58 +316,63 @@ def preco_num(s):
         return None
 
 
-def write_excel_with_matrix(df, out_path: Path):
-    cols = ["EMPRESA", "CODIGO", "DESCRICAO", "ESTOQUE", "LINHA", "PRECO"]
-    det = df[cols].copy()
-    det.to_excel(out_path, index=False)
-    tmp = df.copy()
-    tmp["ESTOQUE_NUM"] = tmp["ESTOQUE"].apply(estoque_num)
-    piv = tmp.pivot_table(index="CODIGO", columns="EMPRESA", values="ESTOQUE_NUM", aggfunc="first")
-    desc_map = tmp.dropna(subset=["DESCRICAO"]).drop_duplicates("CODIGO").set_index("CODIGO")["DESCRICAO"]
-    piv.insert(0, "DESCRICAO", desc_map.reindex(piv.index).fillna(""))
-    with pd.ExcelWriter(out_path, mode="a", engine="openpyxl", if_sheet_exists="replace") as w:
-        piv.to_excel(w, sheet_name="Matriz_Estoque")
+def _achar_coluna(cols, *palavras):
+    """Acha o nome da coluna que contém alguma das palavras (case-insensitive)."""
+    for c in cols:
+        low = str(c).lower()
+        for p in palavras:
+            if p in low:
+                return c
+    return None
 
 
-def write_json(df, json_path: Path):
-    records = []
+def xlsx_para_registros(xlsx_path: Path, empresa: str):
+    """Lê o Excel exportado e devolve lista de registros no formato do consolidar."""
+    df = pd.read_excel(xlsx_path, dtype=str).fillna("")
+    cols = list(df.columns)
+    log(f"Colunas do Excel ({loja_codigo(empresa)}): {cols}")
+
+    c_cod  = _achar_coluna(cols, "cód", "cod")
+    c_lin  = _achar_coluna(cols, "linha")
+    c_desc = _achar_coluna(cols, "desc")
+    c_est  = _achar_coluna(cols, "estoque", "saldo", "qtd", "quant")
+    c_pre  = _achar_coluna(cols, "preç", "prec", "valor")
+
+    if c_cod is None:
+        raise RuntimeError(f"Coluna de código não encontrada em {cols}")
+
+    registros = []
     for _, row in df.iterrows():
-        est = estoque_num(str(row.get("ESTOQUE", "")))
-        preco = preco_num(str(row.get("PRECO", "")))
-        records.append({
-            "empresa": str(row["EMPRESA"]),
-            "codigo": int(str(row["CODIGO"]).replace(".0", "").strip()) if str(row["CODIGO"]).replace(".0", "").strip().isdigit() else str(row["CODIGO"]),
-            "descricao": str(row.get("DESCRICAO", "")),
-            "linha": str(row.get("LINHA", "")),
-            "estoque": est,
-            "preco": preco,
+        cod = str(row.get(c_cod, "")).replace(".0", "").strip()
+        if not cod:
+            continue
+        registros.append({
+            "empresa":   empresa,
+            "codigo":    cod,
+            "descricao": str(row.get(c_desc, "")).strip() if c_desc else "",
+            "linha":     str(row.get(c_lin, "")).strip() if c_lin else "",
+            "estoque":   estoque_num(row.get(c_est, "")) if c_est else None,
+            "preco":     preco_num(row.get(c_pre, "")) if c_pre else None,
         })
+    log(f"{loja_codigo(empresa)}: {len(registros)} produtos lidos do Excel")
+    return registros
+
+
+def write_json(registros, json_path: Path):
     payload = {
         "last_update": datetime.now(timezone(timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M"),
-        "data": records,
+        "data": registros,
     }
     json_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    log(f"JSON gerado: {json_path} ({len(records)} registros)")
+    log(f"JSON gerado: {json_path} ({len(registros)} registros)")
 
 
-def run(produtos: Path, saida: Path, json_out, username: str, password: str, headful: bool, empresa: str = "", batch: int = 0, total: int = 1):
-    df = pd.read_excel(produtos) if produtos.suffix.lower() in (".xlsx", ".xls") else pd.read_csv(produtos)
-    if "CODIGO" not in df.columns:
-        for alt in ["Codigo", "CÓDIGO", "COD", "SKU", "Produto", "PRODUTO"]:
-            if alt in df.columns:
-                df = df.rename(columns={alt: "CODIGO"}); break
-    df = df.dropna(subset=["CODIGO"]).copy()
-    df["CODIGO"] = df["CODIGO"].astype(str).str.replace(".0", "", regex=False).str.strip()
-    codigos = df["CODIGO"].tolist()
-    if total > 1:
-        codigos = codigos[batch::total]
-        log(f"Batch {batch} de {total} — {len(codigos)} códigos")
-
-    rows = []
+def run(saida_dir: Path, username: str, password: str, headful: bool, empresa: str = ""):
+    saida_dir.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=not headful)
-        ctx = browser.new_context(viewport={"width": 1400, "height": 900})
+        ctx = browser.new_context(viewport={"width": 1400, "height": 900}, accept_downloads=True)
         page = ctx.new_page()
         page.goto(URL, timeout=60000)
 
@@ -411,29 +393,25 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
             log(f"Filtrando para empresa: {lojas[0]}")
 
         for loja in lojas:
-            go_to_produtos(page)
-            select_company(page, loja)
-            for code in codigos:
-                try:
-                    buscar_codigo(page, code)
-                    data = ler_linha(page, code)
-                    if data is None:
-                        rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": "N/D", "LINHA": "", "PRECO": ""})
-                    else:
-                        data["EMPRESA"] = loja
-                        rows.append(data)
-                    log(f"[{loja}] {code} => {rows[-1]['ESTOQUE']}")
-                except Exception as e:
-                    rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": f"ERRO: {e}", "LINHA": "", "PRECO": ""})
-                    log(f"[{loja}] {code} => ERRO {e}")
+            cod = loja_codigo(loja)
+            try:
+                go_to_produtos(page)
+                select_company(page, loja)
+                # Lista o catálogo completo da loja (busca sem filtros)
+                clear_filters(page)
+                click_buscar(page)
+                pf_idle(page, timeout=20000)
+                nap(0.5)
 
-        saida.parent.mkdir(parents=True, exist_ok=True)
-        df_out = pd.DataFrame(rows).sort_values(["EMPRESA", "CODIGO"])
-        write_excel_with_matrix(df_out, saida)
-        log(f"Excel gerado: {saida}")
+                xlsx_path = saida_dir / f"raw_{cod}.xlsx"
+                exportar_excel(page, xlsx_path)
 
-        if json_out:
-            write_json(df_out, Path(json_out))
+                registros = xlsx_para_registros(xlsx_path, loja)
+                write_json(registros, saida_dir / f"json_{cod}.json")
+            except Exception as e:
+                log(f"[{loja}] ERRO: {e}")
+                # Grava JSON vazio pra não travar a consolidação
+                write_json([], saida_dir / f"json_{cod}.json")
 
         ctx.close()
         browser.close()
@@ -441,17 +419,14 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--produtos", type=Path, default=Path("scraper/produtos.csv"))
-    ap.add_argument("--saida", type=Path, default=Path("scraper/saidas/estoque_por_loja.xlsx"))
-    ap.add_argument("--json", dest="json_out", default=None, help="Caminho para data.json")
+    ap.add_argument("--saida-dir", dest="saida_dir", type=Path, default=Path("resultados"),
+                    help="Pasta onde salvar os JSONs/Excels por loja")
     ap.add_argument("--username", default=os.getenv("WEBAPP_USERNAME", ""))
     ap.add_argument("--password", default=os.getenv("WEBAPP_PASSWORD", ""))
     ap.add_argument("--headful", action="store_true")
-    ap.add_argument("--empresa", default="", help="Scrape apenas esta empresa (substring do nome)")
-    ap.add_argument("--batch", type=int, default=0, help="Índice deste batch (0..total-1)")
-    ap.add_argument("--total", type=int, default=1, help="Quantos batches no total (1=sem fatia)")
+    ap.add_argument("--empresa", default="", help="Coletar apenas esta empresa (substring do nome)")
     a = ap.parse_args()
-    run(a.produtos, a.saida, a.json_out, a.username, a.password, a.headful, a.empresa, a.batch, a.total)
+    run(a.saida_dir, a.username, a.password, a.headful, a.empresa)
 
 
 if __name__ == "__main__":
