@@ -1,5 +1,5 @@
 {
-  "last_update": "03/06/2026 08:46",
+  "last_update": "03/06/2026 13:17",
   "lojas": [
     "CAM",
     "CAV",
@@ -7,11 +7,11 @@
     "SLM"
   ],
   "total_produtos": 9871,
-  "com_estoque": 5919,
+  "com_estoque": 5947,
   "cobertura_por_loja": {
     "CAM": 4515,
     "CAV": 3449,
-    "CAX": 2946,
+    "CAX": 3273,
     "SLM": 4040
   },
   "produtos": [
@@ -11519,13 +11519,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 11.5,
         "CAV": 11.5,
-        "CAX": null,
+        "CAX": 11.5,
         "SLM": 11.5
       }
     },
@@ -13267,13 +13267,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 87.9,
         "CAV": 87.9,
-        "CAX": null,
+        "CAX": 87.9,
         "SLM": 87.9
       }
     },
@@ -13400,13 +13400,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 27.9,
         "CAV": 27.9,
-        "CAX": null,
+        "CAX": 27.9,
         "SLM": 27.9
       }
     },
@@ -13894,13 +13894,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 28.9,
-        "CAX": null,
+        "CAX": 28.9,
         "SLM": 28.9
       }
     },
@@ -14046,13 +14046,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": 24.1,
         "CAV": null,
-        "CAX": null,
+        "CAX": 24.1,
         "SLM": null
       }
     },
@@ -14274,13 +14274,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": 481.7,
         "CAV": null,
-        "CAX": null,
+        "CAX": 481.7,
         "SLM": null
       }
     },
@@ -14711,13 +14711,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 120.0,
         "SLM": null
       }
     },
@@ -15528,13 +15528,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 16.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 12.0
       },
       "preco": {
         "CAM": 47.9,
         "CAV": 47.9,
-        "CAX": null,
+        "CAX": 47.9,
         "SLM": 47.9
       }
     },
@@ -15775,13 +15775,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 149.9,
         "CAV": 149.9,
-        "CAX": null,
+        "CAX": 149.9,
         "SLM": 149.9
       }
     },
@@ -16136,13 +16136,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 16.0,
         "SLM": 13.0
       },
       "preco": {
         "CAM": 49.0,
         "CAV": 49.0,
-        "CAX": null,
+        "CAX": 49.0,
         "SLM": 49.0
       }
     },
@@ -16212,13 +16212,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 11.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 42.9,
         "CAV": 42.9,
-        "CAX": null,
+        "CAX": 42.9,
         "SLM": 42.9
       }
     },
@@ -17200,13 +17200,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 78.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 78.9,
         "SLM": 78.9
       }
     },
@@ -17542,13 +17542,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 109.9,
         "CAV": 109.9,
-        "CAX": null,
+        "CAX": 109.9,
         "SLM": 109.9
       }
     },
@@ -19860,13 +19860,13 @@
       "estoque": {
         "CAM": 16.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": 13.0
       },
       "preco": {
         "CAM": 52.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 52.9,
         "SLM": 52.9
       }
     },
@@ -21285,13 +21285,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 369.9,
         "CAV": 369.9,
-        "CAX": null,
+        "CAX": 369.9,
         "SLM": 369.9
       }
     },
@@ -21323,13 +21323,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 169.9,
         "CAV": 169.9,
-        "CAX": null,
+        "CAX": 169.9,
         "SLM": 169.9
       }
     },
@@ -21456,13 +21456,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 72.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 72.9,
         "SLM": 72.9
       }
     },
@@ -21627,13 +21627,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 124.9,
         "CAV": 124.9,
-        "CAX": null,
+        "CAX": 124.9,
         "SLM": 124.9
       }
     },
@@ -21988,13 +21988,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 156.9,
         "CAV": 156.9,
-        "CAX": null,
+        "CAX": 156.9,
         "SLM": 156.9
       }
     },
@@ -22406,13 +22406,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 139.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 139.9,
         "SLM": 139.9
       }
     },
@@ -24173,13 +24173,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 14.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": null,
         "CAV": 89.9,
-        "CAX": null,
+        "CAX": 89.9,
         "SLM": 89.9
       }
     },
@@ -24553,13 +24553,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 14.9,
         "SLM": null
       }
     },
@@ -24572,13 +24572,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 14.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 61.5,
         "CAV": null,
-        "CAX": null,
+        "CAX": 61.5,
         "SLM": 61.5
       }
     },
@@ -24743,13 +24743,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 13.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 20.0
       },
       "preco": {
         "CAM": 14.9,
         "CAV": 14.9,
-        "CAX": null,
+        "CAX": 14.9,
         "SLM": 14.9
       }
     },
@@ -25959,13 +25959,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 11.99,
         "SLM": 11.99
       }
     },
@@ -26225,13 +26225,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 29.0,
-        "CAX": null,
+        "CAX": 33.0,
         "SLM": 16.0
       },
       "preco": {
         "CAM": 9.1,
         "CAV": 9.1,
-        "CAX": null,
+        "CAX": 9.1,
         "SLM": 9.1
       }
     },
@@ -26586,13 +26586,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 19.9,
         "CAV": 19.9,
-        "CAX": null,
+        "CAX": 19.9,
         "SLM": 19.9
       }
     },
@@ -26662,13 +26662,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 13.0,
-        "CAX": null,
+        "CAX": 42.0,
         "SLM": 18.0
       },
       "preco": {
         "CAM": 4.5,
         "CAV": 4.5,
-        "CAX": null,
+        "CAX": 4.5,
         "SLM": 4.5
       }
     },
@@ -26966,13 +26966,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 14.0,
         "SLM": 11.0
       },
       "preco": {
         "CAM": 11.9,
         "CAV": 11.9,
-        "CAX": null,
+        "CAX": 11.9,
         "SLM": 11.9
       }
     },
@@ -27365,13 +27365,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 44.0
       },
       "preco": {
         "CAM": 32.9,
         "CAV": 32.9,
-        "CAX": null,
+        "CAX": 32.9,
         "SLM": 32.9
       }
     },
@@ -27403,13 +27403,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 24.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 12.9,
         "CAV": 12.9,
-        "CAX": null,
+        "CAX": 12.9,
         "SLM": 12.9
       }
     },
@@ -28087,13 +28087,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 21.0,
         "SLM": 10.0
       },
       "preco": {
         "CAM": 5.3,
         "CAV": 5.3,
-        "CAX": null,
+        "CAX": 5.3,
         "SLM": 5.3
       }
     },
@@ -28638,13 +28638,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 31.9,
         "CAV": 31.9,
-        "CAX": null,
+        "CAX": 31.9,
         "SLM": null
       }
     },
@@ -30652,13 +30652,13 @@
       "estoque": {
         "CAM": 43.0,
         "CAV": 97.0,
-        "CAX": null,
+        "CAX": 115.0,
         "SLM": 118.0
       },
       "preco": {
         "CAM": 4.5,
         "CAV": 4.5,
-        "CAX": null,
+        "CAX": 4.5,
         "SLM": 4.5
       }
     },
@@ -31165,13 +31165,13 @@
       "estoque": {
         "CAM": 22.0,
         "CAV": 36.0,
-        "CAX": null,
+        "CAX": 64.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 2.9,
         "CAV": 2.9,
-        "CAX": null,
+        "CAX": 2.9,
         "SLM": 2.9
       }
     },
@@ -34053,13 +34053,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 39.9,
         "CAV": 39.9,
-        "CAX": null,
+        "CAX": 39.9,
         "SLM": 39.9
       }
     },
@@ -34338,13 +34338,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 42.9,
         "CAV": 42.9,
-        "CAX": null,
+        "CAX": 42.9,
         "SLM": 42.9
       }
     },
@@ -34832,13 +34832,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 51.9,
         "CAV": 51.9,
-        "CAX": null,
+        "CAX": 51.9,
         "SLM": 51.9
       }
     },
@@ -41501,13 +41501,13 @@
       "estoque": {
         "CAM": 18.0,
         "CAV": 14.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 50.0
       },
       "preco": {
         "CAM": 3.9,
         "CAV": 3.9,
-        "CAX": null,
+        "CAX": 3.9,
         "SLM": 3.9
       }
     },
@@ -41615,13 +41615,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 14.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 3.9,
         "CAV": 3.9,
-        "CAX": null,
+        "CAX": 3.9,
         "SLM": 3.9
       }
     },
@@ -41710,13 +41710,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 10.5,
         "CAV": 10.5,
-        "CAX": null,
+        "CAX": 10.5,
         "SLM": 10.5
       }
     },
@@ -41748,13 +41748,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 11.9,
-        "CAX": null,
+        "CAX": 11.9,
         "SLM": null
       }
     },
@@ -49405,13 +49405,13 @@
       "estoque": {
         "CAM": 42.0,
         "CAV": 65.0,
-        "CAX": null,
+        "CAX": 69.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 64.9,
         "CAV": 64.9,
-        "CAX": null,
+        "CAX": 64.9,
         "SLM": 64.9
       }
     },
@@ -49462,13 +49462,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 4.6,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.6,
         "SLM": 4.6
       }
     },
@@ -50127,13 +50127,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": null,
         "CAV": 63.99,
-        "CAX": null,
+        "CAX": 63.99,
         "SLM": 63.99
       }
     },
@@ -50260,13 +50260,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 25.9,
         "SLM": 25.9
       }
     },
@@ -50317,13 +50317,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 31.9,
         "CAV": 31.9,
-        "CAX": null,
+        "CAX": 31.9,
         "SLM": 31.9
       }
     },
@@ -50583,13 +50583,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 294.9,
         "SLM": null
       }
     },
@@ -52958,13 +52958,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 24.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 23.9,
         "CAV": 23.9,
-        "CAX": null,
+        "CAX": 23.9,
         "SLM": 23.9
       }
     },
@@ -52996,13 +52996,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 16.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 13.9,
         "CAV": 13.9,
-        "CAX": null,
+        "CAX": 13.9,
         "SLM": 13.9
       }
     },
@@ -53509,13 +53509,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": 170.0,
         "CAV": 170.0,
-        "CAX": null,
+        "CAX": 170.0,
         "SLM": null
       }
     },
@@ -54839,13 +54839,13 @@
       "estoque": {
         "CAM": 14.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 24.9,
         "CAV": 24.9,
-        "CAX": null,
+        "CAX": 24.9,
         "SLM": 24.9
       }
     },
@@ -55504,13 +55504,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 11.5,
         "CAV": 11.5,
-        "CAX": null,
+        "CAX": 11.5,
         "SLM": 11.5
       }
     },
@@ -55523,13 +55523,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 46.9,
         "CAV": 46.9,
-        "CAX": null,
+        "CAX": 46.9,
         "SLM": 46.9
       }
     },
@@ -56606,13 +56606,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": null,
         "CAV": 489.9,
-        "CAX": null,
+        "CAX": 489.9,
         "SLM": 489.9
       }
     },
@@ -58278,13 +58278,13 @@
       "estoque": {
         "CAM": 16.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 54.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 54.9,
         "SLM": 54.9
       }
     },
@@ -60881,13 +60881,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 21.5,
         "CAV": 21.5,
-        "CAX": null,
+        "CAX": 21.5,
         "SLM": 21.5
       }
     },
@@ -61204,13 +61204,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 44.0,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": 35.0
       },
       "preco": {
         "CAM": null,
         "CAV": 184.9,
-        "CAX": null,
+        "CAX": 184.9,
         "SLM": 184.9
       }
     },
@@ -61451,13 +61451,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 7.6,
         "CAV": 7.6,
-        "CAX": null,
+        "CAX": 7.6,
         "SLM": 7.6
       }
     },
@@ -61698,13 +61698,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 9.4,
         "CAV": 9.4,
-        "CAX": null,
+        "CAX": 9.4,
         "SLM": 9.4
       }
     },
@@ -61926,13 +61926,13 @@
       "estoque": {
         "CAM": 11.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 15.6,
         "CAV": 15.6,
-        "CAX": null,
+        "CAX": 15.6,
         "SLM": 15.6
       }
     },
@@ -61983,13 +61983,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 7.9,
         "CAV": 7.9,
-        "CAX": null,
+        "CAX": 7.9,
         "SLM": 7.9
       }
     },
@@ -62154,13 +62154,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 9.6,
         "CAV": 9.6,
-        "CAX": null,
+        "CAX": 9.6,
         "SLM": 9.6
       }
     },
@@ -62287,13 +62287,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 8.5,
         "CAV": 8.5,
-        "CAX": null,
+        "CAX": 8.5,
         "SLM": null
       }
     },
@@ -65175,13 +65175,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 46.9,
-        "CAX": null,
+        "CAX": 46.9,
         "SLM": null
       }
     },
@@ -65479,13 +65479,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 64.9,
         "CAV": 64.9,
-        "CAX": null,
+        "CAX": 64.9,
         "SLM": 64.9
       }
     },
@@ -65878,13 +65878,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 39.9,
-        "CAX": null,
+        "CAX": 39.9,
         "SLM": null
       }
     },
@@ -66600,13 +66600,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": null
       },
       "preco": {
         "CAM": 9.9,
         "CAV": 9.9,
-        "CAX": null,
+        "CAX": 9.9,
         "SLM": null
       }
     },
@@ -68348,13 +68348,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 59.9,
         "CAV": 59.9,
-        "CAX": null,
+        "CAX": 59.9,
         "SLM": 59.9
       }
     },
@@ -68595,13 +68595,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 284.9,
         "CAV": 284.9,
-        "CAX": null,
+        "CAX": 284.9,
         "SLM": 284.9
       }
     },
@@ -69678,13 +69678,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 199.9,
         "SLM": null
       }
     },
@@ -69754,13 +69754,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 244.9,
-        "CAX": null,
+        "CAX": 244.9,
         "SLM": null
       }
     },
@@ -73307,13 +73307,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 229.9,
         "CAV": 229.9,
-        "CAX": null,
+        "CAX": 229.9,
         "SLM": 229.9
       }
     },
@@ -73972,13 +73972,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 14.9,
-        "CAX": null,
+        "CAX": 14.9,
         "SLM": 14.9
       }
     },
@@ -74048,13 +74048,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 7.9,
         "SLM": null
       }
     },
@@ -74181,13 +74181,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 27.0,
-        "CAX": null,
+        "CAX": 30.0,
         "SLM": 22.0
       },
       "preco": {
         "CAM": null,
         "CAV": 14.9,
-        "CAX": null,
+        "CAX": 14.9,
         "SLM": 14.9
       }
     },
@@ -74637,13 +74637,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": 464.9,
-        "CAX": null,
+        "CAX": 464.9,
         "SLM": 464.9
       }
     },
@@ -77468,13 +77468,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 59.9,
         "CAV": 59.9,
-        "CAX": null,
+        "CAX": 59.9,
         "SLM": 59.9
       }
     },
@@ -79254,13 +79254,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 22.9,
         "CAV": 22.9,
-        "CAX": null,
+        "CAX": 22.9,
         "SLM": 22.9
       }
     },
@@ -79957,13 +79957,13 @@
       "estoque": {
         "CAM": 14.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 95.9,
         "CAV": 95.9,
-        "CAX": null,
+        "CAX": 95.9,
         "SLM": 95.9
       }
     },
@@ -81078,13 +81078,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 10.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 22.3,
         "CAV": 22.3,
-        "CAX": null,
+        "CAX": 22.3,
         "SLM": 22.3
       }
     },
@@ -83510,13 +83510,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 85.5,
         "CAV": 85.5,
-        "CAX": null,
+        "CAX": 85.5,
         "SLM": null
       }
     },
@@ -83871,13 +83871,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 174.9,
-        "CAX": null,
+        "CAX": 174.9,
         "SLM": null
       }
     },
@@ -84688,13 +84688,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": 117.9,
         "CAV": 117.9,
-        "CAX": null,
+        "CAX": 117.9,
         "SLM": null
       }
     },
@@ -84726,13 +84726,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 149.9,
         "CAV": 149.9,
-        "CAX": null,
+        "CAX": 149.9,
         "SLM": 149.9
       }
     },
@@ -84783,13 +84783,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 20.9,
         "CAV": 20.9,
-        "CAX": null,
+        "CAX": 20.9,
         "SLM": 20.9
       }
     },
@@ -85011,13 +85011,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 8.5,
         "CAV": 8.5,
-        "CAX": null,
+        "CAX": 8.5,
         "SLM": 8.5
       }
     },
@@ -86474,13 +86474,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 14.7,
         "CAV": 14.7,
-        "CAX": null,
+        "CAX": 14.7,
         "SLM": 14.7
       }
     },
@@ -86854,13 +86854,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 21.0
       },
       "preco": {
         "CAM": 56.9,
         "CAV": 56.9,
-        "CAX": null,
+        "CAX": 56.9,
         "SLM": 56.9
       }
     },
@@ -86892,13 +86892,13 @@
       "estoque": {
         "CAM": 44.0,
         "CAV": 29.0,
-        "CAX": null,
+        "CAX": 44.0,
         "SLM": 32.0
       },
       "preco": {
         "CAM": 1.4,
         "CAV": 1.4,
-        "CAX": null,
+        "CAX": 1.4,
         "SLM": 1.4
       }
     },
@@ -90578,13 +90578,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.86,
         "SLM": 2.43
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 32.9,
         "SLM": 32.9
       }
     },
@@ -92497,13 +92497,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 110.9,
         "CAV": 110.9,
-        "CAX": null,
+        "CAX": 110.9,
         "SLM": 110.9
       }
     },
@@ -93181,13 +93181,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 20.9,
         "CAV": 20.9,
-        "CAX": null,
+        "CAX": 20.9,
         "SLM": 20.9
       }
     },
@@ -93238,13 +93238,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 32.9,
         "CAV": 32.9,
-        "CAX": null,
+        "CAX": 32.9,
         "SLM": 32.9
       }
     },
@@ -93276,13 +93276,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 22.0,
         "SLM": 18.0
       },
       "preco": {
         "CAM": 8.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 8.9,
         "SLM": 8.9
       }
     },
@@ -95708,13 +95708,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 73.59,
         "CAV": 73.59,
-        "CAX": null,
+        "CAX": 73.59,
         "SLM": 73.59
       }
     },
@@ -98843,13 +98843,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": 10.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 15.0
       },
       "preco": {
         "CAM": 17.9,
         "CAV": 17.9,
-        "CAX": null,
+        "CAX": 17.9,
         "SLM": 17.9
       }
     },
@@ -99147,13 +99147,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 6.6,
         "CAV": 6.6,
-        "CAX": null,
+        "CAX": 6.6,
         "SLM": 6.6
       }
     },
@@ -99527,13 +99527,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 18.0,
         "SLM": null
       },
       "preco": {
         "CAM": 11.2,
         "CAV": null,
-        "CAX": null,
+        "CAX": 11.2,
         "SLM": null
       }
     },
@@ -99774,13 +99774,13 @@
       "estoque": {
         "CAM": 48.0,
         "CAV": 30.0,
-        "CAX": null,
+        "CAX": 28.0,
         "SLM": 80.0
       },
       "preco": {
         "CAM": 4.99,
         "CAV": 4.99,
-        "CAX": null,
+        "CAX": 4.99,
         "SLM": 4.99
       }
     },
@@ -100610,13 +100610,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 47.9,
         "CAV": 47.9,
-        "CAX": null,
+        "CAX": 47.9,
         "SLM": 47.9
       }
     },
@@ -100781,13 +100781,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 13.9,
         "CAV": 13.9,
-        "CAX": null,
+        "CAX": 13.9,
         "SLM": 13.9
       }
     },
@@ -102339,13 +102339,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 24.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 24.9,
         "SLM": 24.9
       }
     },
@@ -102909,13 +102909,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 92.9,
         "CAV": 92.9,
-        "CAX": null,
+        "CAX": 92.9,
         "SLM": 92.9
       }
     },
@@ -103802,13 +103802,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 92.9,
         "CAV": 92.9,
-        "CAX": null,
+        "CAX": 92.9,
         "SLM": 92.9
       }
     },
@@ -104657,13 +104657,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 639.0,
         "CAV": 639.0,
-        "CAX": null,
+        "CAX": 639.0,
         "SLM": 639.0
       }
     },
@@ -104923,13 +104923,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": 175.9,
-        "CAX": null,
+        "CAX": 175.9,
         "SLM": 175.9
       }
     },
@@ -105778,13 +105778,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 209.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 209.9,
         "SLM": 209.9
       }
     },
@@ -106177,13 +106177,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 15.0,
-        "CAX": null,
+        "CAX": 23.0,
         "SLM": 17.0
       },
       "preco": {
         "CAM": 6.6,
         "CAV": 6.6,
-        "CAX": null,
+        "CAX": 6.6,
         "SLM": 6.6
       }
     },
@@ -106291,13 +106291,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 18.5,
-        "CAX": null,
+        "CAX": 18.5,
         "SLM": 18.5
       }
     },
@@ -106424,13 +106424,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 7.5,
         "CAV": null,
-        "CAX": null,
+        "CAX": 7.5,
         "SLM": 7.5
       }
     },
@@ -107146,13 +107146,13 @@
       "estoque": {
         "CAM": 19.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 26.9,
         "CAV": 26.9,
-        "CAX": null,
+        "CAX": 26.9,
         "SLM": null
       }
     },
@@ -108609,13 +108609,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 32.9,
         "CAV": 32.9,
-        "CAX": null,
+        "CAX": 32.9,
         "SLM": 32.9
       }
     },
@@ -112086,13 +112086,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 65.9,
         "CAV": 65.9,
-        "CAX": null,
+        "CAX": 65.9,
         "SLM": 65.9
       }
     },
@@ -112181,13 +112181,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 59.9,
         "CAV": 59.9,
-        "CAX": null,
+        "CAX": 59.9,
         "SLM": 59.9
       }
     },
@@ -113606,13 +113606,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 21.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 21.9,
         "SLM": 21.9
       }
     },
@@ -116893,13 +116893,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": 109.99,
-        "CAX": null,
+        "CAX": 109.99,
         "SLM": 109.99
       }
     },
@@ -117330,13 +117330,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 275.9,
         "CAV": 275.9,
-        "CAX": null,
+        "CAX": 275.9,
         "SLM": 275.9
       }
     },
@@ -117501,13 +117501,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 77.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 77.9,
         "SLM": 77.9
       }
     },
@@ -118508,13 +118508,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 499.9,
         "CAV": 499.9,
-        "CAX": null,
+        "CAX": 499.9,
         "SLM": 499.9
       }
     },
@@ -118926,13 +118926,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 147.9,
         "CAV": 147.9,
-        "CAX": null,
+        "CAX": 147.9,
         "SLM": 147.9
       }
     },
@@ -119173,13 +119173,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 32.9,
         "CAV": 32.9,
-        "CAX": null,
+        "CAX": 32.9,
         "SLM": 32.9
       }
     },
@@ -119591,13 +119591,13 @@
       "estoque": {
         "CAM": 27.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 13.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 13.99,
         "CAV": null,
-        "CAX": null,
+        "CAX": 13.99,
         "SLM": 13.99
       }
     },
@@ -119762,13 +119762,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 36.9,
         "CAV": 36.9,
-        "CAX": null,
+        "CAX": 36.9,
         "SLM": 36.9
       }
     },
@@ -119800,13 +119800,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 36.9,
         "CAV": 36.9,
-        "CAX": null,
+        "CAX": 36.9,
         "SLM": 36.9
       }
     },
@@ -119819,13 +119819,13 @@
       "estoque": {
         "CAM": 28.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": null
       },
       "preco": {
         "CAM": 5.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.9,
         "SLM": null
       }
     },
@@ -120275,13 +120275,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 17.0,
         "SLM": null
       },
       "preco": {
         "CAM": 27.4,
         "CAV": null,
-        "CAX": null,
+        "CAX": 27.4,
         "SLM": null
       }
     },
@@ -120313,13 +120313,13 @@
       "estoque": {
         "CAM": 14.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 66.4,
         "CAV": 66.4,
-        "CAX": null,
+        "CAX": 66.4,
         "SLM": 66.4
       }
     },
@@ -120617,13 +120617,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 78.9,
         "CAV": 78.9,
-        "CAX": null,
+        "CAX": 78.9,
         "SLM": 78.9
       }
     },
@@ -120959,13 +120959,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 639.9,
-        "CAX": null,
+        "CAX": 639.9,
         "SLM": 639.9
       }
     },
@@ -122194,13 +122194,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 209.9,
         "CAV": 209.9,
-        "CAX": null,
+        "CAX": 209.9,
         "SLM": 209.9
       }
     },
@@ -122631,13 +122631,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 179.9,
         "CAV": 179.9,
-        "CAX": null,
+        "CAX": 179.9,
         "SLM": 179.9
       }
     },
@@ -122745,13 +122745,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 329.9,
         "SLM": 329.9
       }
     },
@@ -122859,13 +122859,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 598.9,
         "CAV": 598.9,
-        "CAX": null,
+        "CAX": 598.9,
         "SLM": 598.9
       }
     },
@@ -123258,13 +123258,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 499.9,
         "CAV": 499.9,
-        "CAX": null,
+        "CAX": 499.9,
         "SLM": 499.9
       }
     },
@@ -123505,13 +123505,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 639.9,
         "CAV": 639.9,
-        "CAX": null,
+        "CAX": 639.9,
         "SLM": 639.9
       }
     },
@@ -123581,13 +123581,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 639.9,
         "CAV": 639.9,
-        "CAX": null,
+        "CAX": 639.9,
         "SLM": 639.9
       }
     },
@@ -125044,13 +125044,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 14.0,
         "SLM": 18.0
       },
       "preco": {
         "CAM": null,
         "CAV": 36.9,
-        "CAX": null,
+        "CAX": 36.9,
         "SLM": 36.9
       }
     },
@@ -125766,13 +125766,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 12.4,
         "CAV": 12.4,
-        "CAX": null,
+        "CAX": 12.4,
         "SLM": 12.4
       }
     },
@@ -125785,13 +125785,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 29.9,
         "CAV": 29.9,
-        "CAX": null,
+        "CAX": 29.9,
         "SLM": 29.9
       }
     },
@@ -125994,13 +125994,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 61.9,
         "CAV": 61.9,
-        "CAX": null,
+        "CAX": 61.9,
         "SLM": 61.9
       }
     },
@@ -126184,13 +126184,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": 71.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 71.9,
         "SLM": null
       }
     },
@@ -127286,13 +127286,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 359.9,
         "CAV": 359.9,
-        "CAX": null,
+        "CAX": 359.9,
         "SLM": 359.9
       }
     },
@@ -128635,13 +128635,13 @@
       "estoque": {
         "CAM": 1005.0,
         "CAV": 1138.0,
-        "CAX": null,
+        "CAX": 174.0,
         "SLM": 812.0
       },
       "preco": {
         "CAM": 15.9,
         "CAV": 15.9,
-        "CAX": null,
+        "CAX": 15.9,
         "SLM": 15.9
       }
     },
@@ -128673,13 +128673,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 139.9,
         "CAV": 139.9,
-        "CAX": null,
+        "CAX": 139.9,
         "SLM": 139.9
       }
     },
@@ -128692,13 +128692,13 @@
       "estoque": {
         "CAM": 225.0,
         "CAV": 59.0,
-        "CAX": null,
+        "CAX": 17.0,
         "SLM": 144.0
       },
       "preco": {
         "CAM": 11.5,
         "CAV": 11.5,
-        "CAX": null,
+        "CAX": 11.5,
         "SLM": 11.5
       }
     },
@@ -130440,13 +130440,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 169.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 169.9,
         "SLM": 169.9
       }
     },
@@ -131219,13 +131219,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 11.0
       },
       "preco": {
         "CAM": 17.9,
         "CAV": 17.9,
-        "CAX": null,
+        "CAX": 17.9,
         "SLM": 17.9
       }
     },
@@ -132093,13 +132093,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": 76.9,
         "CAV": 76.9,
-        "CAX": null,
+        "CAX": 76.9,
         "SLM": null
       }
     },
@@ -132207,13 +132207,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 69.9,
         "CAV": 69.9,
-        "CAX": null,
+        "CAX": 69.9,
         "SLM": null
       }
     },
@@ -132986,13 +132986,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 91.9,
         "CAV": 91.9,
-        "CAX": null,
+        "CAX": 91.9,
         "SLM": 91.9
       }
     },
@@ -133727,13 +133727,13 @@
       "estoque": {
         "CAM": 19.0,
         "CAV": 11.0,
-        "CAX": null,
+        "CAX": 25.0,
         "SLM": 17.0
       },
       "preco": {
         "CAM": 15.9,
         "CAV": 15.9,
-        "CAX": null,
+        "CAX": 15.9,
         "SLM": 15.9
       }
     },
@@ -135057,13 +135057,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 519.9,
         "SLM": null
       }
     },
@@ -135627,13 +135627,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 34.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 34.9,
         "SLM": 34.9
       }
     },
@@ -135722,13 +135722,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 15.0
       },
       "preco": {
         "CAM": 18.9,
         "CAV": 18.9,
-        "CAX": null,
+        "CAX": 18.9,
         "SLM": 18.9
       }
     },
@@ -135760,13 +135760,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": 16.0
       },
       "preco": {
         "CAM": 19.6,
         "CAV": null,
-        "CAX": null,
+        "CAX": 19.6,
         "SLM": 19.6
       }
     },
@@ -137204,13 +137204,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 23.9,
         "CAV": 23.9,
-        "CAX": null,
+        "CAX": 23.9,
         "SLM": 23.9
       }
     },
@@ -137945,13 +137945,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 12.0,
-        "CAX": null,
+        "CAX": 19.0,
         "SLM": 17.0
       },
       "preco": {
         "CAM": 158.9,
         "CAV": 158.9,
-        "CAX": null,
+        "CAX": 158.9,
         "SLM": 158.9
       }
     },
@@ -138021,13 +138021,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 163.9,
         "CAV": 163.9,
-        "CAX": null,
+        "CAX": 163.9,
         "SLM": 163.9
       }
     },
@@ -138990,13 +138990,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 19.4,
         "CAV": null,
-        "CAX": null,
+        "CAX": 19.4,
         "SLM": 19.4
       }
     },
@@ -139066,13 +139066,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": 34.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 34.9,
         "SLM": null
       }
     },
@@ -139180,13 +139180,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": 19.9,
         "CAV": 19.9,
-        "CAX": null,
+        "CAX": 19.9,
         "SLM": null
       }
     },
@@ -140301,13 +140301,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": 29.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 29.9,
         "SLM": null
       }
     },
@@ -140738,13 +140738,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 272.0,
         "CAV": 272.0,
-        "CAX": null,
+        "CAX": 272.0,
         "SLM": 272.0
       }
     },
@@ -141137,13 +141137,13 @@
       "estoque": {
         "CAM": 16.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 15.99,
         "CAV": 15.99,
-        "CAX": null,
+        "CAX": 15.99,
         "SLM": 15.99
       }
     },
@@ -141422,13 +141422,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 18.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 59.9,
         "CAV": 59.9,
-        "CAX": null,
+        "CAX": 59.9,
         "SLM": 59.9
       }
     },
@@ -141650,13 +141650,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": 197.9,
         "CAV": 197.9,
-        "CAX": null,
+        "CAX": 197.9,
         "SLM": null
       }
     },
@@ -141916,13 +141916,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 399.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 399.9,
         "SLM": null
       }
     },
@@ -142049,13 +142049,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 172.9,
         "CAV": 172.9,
-        "CAX": null,
+        "CAX": 172.9,
         "SLM": 172.9
       }
     },
@@ -142429,13 +142429,13 @@
       "estoque": {
         "CAM": 23.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 19.0
       },
       "preco": {
         "CAM": 399.0,
         "CAV": 399.0,
-        "CAX": null,
+        "CAX": 399.0,
         "SLM": 399.0
       }
     },
@@ -142562,13 +142562,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": 148.99,
         "CAV": 148.99,
-        "CAX": null,
+        "CAX": 148.99,
         "SLM": null
       }
     },
@@ -142619,13 +142619,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 12.5,
         "CAV": 12.5,
-        "CAX": null,
+        "CAX": 12.5,
         "SLM": 12.5
       }
     },
@@ -142676,13 +142676,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 22.9,
         "CAV": 22.9,
-        "CAX": null,
+        "CAX": 22.9,
         "SLM": 22.9
       }
     },
@@ -143246,13 +143246,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 314.9,
         "CAV": 314.9,
-        "CAX": null,
+        "CAX": 314.9,
         "SLM": 314.9
       }
     },
@@ -143873,13 +143873,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 15.9,
         "SLM": 15.9
       }
     },
@@ -144158,13 +144158,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 129.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 129.9,
         "SLM": 129.9
       }
     },
@@ -144861,13 +144861,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 27.9,
         "CAV": 27.9,
-        "CAX": null,
+        "CAX": 27.9,
         "SLM": 27.9
       }
     },
@@ -145222,13 +145222,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 148.99,
         "CAV": 148.99,
-        "CAX": null,
+        "CAX": 148.99,
         "SLM": 148.99
       }
     },
@@ -146267,13 +146267,13 @@
       "estoque": {
         "CAM": 29.0,
         "CAV": 205.0,
-        "CAX": null,
+        "CAX": 142.0,
         "SLM": 188.0
       },
       "preco": {
         "CAM": 0.99,
         "CAV": 0.99,
-        "CAX": null,
+        "CAX": 0.99,
         "SLM": 0.99
       }
     },
@@ -146514,13 +146514,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 26.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 9.3,
         "CAV": null,
-        "CAX": null,
+        "CAX": 9.3,
         "SLM": 9.3
       }
     },
@@ -146590,13 +146590,13 @@
       "estoque": {
         "CAM": 25.0,
         "CAV": 69.0,
-        "CAX": null,
+        "CAX": 59.0,
         "SLM": 35.0
       },
       "preco": {
         "CAM": 1.5,
         "CAV": 1.5,
-        "CAX": null,
+        "CAX": 1.5,
         "SLM": 1.5
       }
     },
@@ -146894,13 +146894,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 24.9,
         "SLM": null
       }
     },
@@ -146932,13 +146932,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 13.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 13.9,
         "SLM": 13.9
       }
     },
@@ -147027,13 +147027,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 114.9,
         "CAV": 114.9,
-        "CAX": null,
+        "CAX": 114.9,
         "SLM": null
       }
     },
@@ -147179,13 +147179,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 162.9,
         "CAV": 162.9,
-        "CAX": null,
+        "CAX": 162.9,
         "SLM": 162.9
       }
     },
@@ -148091,13 +148091,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 124.9,
         "CAV": 124.9,
-        "CAX": null,
+        "CAX": 124.9,
         "SLM": 124.9
       }
     },
@@ -148718,13 +148718,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 13.0
       },
       "preco": {
         "CAM": 18.5,
         "CAV": 18.5,
-        "CAX": null,
+        "CAX": 18.5,
         "SLM": 18.5
       }
     },
@@ -148984,13 +148984,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 17.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 5.1,
         "CAV": 5.1,
-        "CAX": null,
+        "CAX": 5.1,
         "SLM": 5.1
       }
     },
@@ -149041,13 +149041,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 77.0,
-        "CAX": null,
+        "CAX": 21.0,
         "SLM": 87.0
       },
       "preco": {
         "CAM": null,
         "CAV": 1.19,
-        "CAX": null,
+        "CAX": 1.19,
         "SLM": 1.19
       }
     },
@@ -149136,13 +149136,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 13.0,
         "SLM": 27.0
       },
       "preco": {
         "CAM": 1.99,
         "CAV": 1.99,
-        "CAX": null,
+        "CAX": 1.99,
         "SLM": 1.99
       }
     },
@@ -149307,13 +149307,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 66.0,
-        "CAX": null,
+        "CAX": 154.0,
         "SLM": 66.0
       },
       "preco": {
         "CAM": null,
         "CAV": 7.9,
-        "CAX": null,
+        "CAX": 7.9,
         "SLM": 7.9
       }
     },
@@ -149763,13 +149763,13 @@
       "estoque": {
         "CAM": 49.0,
         "CAV": 93.0,
-        "CAX": null,
+        "CAX": 13.0,
         "SLM": 50.0
       },
       "preco": {
         "CAM": 2.4,
         "CAV": 2.4,
-        "CAX": null,
+        "CAX": 2.4,
         "SLM": 2.4
       }
     },
@@ -149896,13 +149896,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": null,
         "CAV": 4.9,
-        "CAX": null,
+        "CAX": 4.9,
         "SLM": 4.9
       }
     },
@@ -150048,13 +150048,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": 23.0,
-        "CAX": null,
+        "CAX": 17.0,
         "SLM": 38.0
       },
       "preco": {
         "CAM": 2.39,
         "CAV": 2.39,
-        "CAX": null,
+        "CAX": 2.39,
         "SLM": 2.39
       }
     },
@@ -150409,13 +150409,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 30.0,
-        "CAX": null,
+        "CAX": 18.0,
         "SLM": 20.0
       },
       "preco": {
         "CAM": 3.49,
         "CAV": 3.49,
-        "CAX": null,
+        "CAX": 3.49,
         "SLM": 3.49
       }
     },
@@ -150561,13 +150561,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 20.99,
         "CAV": null,
-        "CAX": null,
+        "CAX": 20.99,
         "SLM": 20.99
       }
     },
@@ -151169,13 +151169,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 0.0,
         "SLM": null
       }
     },
@@ -151435,13 +151435,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 0.0,
         "SLM": null
       }
     },
@@ -151492,13 +151492,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 0.0,
         "SLM": null
       }
     },
@@ -152024,13 +152024,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 587.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 587.9,
         "SLM": 587.9
       }
     },
@@ -152252,13 +152252,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 459.9,
         "CAV": 459.9,
-        "CAX": null,
+        "CAX": 459.9,
         "SLM": 459.9
       }
     },
@@ -153316,13 +153316,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 239.99,
         "CAV": 239.99,
-        "CAX": null,
+        "CAX": 239.99,
         "SLM": 239.99
       }
     },
@@ -153829,13 +153829,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 44.0,
-        "CAX": null,
+        "CAX": 93.0,
         "SLM": 78.0
       },
       "preco": {
         "CAM": 7.99,
         "CAV": 7.99,
-        "CAX": null,
+        "CAX": 7.99,
         "SLM": 7.99
       }
     },
@@ -154133,13 +154133,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 29.9,
         "CAV": 29.9,
-        "CAX": null,
+        "CAX": 29.9,
         "SLM": 29.9
       }
     },
@@ -154266,13 +154266,13 @@
       "estoque": {
         "CAM": 14.0,
         "CAV": 36.0,
-        "CAX": null,
+        "CAX": 30.0,
         "SLM": 59.0
       },
       "preco": {
         "CAM": 29.9,
         "CAV": 29.9,
-        "CAX": null,
+        "CAX": 29.9,
         "SLM": 29.9
       }
     },
@@ -154399,13 +154399,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 52.9,
         "CAV": 52.9,
-        "CAX": null,
+        "CAX": 52.9,
         "SLM": 52.9
       }
     },
@@ -157249,13 +157249,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 21.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 25.0
       },
       "preco": {
         "CAM": 12.4,
         "CAV": 12.4,
-        "CAX": null,
+        "CAX": 12.4,
         "SLM": 12.4
       }
     },
@@ -157572,13 +157572,13 @@
       "estoque": {
         "CAM": 27.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 13.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 19.5,
         "CAV": null,
-        "CAX": null,
+        "CAX": 19.5,
         "SLM": 19.5
       }
     },
@@ -157819,13 +157819,13 @@
       "estoque": {
         "CAM": 16.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 20.0,
         "SLM": 27.0
       },
       "preco": {
         "CAM": 6.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.9,
         "SLM": 6.9
       }
     },
@@ -157895,13 +157895,13 @@
       "estoque": {
         "CAM": 21.0,
         "CAV": 12.0,
-        "CAX": null,
+        "CAX": 16.0,
         "SLM": 39.0
       },
       "preco": {
         "CAM": 17.9,
         "CAV": 17.9,
-        "CAX": null,
+        "CAX": 17.9,
         "SLM": 17.9
       }
     },
@@ -157933,13 +157933,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 51.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 4.9,
         "CAV": 4.9,
-        "CAX": null,
+        "CAX": 4.9,
         "SLM": 4.9
       }
     },
@@ -157971,13 +157971,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 31.0,
         "SLM": 10.0
       },
       "preco": {
         "CAM": 25.9,
         "CAV": 25.9,
-        "CAX": null,
+        "CAX": 25.9,
         "SLM": 25.9
       }
     },
@@ -158465,13 +158465,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 17.0,
-        "CAX": null,
+        "CAX": 35.0,
         "SLM": null
       },
       "preco": {
         "CAM": 10.5,
         "CAV": 10.5,
-        "CAX": null,
+        "CAX": 10.5,
         "SLM": null
       }
     },
@@ -158617,13 +158617,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 10.9,
         "CAV": 10.9,
-        "CAX": null,
+        "CAX": 10.9,
         "SLM": 10.9
       }
     },
@@ -158693,13 +158693,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 11.9,
         "CAV": 11.9,
-        "CAX": null,
+        "CAX": 11.9,
         "SLM": 11.9
       }
     },
@@ -158883,13 +158883,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 12.9,
         "SLM": null
       }
     },
@@ -159358,13 +159358,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 18.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 18.9,
         "SLM": 18.9
       }
     },
@@ -159434,13 +159434,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 22.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 32.0
       },
       "preco": {
         "CAM": 14.7,
         "CAV": 14.7,
-        "CAX": null,
+        "CAX": 14.7,
         "SLM": 14.7
       }
     },
@@ -159928,13 +159928,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 139.9,
         "CAV": 139.9,
-        "CAX": null,
+        "CAX": 139.9,
         "SLM": 139.9
       }
     },
@@ -160137,13 +160137,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 49.9,
         "CAV": 49.9,
-        "CAX": null,
+        "CAX": 49.9,
         "SLM": 49.9
       }
     },
@@ -160251,13 +160251,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 129.9,
         "CAV": 129.9,
-        "CAX": null,
+        "CAX": 129.9,
         "SLM": 129.9
       }
     },
@@ -160289,13 +160289,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 109.9,
         "CAV": 109.9,
-        "CAX": null,
+        "CAX": 109.9,
         "SLM": 109.9
       }
     },
@@ -160384,13 +160384,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 98.9,
         "CAV": 98.9,
-        "CAX": null,
+        "CAX": 98.9,
         "SLM": 98.9
       }
     },
@@ -160460,13 +160460,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 30.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 30.9,
         "SLM": 30.9
       }
     },
@@ -160555,13 +160555,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 36.5,
         "CAV": 36.5,
-        "CAX": null,
+        "CAX": 36.5,
         "SLM": 36.5
       }
     },
@@ -161049,13 +161049,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": null
       },
       "preco": {
         "CAM": 16.5,
         "CAV": 16.5,
-        "CAX": null,
+        "CAX": 16.5,
         "SLM": null
       }
     },
@@ -161334,13 +161334,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 81.9,
         "CAV": 81.9,
-        "CAX": null,
+        "CAX": 81.9,
         "SLM": 81.9
       }
     },
@@ -161353,13 +161353,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 69.9,
         "CAV": 69.9,
-        "CAX": null,
+        "CAX": 69.9,
         "SLM": 69.9
       }
     },
@@ -161562,13 +161562,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 49.9,
         "CAV": 49.9,
-        "CAX": null,
+        "CAX": 49.9,
         "SLM": 49.9
       }
     },
@@ -161904,13 +161904,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": 109.9,
-        "CAX": null,
+        "CAX": 109.9,
         "SLM": 109.9
       }
     },
@@ -161961,13 +161961,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 56.9,
-        "CAX": null,
+        "CAX": 56.9,
         "SLM": null
       }
     },
@@ -162189,13 +162189,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 25.0,
-        "CAX": null,
+        "CAX": 31.0,
         "SLM": 17.0
       },
       "preco": {
         "CAM": null,
         "CAV": 65.9,
-        "CAX": null,
+        "CAX": 65.9,
         "SLM": 65.9
       }
     },
@@ -162721,13 +162721,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 11.0,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 19.9,
         "CAV": 19.9,
-        "CAX": null,
+        "CAX": 19.9,
         "SLM": 19.9
       }
     },
@@ -162816,13 +162816,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": 269.9,
         "CAV": 269.9,
-        "CAX": null,
+        "CAX": 269.9,
         "SLM": null
       }
     },
@@ -163310,13 +163310,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 349.9,
         "CAV": 349.9,
-        "CAX": null,
+        "CAX": 349.9,
         "SLM": 349.9
       }
     },
@@ -163367,13 +163367,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 58.9,
-        "CAX": null,
+        "CAX": 58.9,
         "SLM": null
       }
     },
@@ -163975,13 +163975,13 @@
       "estoque": {
         "CAM": 10.72,
         "CAV": null,
-        "CAX": null,
+        "CAX": 56.28,
         "SLM": 115.24
       },
       "preco": {
         "CAM": 31.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 31.9,
         "SLM": 31.9
       }
     },
@@ -164184,13 +164184,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 22.0,
-        "CAX": null,
+        "CAX": 14.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 5.9,
         "CAV": 5.9,
-        "CAX": null,
+        "CAX": 5.9,
         "SLM": 5.9
       }
     },
@@ -165191,13 +165191,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 124.9,
         "CAV": 124.9,
-        "CAX": null,
+        "CAX": 124.9,
         "SLM": 124.9
       }
     },
@@ -165248,13 +165248,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 47.9,
         "CAV": 47.9,
-        "CAX": null,
+        "CAX": 47.9,
         "SLM": 47.9
       }
     },
@@ -165343,13 +165343,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 68.99,
         "CAV": 68.99,
-        "CAX": null,
+        "CAX": 68.99,
         "SLM": 68.99
       }
     },
@@ -165400,13 +165400,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 94.9,
         "CAV": 94.9,
-        "CAX": null,
+        "CAX": 94.9,
         "SLM": 94.9
       }
     },
@@ -165495,13 +165495,13 @@
       "estoque": {
         "CAM": 2.79,
         "CAV": 5.58,
-        "CAX": null,
+        "CAX": 5.58,
         "SLM": null
       },
       "preco": {
         "CAM": 32.99,
         "CAV": 32.99,
-        "CAX": null,
+        "CAX": 32.99,
         "SLM": null
       }
     },
@@ -165590,13 +165590,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 12.9,
         "SLM": null
       }
     },
@@ -165799,13 +165799,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 24.0,
         "SLM": 19.0
       },
       "preco": {
         "CAM": 15.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 15.9,
         "SLM": 15.9
       }
     },
@@ -166844,13 +166844,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 18.0,
-        "CAX": null,
+        "CAX": 71.0,
         "SLM": 376.0
       },
       "preco": {
         "CAM": null,
         "CAV": 4.25,
-        "CAX": null,
+        "CAX": 4.25,
         "SLM": 4.25
       }
     },
@@ -167205,13 +167205,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 15.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 10.0
       },
       "preco": {
         "CAM": 23.9,
         "CAV": 23.9,
-        "CAX": null,
+        "CAX": 23.9,
         "SLM": 23.9
       }
     },
@@ -167224,13 +167224,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 28.9,
         "SLM": 28.9
       }
     },
@@ -167509,13 +167509,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 15.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 15.9,
         "SLM": 15.9
       }
     },
@@ -167585,13 +167585,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 44.3,
         "CAV": 44.3,
-        "CAX": null,
+        "CAX": 44.3,
         "SLM": 44.3
       }
     },
@@ -167870,13 +167870,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": 12.0,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": 21.0
       },
       "preco": {
         "CAM": 11.2,
         "CAV": 11.2,
-        "CAX": null,
+        "CAX": 11.2,
         "SLM": 11.2
       }
     },
@@ -167927,13 +167927,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 16.5,
         "CAV": null,
-        "CAX": null,
+        "CAX": 16.5,
         "SLM": 16.5
       }
     },
@@ -168060,13 +168060,13 @@
       "estoque": {
         "CAM": 11.0,
         "CAV": 25.0,
-        "CAX": null,
+        "CAX": 22.0,
         "SLM": 35.0
       },
       "preco": {
         "CAM": 1.9,
         "CAV": 1.9,
-        "CAX": null,
+        "CAX": 1.9,
         "SLM": 1.9
       }
     },
@@ -168136,13 +168136,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 2.5,
         "CAV": 2.5,
-        "CAX": null,
+        "CAX": 2.5,
         "SLM": 2.5
       }
     },
@@ -168250,13 +168250,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 3.2,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.2,
         "SLM": 3.2
       }
     },
@@ -168478,13 +168478,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": 5.4,
         "CAV": 5.4,
-        "CAX": null,
+        "CAX": 5.4,
         "SLM": null
       }
     },
@@ -168573,13 +168573,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 1.99,
         "CAV": 1.99,
-        "CAX": null,
+        "CAX": 1.99,
         "SLM": 1.99
       }
     },
@@ -168706,13 +168706,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": 31.7,
         "CAV": 31.7,
-        "CAX": null,
+        "CAX": 31.7,
         "SLM": null
       }
     },
@@ -168820,13 +168820,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 65.7,
         "CAV": 65.7,
-        "CAX": null,
+        "CAX": 65.7,
         "SLM": 65.7
       }
     },
@@ -169105,13 +169105,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 5.99,
         "CAV": 5.99,
-        "CAX": null,
+        "CAX": 5.99,
         "SLM": 5.99
       }
     },
@@ -169656,13 +169656,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 39.99,
         "CAV": 39.99,
-        "CAX": null,
+        "CAX": 39.99,
         "SLM": 39.99
       }
     },
@@ -169922,13 +169922,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 8.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 8.4,
         "CAV": 8.4,
-        "CAX": null,
+        "CAX": 8.4,
         "SLM": 8.4
       }
     },
@@ -170074,13 +170074,13 @@
       "estoque": {
         "CAM": 16.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 16.0,
         "SLM": 21.0
       },
       "preco": {
         "CAM": 2.2,
         "CAV": 2.2,
-        "CAX": null,
+        "CAX": 2.2,
         "SLM": 2.2
       }
     },
@@ -170093,13 +170093,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 30.9,
-        "CAX": null,
+        "CAX": 30.9,
         "SLM": 30.9
       }
     },
@@ -170207,13 +170207,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 12.5,
         "CAV": 12.5,
-        "CAX": null,
+        "CAX": 12.5,
         "SLM": 12.5
       }
     },
@@ -170226,13 +170226,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 5.7,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.7,
         "SLM": 5.7
       }
     },
@@ -170359,13 +170359,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 5.6,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.6,
         "SLM": 5.6
       }
     },
@@ -170397,13 +170397,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 9.0,
         "SLM": 13.0
       },
       "preco": {
         "CAM": 10.7,
         "CAV": null,
-        "CAX": null,
+        "CAX": 10.7,
         "SLM": 10.7
       }
     },
@@ -170473,13 +170473,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 2.4,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.4,
         "SLM": 2.4
       }
     },
@@ -170701,13 +170701,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 23.99,
         "CAV": null,
-        "CAX": null,
+        "CAX": 23.99,
         "SLM": 23.99
       }
     },
@@ -171233,13 +171233,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 20.0
       },
       "preco": {
         "CAM": 2.8,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.8,
         "SLM": 2.8
       }
     },
@@ -171404,13 +171404,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 16.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 12.0
       },
       "preco": {
         "CAM": 10.5,
         "CAV": 10.5,
-        "CAX": null,
+        "CAX": 10.5,
         "SLM": 10.5
       }
     },
@@ -172715,13 +172715,13 @@
       "estoque": {
         "CAM": 257.4,
         "CAV": null,
-        "CAX": null,
+        "CAX": 62.4,
         "SLM": null
       },
       "preco": {
         "CAM": 78.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 78.9,
         "SLM": null
       }
     },
@@ -172791,13 +172791,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 421.0,
         "CAV": 421.0,
-        "CAX": null,
+        "CAX": 421.0,
         "SLM": 421.0
       }
     },
@@ -173095,13 +173095,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 159.9,
         "SLM": null
       }
     },
@@ -173285,13 +173285,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 53.9,
         "SLM": null
       }
     },
@@ -173437,13 +173437,13 @@
       "estoque": {
         "CAM": 282.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 152.52,
         "SLM": null
       },
       "preco": {
         "CAM": 42.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 42.9,
         "SLM": null
       }
     },
@@ -173532,13 +173532,13 @@
       "estoque": {
         "CAM": 181.44,
         "CAV": 12.96,
-        "CAX": null,
+        "CAX": 5.76,
         "SLM": null
       },
       "preco": {
         "CAM": 41.9,
         "CAV": 41.9,
-        "CAX": null,
+        "CAX": 41.9,
         "SLM": null
       }
     },
@@ -173798,13 +173798,13 @@
       "estoque": {
         "CAM": 5.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 84.9,
         "CAV": 84.9,
-        "CAX": null,
+        "CAX": 84.9,
         "SLM": 84.9
       }
     },
@@ -174026,13 +174026,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 459.9,
         "CAV": 459.9,
-        "CAX": null,
+        "CAX": 459.9,
         "SLM": 459.9
       }
     },
@@ -174197,13 +174197,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 146.9,
         "SLM": 146.9
       }
     },
@@ -174311,13 +174311,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 5.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 99.9,
         "CAV": 99.9,
-        "CAX": null,
+        "CAX": 99.9,
         "SLM": 99.9
       }
     },
@@ -174653,13 +174653,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 719.0,
         "CAV": 719.0,
-        "CAX": null,
+        "CAX": 719.0,
         "SLM": 719.0
       }
     },
@@ -174843,13 +174843,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 158.99,
         "SLM": null
       }
     },
@@ -175014,13 +175014,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 108.9,
         "CAV": 108.9,
-        "CAX": null,
+        "CAX": 108.9,
         "SLM": 108.9
       }
     },
@@ -175090,13 +175090,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": null
       },
       "preco": {
         "CAM": 33.9,
         "CAV": 33.9,
-        "CAX": null,
+        "CAX": 33.9,
         "SLM": null
       }
     },
@@ -175413,13 +175413,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 94.9,
         "CAV": 94.9,
-        "CAX": null,
+        "CAX": 94.9,
         "SLM": 94.9
       }
     },
@@ -175641,13 +175641,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 12.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 21.9,
         "CAV": 21.9,
-        "CAX": null,
+        "CAX": 21.9,
         "SLM": 21.9
       }
     },
@@ -175698,13 +175698,13 @@
       "estoque": {
         "CAM": 11.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 7.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 56.9,
         "CAV": 56.9,
-        "CAX": null,
+        "CAX": 56.9,
         "SLM": 56.9
       }
     },
@@ -176002,13 +176002,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 72.99,
         "CAV": 72.99,
-        "CAX": null,
+        "CAX": 72.99,
         "SLM": 72.99
       }
     },
@@ -176040,13 +176040,13 @@
       "estoque": {
         "CAM": 12.0,
         "CAV": 24.0,
-        "CAX": null,
+        "CAX": 32.0,
         "SLM": 19.0
       },
       "preco": {
         "CAM": 7.4,
         "CAV": 7.4,
-        "CAX": null,
+        "CAX": 7.4,
         "SLM": 7.4
       }
     },
@@ -176116,13 +176116,13 @@
       "estoque": {
         "CAM": 18.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 22.0,
         "SLM": 23.0
       },
       "preco": {
         "CAM": 12.9,
         "CAV": 12.9,
-        "CAX": null,
+        "CAX": 12.9,
         "SLM": 12.9
       }
     },
@@ -176135,13 +176135,13 @@
       "estoque": {
         "CAM": 24.0,
         "CAV": 10.0,
-        "CAX": null,
+        "CAX": 23.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 17.9,
         "CAV": 17.9,
-        "CAX": null,
+        "CAX": 17.9,
         "SLM": 17.9
       }
     },
@@ -176895,13 +176895,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 96.9,
         "CAV": 96.9,
-        "CAX": null,
+        "CAX": 96.9,
         "SLM": 96.9
       }
     },
@@ -177123,13 +177123,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 599.9,
         "SLM": null
       }
     },
@@ -177807,13 +177807,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 18.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 25.9,
         "CAV": 25.9,
-        "CAX": null,
+        "CAX": 25.9,
         "SLM": 25.9
       }
     },
@@ -177997,13 +177997,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 10.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 30.9,
         "SLM": null
       }
     },
@@ -178111,13 +178111,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 154.9,
         "SLM": null
       }
     },
@@ -178225,13 +178225,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 21.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 29.99,
         "SLM": null
       }
     },
@@ -178643,13 +178643,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 62.99,
         "SLM": null
       }
     },
@@ -178719,13 +178719,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 23.9,
         "SLM": null
       }
     },
@@ -178890,13 +178890,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 28.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 27.5,
         "SLM": null
       }
     },
@@ -179213,13 +179213,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.1,
         "SLM": null
       }
     },
@@ -180201,13 +180201,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 199.9,
         "CAV": 199.9,
-        "CAX": null,
+        "CAX": 199.9,
         "SLM": 199.9
       }
     },
@@ -180258,13 +180258,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 199.9,
         "CAV": 199.9,
-        "CAX": null,
+        "CAX": 199.9,
         "SLM": 199.9
       }
     },
@@ -180391,13 +180391,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": 390.0,
         "CAV": 390.0,
-        "CAX": null,
+        "CAX": 390.0,
         "SLM": null
       }
     },
@@ -180733,13 +180733,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 57.9,
         "SLM": 57.9
       }
     },
@@ -181151,13 +181151,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 539.9,
         "SLM": 539.9
       }
     },
@@ -181284,13 +181284,13 @@
       "estoque": {
         "CAM": 19.0,
         "CAV": 20.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 10.0
       },
       "preco": {
         "CAM": 18.9,
         "CAV": 18.9,
-        "CAX": null,
+        "CAX": 18.9,
         "SLM": 18.9
       }
     },
@@ -181341,13 +181341,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 25.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 12.0,
         "CAV": 12.0,
-        "CAX": null,
+        "CAX": 12.0,
         "SLM": 12.0
       }
     },
@@ -181569,13 +181569,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 23.99,
         "SLM": 23.99
       }
     },
@@ -181683,13 +181683,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 69.9,
         "CAV": 69.9,
-        "CAX": null,
+        "CAX": 69.9,
         "SLM": 69.9
       }
     },
@@ -181835,13 +181835,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 1.0,
         "SLM": null
       },
       "preco": {
         "CAM": 2.3,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.3,
         "SLM": null
       }
     },
@@ -182291,13 +182291,13 @@
       "estoque": {
         "CAM": 429.12,
         "CAV": null,
-        "CAX": null,
+        "CAX": 60.48,
         "SLM": 46.08
       },
       "preco": {
         "CAM": 44.99,
         "CAV": null,
-        "CAX": null,
+        "CAX": 44.99,
         "SLM": 44.99
       }
     },
@@ -182671,13 +182671,13 @@
       "estoque": {
         "CAM": 14.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 10.9,
         "CAV": 10.9,
-        "CAX": null,
+        "CAX": 10.9,
         "SLM": 10.9
       }
     },
@@ -182823,13 +182823,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 112.9,
         "CAV": 112.9,
-        "CAX": null,
+        "CAX": 112.9,
         "SLM": 112.9
       }
     },
@@ -183241,13 +183241,13 @@
       "estoque": {
         "CAM": 23.17,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.86,
         "SLM": 13.25
       },
       "preco": {
         "CAM": 29.99,
         "CAV": null,
-        "CAX": null,
+        "CAX": 29.99,
         "SLM": 29.99
       }
     },
@@ -183469,13 +183469,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 20.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 189.9,
         "SLM": null
       }
     },
@@ -184362,13 +184362,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 279.0,
         "SLM": null
       }
     },
@@ -185103,13 +185103,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 30.0,
-        "CAX": null,
+        "CAX": 30.0,
         "SLM": 30.0
       },
       "preco": {
         "CAM": null,
         "CAV": 69.99,
-        "CAX": null,
+        "CAX": 69.99,
         "SLM": 69.99
       }
     },
@@ -185312,13 +185312,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 1.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 198.99,
-        "CAX": null,
+        "CAX": 198.99,
         "SLM": 198.99
       }
     },
@@ -185369,13 +185369,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 4.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 8.0
       },
       "preco": {
         "CAM": null,
         "CAV": 23.9,
-        "CAX": null,
+        "CAX": 23.9,
         "SLM": 23.9
       }
     },
@@ -185521,13 +185521,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 175.9,
         "SLM": null
       }
     },
@@ -186053,13 +186053,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 10.0,
-        "CAX": null,
+        "CAX": 4.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 89.99,
         "CAV": 89.99,
-        "CAX": null,
+        "CAX": 89.99,
         "SLM": 89.99
       }
     },
@@ -186224,13 +186224,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 24.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 79.99,
         "SLM": null
       }
     },
@@ -186262,13 +186262,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 22.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 86.99,
         "SLM": null
       }
     },
@@ -187459,13 +187459,13 @@
       "estoque": {
         "CAM": 1755.04,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3498.65,
         "SLM": 1081.246
       },
       "preco": {
         "CAM": 0.12,
         "CAV": null,
-        "CAX": null,
+        "CAX": 0.12,
         "SLM": 0.12
       }
     },
