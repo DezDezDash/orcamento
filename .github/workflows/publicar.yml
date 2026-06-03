@@ -1,0 +1,80 @@
+name: Publicar estoque.json (sem scrape)
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'ID do run com os artefatos (deixe vazio para usar o mais recente)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    name: Consolidar artefatos e publicar
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instala dependências
+        run: pip install pandas openpyxl
+
+      - name: Baixa artefatos
+        uses: actions/download-artifact@v4
+        with:
+          path: resultados
+          merge-multiple: true
+          run-id: ${{ inputs.run_id || github.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Lista artefatos
+        run: |
+          echo "Arquivos:"
+          ls -la resultados/ || true
+          echo "JSONs: $(find resultados -name '*.json' | wc -l)"
+
+      - name: Consolida estoque.json
+        run: |
+          python scraper/consolidar.py \
+            --inputs   resultados \
+            --produtos scraper/produtos.xlsx \
+            --saida    estoque.json
+
+      - name: Commit e push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+          MSG="chore: atualiza estoque [$(TZ=America/Sao_Paulo date +'%Y-%m-%d %H:%M')]"
+          for i in 1 2 3 4 5; do
+            git fetch origin "$BRANCH"
+            git reset --soft origin/"$BRANCH"
+            git add estoque.json
+            if git diff --staged --quiet; then
+              echo "Sem mudanças — nada a commitar."
+              exit 0
+            fi
+            git commit -m "$MSG"
+            if git push origin "$BRANCH"; then
+              echo "✅ Push OK na tentativa $i"
+              curl -s -X POST \
+                -H "Authorization: Bearer ${{ secrets.DISPATCH_PAT }}" \
+                -H "Accept: application/vnd.github+json" \
+                https://api.github.com/repos/DezDezDash/Gestao-de-Estoque/dispatches \
+                -d '{"event_type":"orcamento-atualizado"}'
+              exit 0
+            fi
+            sleep $((RANDOM % 10 + 2))
+          done
+          echo "❌ Falhou após 5 tentativas"
+          exit 1
