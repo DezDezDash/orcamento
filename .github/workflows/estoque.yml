@@ -106,16 +106,20 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add estoque.json
-          if git diff --staged --quiet; then
-            echo "Sem mudanças no estoque.json — nada a commitar."
-            exit 0
-          fi
-          git commit -m "chore: atualiza estoque [$(TZ=America/Sao_Paulo date +'%Y-%m-%d %H:%M')]"
-          # loop de pull-rebase pra tolerar push concorrente (mesmo padrão dos outros workflows seus)
+          BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+          MSG="chore: atualiza estoque [$(TZ=America/Sao_Paulo date +'%Y-%m-%d %H:%M')]"
           for i in 1 2 3 4 5; do
-            git pull --rebase origin "$(git rev-parse --abbrev-ref HEAD)" || true
-            if git push; then
+            # Atualiza o branch antes de commitar — -X ours resolve conflito de JSON sempre
+            # com a versão recém-gerada, que é sempre mais atual do que o que está no remoto
+            git fetch origin "$BRANCH"
+            git reset --soft origin/"$BRANCH"
+            git add estoque.json
+            if git diff --staged --quiet; then
+              echo "Sem mudanças no estoque.json — nada a commitar."
+              exit 0
+            fi
+            git commit -m "$MSG"
+            if git push origin "$BRANCH"; then
               echo "✅ Push OK na tentativa $i"
               curl -s -X POST \
                 -H "Authorization: Bearer ${{ secrets.DISPATCH_PAT }}" \
