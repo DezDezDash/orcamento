@@ -67,7 +67,6 @@ jobs:
   consolidar:
     name: Consolidar e publicar estoque.json
     needs: scrape
-    if: always()            # mesmo se algum chunk falhou, consolida o que tem
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
