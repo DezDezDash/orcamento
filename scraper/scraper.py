@@ -103,16 +103,46 @@ def do_login(page, username, password):
     log(f"Pós-login. URL: {page.url}")
 
 
-def go_to_produtos(page):
-    for s in ["button:has(svg)", ".fa-bars", ".navbar-toggle", ".fa.fa-bars", "[class*=bars]"]:
-        try: page.locator(s).first.click(timeout=1200); break
-        except: pass
-    for s in ["text=Produto", "css=li >> text=Produto", "role=link[name='Produto']"]:
-        try: page.locator(s).first.click(timeout=2500); break
-        except: pass
-    page.wait_for_selector("text=Pedido / Produto", timeout=30000)
-    page.evaluate("window.scrollTo(0,0)")
-    log("Na tela Produto. URL: " + page.url)
+def sessao_expirada(page):
+    """Retorna True se a página voltou para o login."""
+    try:
+        url = page.url
+        if "login" in url.lower() or "j_security" in url.lower():
+            return True
+        if page.locator("input[type='password']").count() > 0:
+            return True
+    except:
+        pass
+    return False
+
+
+def go_to_produtos(page, username="", password="", tentativas=3):
+    for t in range(tentativas):
+        # Se caiu no login, refaz a autenticação
+        if sessao_expirada(page):
+            log(f"Sessão expirada (tentativa {t+1}) — refazendo login...")
+            try:
+                page.goto(URL, timeout=60000)
+            except:
+                pass
+            if username and password:
+                do_login(page, username, password)
+        # Navega para o menu Produto
+        for s in ["button:has(svg)", ".fa-bars", ".navbar-toggle", ".fa.fa-bars", "[class*=bars]"]:
+            try: page.locator(s).first.click(timeout=1200); break
+            except: pass
+        for s in ["text=Produto", "css=li >> text=Produto", "role=link[name='Produto']"]:
+            try: page.locator(s).first.click(timeout=2500); break
+            except: pass
+        try:
+            page.wait_for_selector("text=Pedido / Produto", timeout=60000)
+            page.evaluate("window.scrollTo(0,0)")
+            log("Na tela Produto. URL: " + page.url)
+            return
+        except Exception as e:
+            log(f"go_to_produtos falhou (tentativa {t+1}): {e}")
+            nap(3)
+    raise RuntimeError("Não foi possível acessar a tela de Produtos após 3 tentativas")
 
 
 def open_dropdown(page):
@@ -400,7 +430,7 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
             log("Credenciais não fornecidas. Faça login manualmente.")
             print("Quando a HOME carregar, volte ao terminal e pressione ENTER."); input()
 
-        go_to_produtos(page)
+        go_to_produtos(page, username, password)
         lojas = get_companies(page)
 
         if empresa:
@@ -411,8 +441,9 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
             log(f"Filtrando para empresa: {lojas[0]}")
 
         for loja in lojas:
-            go_to_produtos(page)
+            go_to_produtos(page, username, password)
             select_company(page, loja)
+            erros_seguidos = 0
             for code in codigos:
                 try:
                     buscar_codigo(page, code)
@@ -423,9 +454,20 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
                         data["EMPRESA"] = loja
                         rows.append(data)
                     log(f"[{loja}] {code} => {rows[-1]['ESTOQUE']}")
+                    erros_seguidos = 0
                 except Exception as e:
                     rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": f"ERRO: {e}", "LINHA": "", "PRECO": ""})
                     log(f"[{loja}] {code} => ERRO {e}")
+                    erros_seguidos += 1
+                    # 5 erros seguidos = sessão provavelmente expirou → recupera
+                    if erros_seguidos >= 5:
+                        log("5 erros consecutivos — tentando recuperar sessão...")
+                        try:
+                            go_to_produtos(page, username, password)
+                            select_company(page, loja)
+                        except Exception as rec_e:
+                            log(f"Recuperação falhou: {rec_e}")
+                        erros_seguidos = 0
 
         saida.parent.mkdir(parents=True, exist_ok=True)
         df_out = pd.DataFrame(rows).sort_values(["EMPRESA", "CODIGO"])
