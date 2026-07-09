@@ -444,54 +444,21 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
             go_to_produtos(page, username, password)
             select_company(page, loja)
             erros_seguidos = 0
-            nd_seguidos = 0
-            nd_streak_codes = []   # códigos da sequência atual de N/D
-            retentados = set()     # códigos que já passaram por uma re-busca
-            fila = list(codigos)
-            i = 0
-            while i < len(fila):
-                code = fila[i]
-                i += 1
+            for code in codigos:
                 try:
                     buscar_codigo(page, code)
                     data = ler_linha(page, code)
                     if data is None:
                         rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": "N/D", "LINHA": "", "PRECO": ""})
-                        nd_seguidos += 1
-                        nd_streak_codes.append(code)
                     else:
                         data["EMPRESA"] = loja
                         rows.append(data)
-                        nd_seguidos = 0
-                        nd_streak_codes = []
                     log(f"[{loja}] {code} => {rows[-1]['ESTOQUE']}")
                     erros_seguidos = 0
-
-                    # Muitos N/D em sequência = sessão possivelmente degradada
-                    # (webapp devolve "nada encontrado" pra tudo sem lançar erro).
-                    # Refaz o login e re-busca os códigos da sequência uma única vez.
-                    if nd_seguidos >= 15:
-                        refazer = [c for c in nd_streak_codes if c not in retentados]
-                        if refazer:
-                            log(f"{nd_seguidos} N/D consecutivos — refazendo sessão e re-buscando {len(refazer)} códigos...")
-                            try:
-                                page.goto(URL, timeout=60000)
-                                go_to_produtos(page, username, password)
-                                select_company(page, loja)
-                            except Exception as rec_e:
-                                log(f"Recuperação de sessão falhou: {rec_e}")
-                            retentados.update(nd_streak_codes)
-                            # Descarta as linhas N/D da sequência e re-enfileira os códigos
-                            del rows[-len(nd_streak_codes):]
-                            fila[i:i] = refazer
-                        nd_seguidos = 0
-                        nd_streak_codes = []
                 except Exception as e:
                     rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": f"ERRO: {e}", "LINHA": "", "PRECO": ""})
                     log(f"[{loja}] {code} => ERRO {e}")
                     erros_seguidos += 1
-                    nd_seguidos = 0
-                    nd_streak_codes = []
                     # 5 erros seguidos = sessão provavelmente expirou → recupera
                     if erros_seguidos >= 5:
                         log("5 erros consecutivos — tentando recuperar sessão...")
