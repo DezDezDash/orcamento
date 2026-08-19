@@ -38,9 +38,17 @@ jobs:
           cache-dependency-path: scraper/requirements.txt
 
       - name: Instala dependências e Chromium
+        timeout-minutes: 20   # o apt-get do "--with-deps" às vezes trava no
+                               # espelho azure.archive.ubuntu.com; sem este
+                               # timeout o job só morre em 6h (o teto do job
+                               # inteiro), travando o run inteiro por nada.
+                               # Cobre as 2 tentativas de 8 min abaixo + pip.
         run: |
           pip install -r scraper/requirements.txt
-          playwright install --with-deps chromium
+          for i in 1 2; do
+            timeout 480 playwright install --with-deps chromium && break
+            echo "Tentativa $i da instalação do Chromium falhou/travou — tentando de novo..."
+          done
 
       - name: Coleta estoque
         env:
