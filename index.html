@@ -708,18 +708,24 @@ function buscar() {
     return;
   }
 
-  // Buscar por código (numérico) ou por palavras-chave na descrição
+  // Buscar por código e/ou por palavras-chave na descrição/linha/fornecedor.
+  // Números também podem fazer parte da descrição (ex. "66570" num nome de
+  // piso), então mesmo termo numérico é buscado nos dois lugares.
   const palavras = q.split(/\s+/).filter(p => p.length > 0);
   const isNumeric = /^\d+$/.test(q);
 
+  const bateDescricao = p => {
+    const texto = (p.d + ' ' + p.l + ' ' + p.f).toLowerCase();
+    return palavras.every(pal => texto.includes(pal));
+  };
+
   let matches;
   if (isNumeric) {
-    matches = CATALOGO.filter(p => p.c.toString().startsWith(q)).slice(0, 50);
+    const porCodigo = CATALOGO.filter(p => p.c.toString().startsWith(q));
+    const porDescricao = CATALOGO.filter(p => !p.c.toString().startsWith(q) && bateDescricao(p));
+    matches = porCodigo.concat(porDescricao).slice(0, 50);
   } else {
-    matches = CATALOGO.filter(p => {
-      const desc = p.d.toLowerCase();
-      return palavras.every(pal => desc.includes(pal));
-    }).slice(0, 50);
+    matches = CATALOGO.filter(bateDescricao).slice(0, 50);
   }
 
   if (matches.length === 0) {
