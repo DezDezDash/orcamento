@@ -56,9 +56,17 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           BRANCH="$(git rev-parse --abbrev-ref HEAD)"
           MSG="chore: atualiza estoque [$(TZ=America/Sao_Paulo date +'%Y-%m-%d %H:%M')]"
+          # Guarda o estoque.json recém-gerado antes de qualquer reset —
+          # ele é o único arquivo que este job deve alterar no repo.
+          cp estoque.json /tmp/estoque_novo.json
           for i in 1 2 3 4 5; do
             git fetch origin "$BRANCH"
-            git reset --soft origin/"$BRANCH"
+            # reset --hard (não --soft!) sincroniza árvore de trabalho E índice
+            # com o remoto, evitando que arquivos alterados por outros commits
+            # entre o checkout deste job e agora sejam "revertidos" no commit
+            # por ficarem com conteúdo antigo no índice.
+            git reset --hard origin/"$BRANCH"
+            cp /tmp/estoque_novo.json estoque.json
             git add estoque.json
             if git diff --staged --quiet; then
               echo "Sem mudanças — nada a commitar."
