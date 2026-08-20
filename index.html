@@ -587,7 +587,7 @@ main { padding: 16px; max-width: 1280px; margin: 0 auto; }
 
           <div class="label">Validade (dias)</div>
           <div class="input-wrap">
-            <input type="number" id="validade" value="7" min="1" max="30">
+            <input type="number" id="validade" value="2" min="1" max="30">
           </div>
         </div>
         <div class="total-row">
@@ -944,7 +944,7 @@ function exportarPDF() {
     fone: document.getElementById('clienteFone').value.trim() || '—',
     doc: document.getElementById('clienteDoc').value.trim() || '—',
   };
-  const validade = parseInt(document.getElementById('validade').value) || 7;
+  const validade = parseInt(document.getElementById('validade').value) || 2;
   const loja = document.getElementById('lojaAtual').value;
   const dtValidade = new Date(Date.now() + validade * 86400000);
   const numOrc = 'ORC-' + Date.now().toString().slice(-8);
@@ -1120,7 +1120,7 @@ function exportarWhatsApp() {
   const calc = calcularTotal();
   const cliente = document.getElementById('clienteNome').value.trim();
   const loja = document.getElementById('lojaAtual').value;
-  const validade = parseInt(document.getElementById('validade').value) || 7;
+  const validade = parseInt(document.getElementById('validade').value) || 2;
   const dtValidade = new Date(Date.now() + validade * 86400000);
 
   let texto = `*ORÇAMENTO DEZDEZ - ${loja}*\n`;
@@ -1188,7 +1188,7 @@ function salvarOrcamento() {
     descGeral: calc.descGeral,
     descTipo: calc.descTipo,
     total: calc.total,
-    validade: parseInt(document.getElementById('validade').value) || 7,
+    validade: parseInt(document.getElementById('validade').value) || 2,
   };
 
   const historico = obterHistorico();
@@ -1252,7 +1252,7 @@ function reabrirOrcamento(id) {
   document.getElementById('clienteDoc').value = o.cliente.doc || '';
   document.getElementById('descGeral').value = o.descGeral || 0;
   document.getElementById('descTipo').value = o.descTipo || 'pct';
-  document.getElementById('validade').value = o.validade || 7;
+  document.getElementById('validade').value = o.validade || 2;
 
   renderizarCarrinho();
   recalcular();
