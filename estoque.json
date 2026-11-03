@@ -1,5 +1,5 @@
 {
-  "last_update": "02/11/2026 09:27",
+  "last_update": "03/11/2026 09:57",
   "lojas": [
     "CAM",
     "CAV",
@@ -7,12 +7,12 @@
     "SLM"
   ],
   "total_produtos": 10115,
-  "com_estoque": 6009,
+  "com_estoque": 6006,
   "cobertura_por_loja": {
-    "CAM": 4821,
-    "CAV": 3932,
-    "CAX": 3571,
-    "SLM": 4055
+    "CAM": 4815,
+    "CAV": 3924,
+    "CAX": 3554,
+    "SLM": 4024
   },
   "produtos": [
     {
@@ -8898,13 +8898,13 @@
         "CAM": 239.04,
         "CAV": 190.08,
         "CAX": null,
-        "SLM": null
+        "SLM": 11.52
       },
       "preco": {
         "CAM": 67.9,
         "CAV": 67.9,
         "CAX": null,
-        "SLM": null
+        "SLM": 67.9
       }
     },
     {
@@ -10288,10 +10288,10 @@
         "SLM": 8.0
       },
       "preco": {
-        "CAM": 169.9,
-        "CAV": 169.9,
-        "CAX": 169.9,
-        "SLM": 169.9
+        "CAM": 199.99,
+        "CAV": 199.99,
+        "CAX": 199.99,
+        "SLM": 199.99
       }
     },
     {
@@ -12014,13 +12014,13 @@
         "CAM": 7.0,
         "CAV": 10.0,
         "CAX": 8.0,
-        "SLM": 10.0
+        "SLM": null
       },
       "preco": {
         "CAM": 12.5,
         "CAV": 12.5,
         "CAX": 12.5,
-        "SLM": 12.5
+        "SLM": null
       }
     },
     {
@@ -12071,13 +12071,13 @@
         "CAM": 3.0,
         "CAV": 4.0,
         "CAX": 5.0,
-        "SLM": 13.0
+        "SLM": null
       },
       "preco": {
         "CAM": 12.5,
         "CAV": 12.5,
         "CAX": 12.5,
-        "SLM": 12.5
+        "SLM": null
       }
     },
     {
@@ -12185,13 +12185,13 @@
         "CAM": 4.0,
         "CAV": 4.0,
         "CAX": 11.0,
-        "SLM": 10.0
+        "SLM": null
       },
       "preco": {
         "CAM": 12.5,
         "CAV": 12.5,
         "CAX": 12.5,
-        "SLM": 12.5
+        "SLM": null
       }
     },
     {
@@ -15035,7 +15035,7 @@
         "CAM": 8.0,
         "CAV": 5.0,
         "CAX": 10.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 56.9,
@@ -15527,7 +15527,7 @@
       "fornecedor": "IQUINE",
       "estoque": {
         "CAM": 8.0,
-        "CAV": 11.0,
+        "CAV": 10.0,
         "CAX": 5.0,
         "SLM": 17.0
       },
@@ -15717,13 +15717,13 @@
       "fornecedor": "IQUINE",
       "estoque": {
         "CAM": 5.0,
-        "CAV": 1.0,
+        "CAV": null,
         "CAX": 3.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 48.99,
-        "CAV": 48.99,
+        "CAV": null,
         "CAX": 48.99,
         "SLM": 48.99
       }
@@ -15889,7 +15889,7 @@
       "estoque": {
         "CAM": 15.0,
         "CAV": 12.0,
-        "CAX": 16.0,
+        "CAX": 15.0,
         "SLM": 26.0
       },
       "preco": {
@@ -15928,7 +15928,7 @@
         "CAM": 15.0,
         "CAV": 13.0,
         "CAX": 17.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 27.9,
@@ -16197,10 +16197,10 @@
         "SLM": 3.0
       },
       "preco": {
-        "CAM": 174.99,
-        "CAV": 174.99,
+        "CAM": 176.9,
+        "CAV": 176.9,
         "CAX": null,
-        "SLM": 174.99
+        "SLM": 176.9
       }
     },
     {
@@ -16235,10 +16235,10 @@
         "SLM": 3.0
       },
       "preco": {
-        "CAM": 174.99,
+        "CAM": 176.9,
         "CAV": null,
         "CAX": null,
-        "SLM": 174.99
+        "SLM": 176.9
       }
     },
     {
@@ -16273,10 +16273,10 @@
         "SLM": 3.0
       },
       "preco": {
-        "CAM": 174.99,
-        "CAV": 174.99,
-        "CAX": 174.99,
-        "SLM": 174.99
+        "CAM": 176.9,
+        "CAV": 176.9,
+        "CAX": 176.9,
+        "SLM": 176.9
       }
     },
     {
@@ -17046,7 +17046,7 @@
       "linha_pai": "Louças",
       "fornecedor": "ROCA",
       "estoque": {
-        "CAM": 10.0,
+        "CAM": 9.0,
         "CAV": null,
         "CAX": 14.0,
         "SLM": 11.0
@@ -19269,7 +19269,7 @@
       "linha_pai": "PLÁSTICOS SANITÁRIOS",
       "fornecedor": "LUCONI",
       "estoque": {
-        "CAM": 11.0,
+        "CAM": 10.0,
         "CAV": 7.0,
         "CAX": 7.0,
         "SLM": 2.0
@@ -19481,7 +19481,7 @@
         "CAM": 32.0,
         "CAV": 13.0,
         "CAX": 30.0,
-        "SLM": 21.0
+        "SLM": 20.0
       },
       "preco": {
         "CAM": 4.9,
@@ -19592,7 +19592,7 @@
       "linha_pai": "Complementos Hidráulicos",
       "fornecedor": "LUCONI",
       "estoque": {
-        "CAM": 24.0,
+        "CAM": 23.0,
         "CAV": 48.0,
         "CAX": 31.0,
         "SLM": 8.0
@@ -19630,7 +19630,7 @@
       "linha_pai": "Complementos Hidráulicos",
       "fornecedor": "LUCONI",
       "estoque": {
-        "CAM": 29.0,
+        "CAM": 28.0,
         "CAV": 15.0,
         "CAX": 17.0,
         "SLM": null
@@ -19687,7 +19687,7 @@
       "linha_pai": "Complementos Hidráulicos",
       "fornecedor": "LUCONI",
       "estoque": {
-        "CAM": 47.0,
+        "CAM": 45.0,
         "CAV": 29.0,
         "CAX": 41.0,
         "SLM": 16.0
@@ -19726,9 +19726,9 @@
       "fornecedor": "LUCONI",
       "estoque": {
         "CAM": 17.0,
-        "CAV": 14.0,
+        "CAV": 13.0,
         "CAX": 17.0,
-        "SLM": 7.0
+        "SLM": 6.0
       },
       "preco": {
         "CAM": 22.9,
@@ -19840,7 +19840,7 @@
       "fornecedor": "LUCONI",
       "estoque": {
         "CAM": 23.0,
-        "CAV": 12.0,
+        "CAV": 11.0,
         "CAX": 14.0,
         "SLM": 7.0
       },
@@ -21571,13 +21571,13 @@
         "CAM": 2.0,
         "CAV": 3.0,
         "CAX": 4.0,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": 89.9,
         "CAV": 89.9,
         "CAX": 89.9,
-        "SLM": 89.9
+        "SLM": null
       }
     },
     {
@@ -21607,13 +21607,13 @@
       "fornecedor": "DOCOL METAIS",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 1.0,
+        "CAV": null,
         "CAX": 5.0,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 43.9,
-        "CAV": 43.9,
+        "CAV": null,
         "CAX": 43.9,
         "SLM": 43.9
       }
@@ -21682,7 +21682,7 @@
       "linha_pai": "Metais Sanitarios",
       "fornecedor": "DOCOL METAIS",
       "estoque": {
-        "CAM": 2.0,
+        "CAM": 1.0,
         "CAV": 2.0,
         "CAX": 19.0,
         "SLM": null
@@ -21988,13 +21988,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 184.9,
         "CAV": 184.9,
-        "CAX": null,
+        "CAX": 184.9,
         "SLM": null
       }
     },
@@ -22235,13 +22235,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": null,
+        "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 124.9,
         "CAV": null,
-        "CAX": null,
+        "CAX": 124.9,
         "SLM": 124.9
       }
     },
@@ -22330,13 +22330,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 99.9,
         "CAV": 99.9,
-        "CAX": null,
+        "CAX": 99.9,
         "SLM": 99.9
       }
     },
@@ -22406,13 +22406,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": null,
-        "CAX": 1.0,
+        "CAX": null,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 139.9,
         "CAV": null,
-        "CAX": 139.9,
+        "CAX": null,
         "SLM": 139.9
       }
     },
@@ -22444,13 +22444,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": 2.0,
+        "CAX": null,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 136.9,
         "CAV": 136.9,
-        "CAX": 136.9,
+        "CAX": null,
         "SLM": 136.9
       }
     },
@@ -22481,7 +22481,7 @@
       "fornecedor": "DOCOL METAIS",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 3.0,
+        "CAV": 2.0,
         "CAX": 4.0,
         "SLM": 1.0
       },
@@ -24285,8 +24285,8 @@
       "linha_pai": "Argamassas",
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
-        "CAM": 1480.0,
-        "CAV": 608.0,
+        "CAM": 1445.0,
+        "CAV": 600.0,
         "CAX": 739.0,
         "SLM": 488.0
       },
@@ -24419,7 +24419,7 @@
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
         "CAM": 203.0,
-        "CAV": 10.0,
+        "CAV": 9.0,
         "CAX": 20.0,
         "SLM": 52.0
       },
@@ -24627,10 +24627,10 @@
       "linha_pai": "Argamassas",
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
-        "CAM": 228.0,
-        "CAV": 46.0,
+        "CAM": 227.0,
+        "CAV": 45.0,
         "CAX": 36.0,
-        "SLM": 89.0
+        "SLM": 88.0
       },
       "preco": {
         "CAM": 15.9,
@@ -24646,10 +24646,10 @@
       "linha_pai": "Argamassas",
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
-        "CAM": 245.0,
+        "CAM": 243.0,
         "CAV": 28.0,
         "CAX": 37.0,
-        "SLM": 118.0
+        "SLM": 117.0
       },
       "preco": {
         "CAM": 62.9,
@@ -24857,7 +24857,7 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": null,
-        "CAX": 11.0,
+        "CAX": 10.0,
         "SLM": 10.0
       },
       "preco": {
@@ -24875,7 +24875,7 @@
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
         "CAM": 22.0,
-        "CAV": 5.0,
+        "CAV": 4.0,
         "CAX": 11.0,
         "SLM": 21.0
       },
@@ -26093,7 +26093,7 @@
         "CAM": 16.0,
         "CAV": 22.0,
         "CAX": 51.0,
-        "SLM": 29.0
+        "SLM": 28.0
       },
       "preco": {
         "CAM": 8.99,
@@ -26110,15 +26110,15 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 60.0,
-        "CAV": 104.0,
+        "CAV": 103.0,
         "CAX": 97.0,
         "SLM": 237.0
       },
       "preco": {
-        "CAM": 24.99,
-        "CAV": 24.99,
-        "CAX": 24.99,
-        "SLM": 24.99
+        "CAM": 21.99,
+        "CAV": 21.99,
+        "CAX": 21.99,
+        "SLM": 21.99
       }
     },
     {
@@ -26129,15 +26129,15 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 57.0,
-        "CAV": 49.0,
+        "CAV": 48.0,
         "CAX": 98.0,
         "SLM": 116.0
       },
       "preco": {
-        "CAM": 29.99,
-        "CAV": 29.99,
-        "CAX": 29.99,
-        "SLM": 29.99
+        "CAM": 26.99,
+        "CAV": 26.99,
+        "CAX": 26.99,
+        "SLM": 26.99
       }
     },
     {
@@ -26153,10 +26153,10 @@
         "SLM": 30.0
       },
       "preco": {
-        "CAM": 49.9,
-        "CAV": 49.9,
-        "CAX": 49.9,
-        "SLM": 49.9
+        "CAM": 53.99,
+        "CAV": 53.99,
+        "CAX": 53.99,
+        "SLM": 53.99
       }
     },
     {
@@ -26262,7 +26262,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 15.0,
+        "CAV": 14.0,
         "CAX": 18.0,
         "SLM": 18.0
       },
@@ -26319,9 +26319,9 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 39.0,
-        "CAV": 37.0,
+        "CAV": 36.0,
         "CAX": 69.0,
-        "SLM": 82.0
+        "SLM": 80.0
       },
       "preco": {
         "CAM": 6.9,
@@ -26623,9 +26623,9 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 26.0,
-        "CAV": 63.0,
+        "CAV": 62.0,
         "CAX": 23.0,
-        "SLM": 46.0
+        "SLM": 45.0
       },
       "preco": {
         "CAM": 14.99,
@@ -26661,7 +26661,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 18.0,
-        "CAV": 38.0,
+        "CAV": 37.0,
         "CAX": 28.0,
         "SLM": 79.0
       },
@@ -26681,13 +26681,13 @@
       "estoque": {
         "CAM": 15.0,
         "CAV": 26.0,
-        "CAX": 41.0,
+        "CAX": null,
         "SLM": 65.0
       },
       "preco": {
         "CAM": 6.99,
         "CAV": 6.99,
-        "CAX": 6.99,
+        "CAX": null,
         "SLM": 6.99
       }
     },
@@ -26701,7 +26701,7 @@
         "CAM": 31.0,
         "CAV": 43.0,
         "CAX": 39.0,
-        "SLM": 93.0
+        "SLM": 92.0
       },
       "preco": {
         "CAM": 7.9,
@@ -26719,7 +26719,7 @@
       "estoque": {
         "CAM": 20.0,
         "CAV": 21.0,
-        "CAX": 33.0,
+        "CAX": 31.0,
         "SLM": 41.0
       },
       "preco": {
@@ -26758,13 +26758,13 @@
         "CAM": 18.0,
         "CAV": 26.0,
         "CAX": 28.0,
-        "SLM": null
+        "SLM": 29.0
       },
       "preco": {
         "CAM": 3.9,
         "CAV": 3.9,
         "CAX": 3.9,
-        "SLM": null
+        "SLM": 3.9
       }
     },
     {
@@ -26775,7 +26775,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 16.0,
-        "CAV": 22.0,
+        "CAV": 21.0,
         "CAX": 31.0,
         "SLM": 29.0
       },
@@ -26795,7 +26795,7 @@
       "estoque": {
         "CAM": 70.0,
         "CAV": 81.0,
-        "CAX": 110.0,
+        "CAX": 109.0,
         "SLM": 154.0
       },
       "preco": {
@@ -26813,15 +26813,15 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 25.0,
-        "CAV": 22.0,
+        "CAV": 21.0,
         "CAX": 45.0,
-        "SLM": 61.0
+        "SLM": null
       },
       "preco": {
         "CAM": 9.99,
         "CAV": 9.99,
         "CAX": 9.99,
-        "SLM": 9.99
+        "SLM": null
       }
     },
     {
@@ -26851,7 +26851,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 29.0,
-        "CAV": 21.0,
+        "CAV": 20.0,
         "CAX": 66.0,
         "SLM": 64.0
       },
@@ -26869,8 +26869,8 @@
       "linha_pai": "Complementos de Pintura",
       "fornecedor": "ATLAS",
       "estoque": {
-        "CAM": 56.0,
-        "CAV": 79.0,
+        "CAM": 55.0,
+        "CAV": 78.0,
         "CAX": 51.0,
         "SLM": 148.0
       },
@@ -26891,7 +26891,7 @@
         "CAM": 24.0,
         "CAV": 15.0,
         "CAX": 26.0,
-        "SLM": 31.0
+        "SLM": 30.0
       },
       "preco": {
         "CAM": 9.99,
@@ -26929,7 +26929,7 @@
         "CAM": 25.0,
         "CAV": 17.0,
         "CAX": 16.0,
-        "SLM": 39.0
+        "SLM": 38.0
       },
       "preco": {
         "CAM": 9.9,
@@ -26948,7 +26948,7 @@
         "CAM": 18.0,
         "CAV": 41.0,
         "CAX": 49.0,
-        "SLM": 54.0
+        "SLM": 52.0
       },
       "preco": {
         "CAM": 12.9,
@@ -27003,7 +27003,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 27.0,
-        "CAV": 15.0,
+        "CAV": 14.0,
         "CAX": 31.0,
         "SLM": 24.0
       },
@@ -27023,13 +27023,13 @@
       "estoque": {
         "CAM": 14.0,
         "CAV": 33.0,
-        "CAX": null,
+        "CAX": 17.0,
         "SLM": 27.0
       },
       "preco": {
         "CAM": 19.99,
         "CAV": 19.99,
-        "CAX": null,
+        "CAX": 19.99,
         "SLM": 19.99
       }
     },
@@ -27079,7 +27079,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 36.0,
-        "CAV": 61.0,
+        "CAV": 60.0,
         "CAX": 59.0,
         "SLM": 90.0
       },
@@ -27098,7 +27098,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 19.0,
-        "CAV": 43.0,
+        "CAV": 42.0,
         "CAX": 22.0,
         "SLM": 46.0
       },
@@ -27347,13 +27347,13 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 42.9
+        "SLM": null
       }
     },
     {
@@ -27915,7 +27915,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 6.0,
-        "CAV": 9.0,
+        "CAV": 8.0,
         "CAX": 19.0,
         "SLM": 13.0
       },
@@ -28124,7 +28124,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 5.0,
+        "CAV": 4.0,
         "CAX": 3.0,
         "SLM": null
       },
@@ -28371,9 +28371,9 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 20.0,
-        "CAV": 34.0,
+        "CAV": 33.0,
         "CAX": 59.0,
-        "SLM": 67.0
+        "SLM": 66.0
       },
       "preco": {
         "CAM": 11.9,
@@ -28542,13 +28542,13 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 4.0,
-        "CAV": 3.0,
+        "CAV": null,
         "CAX": null,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 7.4,
-        "CAV": 7.4,
+        "CAV": null,
         "CAX": null,
         "SLM": 7.4
       }
@@ -30327,13 +30327,13 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "NORTON",
       "estoque": {
-        "CAM": 1.0,
+        "CAM": null,
         "CAV": 5.0,
         "CAX": 6.0,
         "SLM": null
       },
       "preco": {
-        "CAM": 15.9,
+        "CAM": null,
         "CAV": 15.9,
         "CAX": 15.9,
         "SLM": null
@@ -30461,7 +30461,7 @@
       "fornecedor": "NORTON",
       "estoque": {
         "CAM": 36.0,
-        "CAV": 40.0,
+        "CAV": 36.0,
         "CAX": 35.0,
         "SLM": 48.0
       },
@@ -30670,7 +30670,7 @@
       "fornecedor": "NORTON",
       "estoque": {
         "CAM": 15.0,
-        "CAV": 6.0,
+        "CAV": 2.0,
         "CAX": 9.0,
         "SLM": 23.0
       },
@@ -30729,13 +30729,13 @@
         "CAM": 24.0,
         "CAV": 5.0,
         "CAX": 76.0,
-        "SLM": 8.0
+        "SLM": null
       },
       "preco": {
         "CAM": 4.8,
         "CAV": 4.8,
         "CAX": 4.8,
-        "SLM": 4.8
+        "SLM": null
       }
     },
     {
@@ -30746,7 +30746,7 @@
       "fornecedor": "NORTON",
       "estoque": {
         "CAM": 210.0,
-        "CAV": 111.0,
+        "CAV": 106.0,
         "CAX": 341.0,
         "SLM": 196.0
       },
@@ -30767,7 +30767,7 @@
         "CAM": 163.0,
         "CAV": 9.0,
         "CAX": 200.0,
-        "SLM": 149.0
+        "SLM": 134.0
       },
       "preco": {
         "CAM": 1.35,
@@ -30805,7 +30805,7 @@
         "CAM": 109.0,
         "CAV": 103.0,
         "CAX": 84.0,
-        "SLM": 63.0
+        "SLM": 61.0
       },
       "preco": {
         "CAM": 1.35,
@@ -31147,7 +31147,7 @@
         "CAM": 1.0,
         "CAV": 11.0,
         "CAX": 28.0,
-        "SLM": 32.0
+        "SLM": 30.0
       },
       "preco": {
         "CAM": 6.1,
@@ -31166,7 +31166,7 @@
         "CAM": 14.0,
         "CAV": 14.0,
         "CAX": 44.0,
-        "SLM": 15.0
+        "SLM": 14.0
       },
       "preco": {
         "CAM": 2.9,
@@ -31242,7 +31242,7 @@
         "CAM": 63.0,
         "CAV": 10.0,
         "CAX": 104.0,
-        "SLM": 77.0
+        "SLM": 76.0
       },
       "preco": {
         "CAM": 2.2,
@@ -33330,7 +33330,7 @@
       "fornecedor": "COBRECOM",
       "estoque": {
         "CAM": 6.0,
-        "CAV": 17.0,
+        "CAV": 16.0,
         "CAX": 36.0,
         "SLM": 20.0
       },
@@ -33977,13 +33977,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 3.0,
-        "CAX": 6.0,
+        "CAX": null,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 43.9,
         "CAV": 43.9,
-        "CAX": 43.9,
+        "CAX": null,
         "SLM": 43.9
       }
     },
@@ -34035,13 +34035,13 @@
         "CAM": 8.0,
         "CAV": 6.0,
         "CAX": 7.0,
-        "SLM": 12.0
+        "SLM": null
       },
       "preco": {
         "CAM": 64.99,
         "CAV": 64.99,
         "CAX": 64.99,
-        "SLM": 64.99
+        "SLM": null
       }
     },
     {
@@ -34336,7 +34336,7 @@
       "linha_pai": "Acessorios de banheiro",
       "fornecedor": "VIQUA",
       "estoque": {
-        "CAM": 3.0,
+        "CAM": 2.0,
         "CAV": 2.0,
         "CAX": 2.0,
         "SLM": 3.0
@@ -34377,7 +34377,7 @@
         "CAM": 9.0,
         "CAV": 7.0,
         "CAX": 9.0,
-        "SLM": 11.0
+        "SLM": 9.0
       },
       "preco": {
         "CAM": 33.9,
@@ -34548,7 +34548,7 @@
         "CAM": 5.0,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 124.9,
@@ -34643,13 +34643,13 @@
         "CAM": 6.0,
         "CAV": 4.0,
         "CAX": 11.0,
-        "SLM": 10.0
+        "SLM": 8.0
       },
       "preco": {
-        "CAM": 109.9,
-        "CAV": 109.9,
-        "CAX": 109.9,
-        "SLM": 109.9
+        "CAM": 129.99,
+        "CAV": 129.99,
+        "CAX": 129.99,
+        "SLM": 129.99
       }
     },
     {
@@ -34776,13 +34776,13 @@
         "CAM": 10.0,
         "CAV": 4.0,
         "CAX": 39.0,
-        "SLM": null
+        "SLM": 30.0
       },
       "preco": {
         "CAM": 43.99,
         "CAV": 43.99,
         "CAX": 43.99,
-        "SLM": null
+        "SLM": 43.99
       }
     },
     {
@@ -35080,13 +35080,13 @@
         "CAM": null,
         "CAV": 1.0,
         "CAX": null,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 32.99,
         "CAX": null,
-        "SLM": 32.99
+        "SLM": null
       }
     },
     {
@@ -36448,7 +36448,7 @@
         "CAM": null,
         "CAV": 1.0,
         "CAX": null,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": null,
@@ -41500,9 +41500,9 @@
       "fornecedor": "PULVITEC",
       "estoque": {
         "CAM": 65.0,
-        "CAV": 58.0,
+        "CAV": 56.0,
         "CAX": 81.0,
-        "SLM": 19.0
+        "SLM": 16.0
       },
       "preco": {
         "CAM": 3.9,
@@ -41519,9 +41519,9 @@
       "fornecedor": "PULVITEC",
       "estoque": {
         "CAM": 18.0,
-        "CAV": 20.0,
+        "CAV": 19.0,
         "CAX": 15.0,
-        "SLM": 14.0
+        "SLM": 13.0
       },
       "preco": {
         "CAM": 21.9,
@@ -41576,7 +41576,7 @@
       "fornecedor": "PULVITEC",
       "estoque": {
         "CAM": 8.0,
-        "CAV": 12.0,
+        "CAV": 11.0,
         "CAX": 20.0,
         "SLM": 6.0
       },
@@ -41614,7 +41614,7 @@
       "fornecedor": "PULVITEC",
       "estoque": {
         "CAM": 60.0,
-        "CAV": 54.0,
+        "CAV": 53.0,
         "CAX": 58.0,
         "SLM": 37.0
       },
@@ -41632,10 +41632,10 @@
       "linha_pai": "Complementos Hidráulicos",
       "fornecedor": "PULVITEC",
       "estoque": {
-        "CAM": 58.0,
-        "CAV": 67.0,
+        "CAM": 57.0,
+        "CAV": 66.0,
         "CAX": 56.0,
-        "SLM": 9.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 4.99,
@@ -41652,7 +41652,7 @@
       "fornecedor": "PULVITEC",
       "estoque": {
         "CAM": 34.0,
-        "CAV": 24.0,
+        "CAV": 23.0,
         "CAX": 30.0,
         "SLM": 7.0
       },
@@ -41673,7 +41673,7 @@
         "CAM": 36.0,
         "CAV": 38.0,
         "CAX": 40.0,
-        "SLM": 30.0
+        "SLM": 29.0
       },
       "preco": {
         "CAM": 11.49,
@@ -41842,7 +41842,7 @@
       "fornecedor": "PULVITEC",
       "estoque": {
         "CAM": 15.0,
-        "CAV": 13.0,
+        "CAV": 12.0,
         "CAX": 23.0,
         "SLM": 9.0
       },
@@ -43134,7 +43134,7 @@
       "fornecedor": "ROCA",
       "estoque": {
         "CAM": 21.0,
-        "CAV": 13.0,
+        "CAV": 12.0,
         "CAX": 22.0,
         "SLM": 18.0
       },
@@ -43350,7 +43350,7 @@
       "preco": {
         "CAM": 959.9,
         "CAV": 959.9,
-        "CAX": 959.9,
+        "CAX": 899.9,
         "SLM": 959.9
       }
     },
@@ -44597,7 +44597,7 @@
       "fornecedor": "BRASILIT",
       "estoque": {
         "CAM": null,
-        "CAV": 19.0,
+        "CAV": 16.0,
         "CAX": null,
         "SLM": 1.0
       },
@@ -47107,13 +47107,13 @@
         "CAM": 3.0,
         "CAV": null,
         "CAX": null,
-        "SLM": 2.0
+        "SLM": null
       },
       "preco": {
         "CAM": 7.5,
         "CAV": null,
         "CAX": null,
-        "SLM": 7.5
+        "SLM": null
       }
     },
     {
@@ -48361,13 +48361,13 @@
         "CAM": 12.0,
         "CAV": 16.0,
         "CAX": null,
-        "SLM": 9.0
+        "SLM": null
       },
       "preco": {
         "CAM": 12.2,
         "CAV": 12.2,
         "CAX": null,
-        "SLM": 12.2
+        "SLM": null
       }
     },
     {
@@ -48700,7 +48700,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "IQUINE",
       "estoque": {
-        "CAM": 6.0,
+        "CAM": 5.0,
         "CAV": 6.0,
         "CAX": 3.0,
         "SLM": 14.0
@@ -48739,8 +48739,8 @@
       "fornecedor": "IQUINE",
       "estoque": {
         "CAM": 34.0,
-        "CAV": 10.0,
-        "CAX": 36.0,
+        "CAV": 9.0,
+        "CAX": 30.0,
         "SLM": 33.0
       },
       "preco": {
@@ -48757,8 +48757,8 @@
       "linha_pai": "Pintura",
       "fornecedor": "IQUINE",
       "estoque": {
-        "CAM": 8.0,
-        "CAV": 10.0,
+        "CAM": 7.0,
+        "CAV": 9.0,
         "CAX": 27.0,
         "SLM": 29.0
       },
@@ -50182,10 +50182,10 @@
       "linha_pai": "Ferramentas Manuais",
       "fornecedor": "CORTAG",
       "estoque": {
-        "CAM": 5.0,
+        "CAM": 1.0,
         "CAV": 10.0,
         "CAX": 22.0,
-        "SLM": 11.0
+        "SLM": 9.0
       },
       "preco": {
         "CAM": 15.99,
@@ -50258,7 +50258,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "CORTAG",
       "estoque": {
-        "CAM": 21.0,
+        "CAM": 20.0,
         "CAV": 11.0,
         "CAX": 17.0,
         "SLM": 13.0
@@ -52769,13 +52769,13 @@
         "CAM": 3.0,
         "CAV": 9.0,
         "CAX": 13.0,
-        "SLM": 7.0
+        "SLM": null
       },
       "preco": {
         "CAM": 35.9,
         "CAV": 35.9,
         "CAX": 35.9,
-        "SLM": 35.9
+        "SLM": null
       }
     },
     {
@@ -52919,15 +52919,15 @@
       "fornecedor": "LEGRAND",
       "estoque": {
         "CAM": 40.0,
-        "CAV": 58.0,
+        "CAV": 56.0,
         "CAX": 64.0,
-        "SLM": null
+        "SLM": 68.0
       },
       "preco": {
         "CAM": 12.99,
         "CAV": 12.99,
         "CAX": 12.99,
-        "SLM": null
+        "SLM": 12.99
       }
     },
     {
@@ -52995,7 +52995,7 @@
       "fornecedor": "LEGRAND",
       "estoque": {
         "CAM": 15.0,
-        "CAV": 4.0,
+        "CAV": 2.0,
         "CAX": 18.0,
         "SLM": null
       },
@@ -53507,13 +53507,13 @@
       "linha_pai": "Elétrica",
       "fornecedor": "LEGRAND",
       "estoque": {
-        "CAM": 3.0,
+        "CAM": null,
         "CAV": 2.0,
         "CAX": null,
         "SLM": null
       },
       "preco": {
-        "CAM": 170.0,
+        "CAM": null,
         "CAV": 170.0,
         "CAX": null,
         "SLM": null
@@ -53792,7 +53792,7 @@
       "linha_pai": "Portas e Esquadrias",
       "fornecedor": "SILVANA",
       "estoque": {
-        "CAM": 9.0,
+        "CAM": 8.0,
         "CAV": 10.0,
         "CAX": 11.0,
         "SLM": 12.0
@@ -54251,13 +54251,13 @@
         "CAM": 4.0,
         "CAV": 3.0,
         "CAX": 9.0,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": 86.9,
         "CAV": 86.9,
         "CAX": 86.9,
-        "SLM": 86.9
+        "SLM": null
       }
     },
     {
@@ -54629,7 +54629,7 @@
       "fornecedor": "SILVANA",
       "estoque": {
         "CAM": 24.0,
-        "CAV": 9.0,
+        "CAV": 8.0,
         "CAX": 8.0,
         "SLM": 12.0
       },
@@ -54934,13 +54934,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 6.0,
-        "CAX": 14.0,
+        "CAX": null,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 15.9,
         "CAV": 15.9,
-        "CAX": 15.9,
+        "CAX": null,
         "SLM": 15.9
       }
     },
@@ -54973,7 +54973,7 @@
         "CAM": 20.0,
         "CAV": 111.0,
         "CAX": null,
-        "SLM": 99.0
+        "SLM": 92.0
       },
       "preco": {
         "CAM": 2.99,
@@ -55071,10 +55071,10 @@
         "SLM": 166.0
       },
       "preco": {
-        "CAM": 22.99,
-        "CAV": 22.99,
-        "CAX": 22.99,
-        "SLM": 22.99
+        "CAM": 19.99,
+        "CAV": 19.99,
+        "CAX": 19.99,
+        "SLM": 19.99
       }
     },
     {
@@ -55105,13 +55105,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": 12.0,
+        "CAX": null,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 35.9,
         "CAV": 35.9,
-        "CAX": 35.9,
+        "CAX": null,
         "SLM": 35.9
       }
     },
@@ -55429,7 +55429,7 @@
         "CAM": 5.0,
         "CAV": 3.0,
         "CAX": 2.0,
-        "SLM": 5.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 64.9,
@@ -55562,13 +55562,13 @@
         "CAM": 2.0,
         "CAV": 1.0,
         "CAX": null,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": 79.9,
         "CAV": 79.9,
         "CAX": null,
-        "SLM": 79.9
+        "SLM": null
       }
     },
     {
@@ -55598,7 +55598,7 @@
       "fornecedor": "HERC",
       "estoque": {
         "CAM": 6.0,
-        "CAV": 5.0,
+        "CAV": 4.0,
         "CAX": 7.0,
         "SLM": 4.0
       },
@@ -57082,13 +57082,13 @@
         "CAM": 7.0,
         "CAV": 1.0,
         "CAX": 4.0,
-        "SLM": null
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 59.0,
         "CAV": 59.0,
         "CAX": 59.0,
-        "SLM": null
+        "SLM": 59.0
       }
     },
     {
@@ -57498,7 +57498,7 @@
       "fornecedor": "ROCA",
       "estoque": {
         "CAM": 8.0,
-        "CAV": 3.0,
+        "CAV": 2.0,
         "CAX": 12.0,
         "SLM": 5.0
       },
@@ -57934,7 +57934,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "NITROLUX",
       "estoque": {
-        "CAM": 11.0,
+        "CAM": 10.0,
         "CAV": 6.0,
         "CAX": 21.0,
         "SLM": 7.0
@@ -57992,13 +57992,13 @@
       "fornecedor": "NITROLUX",
       "estoque": {
         "CAM": 34.0,
-        "CAV": 48.0,
+        "CAV": null,
         "CAX": 54.0,
-        "SLM": 92.0
+        "SLM": 82.0
       },
       "preco": {
         "CAM": 17.9,
-        "CAV": 17.9,
+        "CAV": null,
         "CAX": 17.9,
         "SLM": 17.9
       }
@@ -58298,7 +58298,7 @@
         "CAM": 3.0,
         "CAV": 1.0,
         "CAX": 2.0,
-        "SLM": 4.0
+        "SLM": 3.0
       },
       "preco": {
         "CAM": 41.9,
@@ -58333,7 +58333,7 @@
       "linha_pai": "PLÁSTICOS SANITÁRIOS",
       "fornecedor": "VIQUA",
       "estoque": {
-        "CAM": 7.0,
+        "CAM": 6.0,
         "CAV": 6.0,
         "CAX": 12.0,
         "SLM": 12.0
@@ -59058,7 +59058,7 @@
         "CAM": 16.0,
         "CAV": 19.0,
         "CAX": 21.0,
-        "SLM": 26.0
+        "SLM": 24.0
       },
       "preco": {
         "CAM": 178.9,
@@ -59970,7 +59970,7 @@
         "CAM": 19.0,
         "CAV": 9.0,
         "CAX": 15.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 24.9,
@@ -60843,13 +60843,13 @@
       "estoque": {
         "CAM": 9.0,
         "CAV": 6.0,
-        "CAX": null,
+        "CAX": 11.0,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 33.9,
         "CAV": 33.9,
-        "CAX": null,
+        "CAX": 33.9,
         "SLM": 33.9
       }
     },
@@ -60862,13 +60862,13 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 7.0,
-        "CAX": null,
+        "CAX": 16.0,
         "SLM": 11.0
       },
       "preco": {
         "CAM": 21.9,
         "CAV": 21.9,
-        "CAX": null,
+        "CAX": 21.9,
         "SLM": 21.9
       }
     },
@@ -61357,7 +61357,7 @@
         "CAM": 4.0,
         "CAV": 7.0,
         "CAX": null,
-        "SLM": 5.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 6.9,
@@ -61452,7 +61452,7 @@
         "CAM": 3.0,
         "CAV": 4.0,
         "CAX": 7.0,
-        "SLM": 10.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 8.99,
@@ -61566,7 +61566,7 @@
         "CAM": 10.0,
         "CAV": 12.0,
         "CAX": 8.0,
-        "SLM": 13.0
+        "SLM": 12.0
       },
       "preco": {
         "CAM": 14.49,
@@ -61737,7 +61737,7 @@
         "CAM": 3.0,
         "CAV": 6.0,
         "CAX": 10.0,
-        "SLM": 6.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 9.99,
@@ -62174,7 +62174,7 @@
         "CAM": 17.0,
         "CAV": 4.0,
         "CAX": 14.0,
-        "SLM": 8.0
+        "SLM": 6.0
       },
       "preco": {
         "CAM": 9.99,
@@ -62212,7 +62212,7 @@
         "CAM": 10.0,
         "CAV": 9.0,
         "CAX": 4.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 9.99,
@@ -64641,7 +64641,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "ILUMI",
       "estoque": {
-        "CAM": 126.0,
+        "CAM": 117.0,
         "CAV": 121.0,
         "CAX": 86.0,
         "SLM": 226.0
@@ -65214,13 +65214,13 @@
         "CAM": 2.0,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": 2.0
+        "SLM": null
       },
       "preco": {
         "CAM": 63.9,
         "CAV": 63.9,
         "CAX": 63.9,
-        "SLM": 63.9
+        "SLM": null
       }
     },
     {
@@ -65403,13 +65403,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 3.0,
-        "CAX": 4.0,
+        "CAX": null,
         "SLM": null
       },
       "preco": {
         "CAM": 59.9,
         "CAV": 59.9,
-        "CAX": 59.9,
+        "CAX": null,
         "SLM": null
       }
     },
@@ -65648,7 +65648,7 @@
       "linha_pai": "FORA DE LINHA",
       "fornecedor": "PRATEFIX",
       "estoque": {
-        "CAM": 3.0,
+        "CAM": 2.0,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -65725,7 +65725,7 @@
       "fornecedor": "PRATEFIX",
       "estoque": {
         "CAM": null,
-        "CAV": 3.0,
+        "CAV": 2.0,
         "CAX": 6.0,
         "SLM": 5.0
       },
@@ -66047,7 +66047,7 @@
       "linha_pai": "Utilidades",
       "fornecedor": "ADERE",
       "estoque": {
-        "CAM": 42.0,
+        "CAM": 29.0,
         "CAV": 15.0,
         "CAX": 85.0,
         "SLM": 51.0
@@ -67152,7 +67152,7 @@
         "CAM": 20.3,
         "CAV": null,
         "CAX": 113.68,
-        "SLM": 75.11
+        "SLM": 71.05
       },
       "preco": {
         "CAM": 44.9,
@@ -68349,7 +68349,7 @@
         "CAM": 7.0,
         "CAV": 9.0,
         "CAX": 7.0,
-        "SLM": 13.0
+        "SLM": 12.0
       },
       "preco": {
         "CAM": 66.9,
@@ -68386,13 +68386,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 8.0,
-        "CAX": 8.0,
+        "CAX": null,
         "SLM": 8.0
       },
       "preco": {
         "CAM": 63.9,
         "CAV": 63.9,
-        "CAX": 63.9,
+        "CAX": null,
         "SLM": 63.9
       }
     },
@@ -68444,7 +68444,7 @@
         "CAM": 10.0,
         "CAV": 7.0,
         "CAX": 6.0,
-        "SLM": 15.0
+        "SLM": 14.0
       },
       "preco": {
         "CAM": 41.9,
@@ -68520,13 +68520,13 @@
         "CAM": 9.0,
         "CAV": 5.0,
         "CAX": 6.0,
-        "SLM": 6.0
+        "SLM": null
       },
       "preco": {
         "CAM": 42.99,
         "CAV": 42.99,
         "CAX": 42.99,
-        "SLM": 42.99
+        "SLM": null
       }
     },
     {
@@ -69716,13 +69716,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 5.0,
-        "CAX": 2.0,
+        "CAX": null,
         "SLM": 3.0
       },
       "preco": {
         "CAM": null,
         "CAV": 224.9,
-        "CAX": 224.9,
+        "CAX": null,
         "SLM": 224.9
       }
     },
@@ -75282,13 +75282,13 @@
       "fornecedor": "BLACK DECKER",
       "estoque": {
         "CAM": 3.0,
-        "CAV": null,
+        "CAV": 2.0,
         "CAX": null,
         "SLM": 6.0
       },
       "preco": {
         "CAM": 8.7,
-        "CAV": null,
+        "CAV": 8.7,
         "CAX": null,
         "SLM": 8.7
       }
@@ -77448,13 +77448,13 @@
       "fornecedor": "BLACK DECKER",
       "estoque": {
         "CAM": 1.0,
-        "CAV": null,
+        "CAV": 2.0,
         "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 49.9,
-        "CAV": null,
+        "CAV": 49.9,
         "CAX": 49.9,
         "SLM": 49.9
       }
@@ -77963,7 +77963,7 @@
         "CAM": 7.0,
         "CAV": 1.0,
         "CAX": null,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 9.9,
@@ -78153,7 +78153,7 @@
         "CAM": 20.0,
         "CAV": null,
         "CAX": 31.0,
-        "SLM": 3.0
+        "SLM": 1.0
       },
       "preco": {
         "CAM": 2.99,
@@ -78608,13 +78608,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": 1.0,
+        "CAX": null,
         "SLM": 1.0
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": 219.89,
+        "CAX": null,
         "SLM": 219.89
       }
     },
@@ -80015,13 +80015,13 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 39.6
+        "SLM": null
       }
     },
     {
@@ -80203,13 +80203,13 @@
       "fornecedor": "NITROLUX",
       "estoque": {
         "CAM": 1.0,
-        "CAV": 3.0,
+        "CAV": null,
         "CAX": null,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 185.9,
-        "CAV": 185.9,
+        "CAV": null,
         "CAX": null,
         "SLM": 185.9
       }
@@ -80411,7 +80411,7 @@
       "linha_pai": "Argamassas",
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
-        "CAM": 164.0,
+        "CAM": 161.0,
         "CAV": 114.0,
         "CAX": 118.0,
         "SLM": 170.0
@@ -81193,13 +81193,13 @@
         "CAM": 6.0,
         "CAV": 6.0,
         "CAX": null,
-        "SLM": 6.0
+        "SLM": null
       },
       "preco": {
         "CAM": 334.9,
         "CAV": 334.9,
         "CAX": null,
-        "SLM": 334.9
+        "SLM": null
       }
     },
     {
@@ -82217,7 +82217,7 @@
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
         "CAM": 22.0,
-        "CAV": 119.0,
+        "CAV": 117.0,
         "CAX": 50.0,
         "SLM": 50.0
       },
@@ -83264,7 +83264,7 @@
         "CAM": 1.0,
         "CAV": 3.0,
         "CAX": 5.0,
-        "SLM": 11.0
+        "SLM": 10.0
       },
       "preco": {
         "CAM": 88.4,
@@ -83359,13 +83359,13 @@
         "CAM": 3.0,
         "CAV": 4.0,
         "CAX": 2.0,
-        "SLM": 2.0
+        "SLM": null
       },
       "preco": {
         "CAM": 181.9,
         "CAV": 181.9,
         "CAX": 181.9,
-        "SLM": 181.9
+        "SLM": null
       }
     },
     {
@@ -83473,13 +83473,13 @@
         "CAM": 2.0,
         "CAV": 3.0,
         "CAX": 2.0,
-        "SLM": 7.0
+        "SLM": null
       },
       "preco": {
         "CAM": 129.9,
         "CAV": 129.9,
         "CAX": 129.9,
-        "SLM": 129.9
+        "SLM": null
       }
     },
     {
@@ -83527,13 +83527,13 @@
       "linha_pai": "Metais Sanitarios",
       "fornecedor": "METAIS LEAO",
       "estoque": {
-        "CAM": 1.0,
+        "CAM": null,
         "CAV": null,
         "CAX": 2.0,
         "SLM": 9.0
       },
       "preco": {
-        "CAM": 89.9,
+        "CAM": null,
         "CAV": null,
         "CAX": 89.9,
         "SLM": 89.9
@@ -83910,13 +83910,13 @@
         "CAM": 3.24,
         "CAV": null,
         "CAX": null,
-        "SLM": 3.24
+        "SLM": null
       },
       "preco": {
         "CAM": 49.9,
         "CAV": null,
         "CAX": null,
-        "SLM": 49.9
+        "SLM": null
       }
     },
     {
@@ -84252,7 +84252,7 @@
         "CAM": 148.0,
         "CAV": 33.0,
         "CAX": 57.0,
-        "SLM": 123.0
+        "SLM": 122.0
       },
       "preco": {
         "CAM": 8.9,
@@ -84858,7 +84858,7 @@
       "fornecedor": "METAIS LEAO",
       "estoque": {
         "CAM": 6.0,
-        "CAV": 2.0,
+        "CAV": 1.0,
         "CAX": 2.0,
         "SLM": 3.0
       },
@@ -84914,7 +84914,7 @@
       "linha_pai": "Metais Sanitarios",
       "fornecedor": "METAIS LEAO",
       "estoque": {
-        "CAM": 6.0,
+        "CAM": 5.0,
         "CAV": 1.0,
         "CAX": 4.0,
         "SLM": null
@@ -85599,7 +85599,7 @@
       "fornecedor": "NITROLUX",
       "estoque": {
         "CAM": null,
-        "CAV": 3.0,
+        "CAV": 1.0,
         "CAX": null,
         "SLM": null
       },
@@ -87441,16 +87441,16 @@
       "linha_pai": "PISOS",
       "fornecedor": "ARIELLE",
       "estoque": {
-        "CAM": 1079.44,
+        "CAM": 1071.58,
         "CAV": 382.52,
         "CAX": 269.86,
-        "SLM": 479.46
+        "SLM": null
       },
       "preco": {
-        "CAM": 29.9,
-        "CAV": 29.9,
-        "CAX": 29.9,
-        "SLM": 29.9
+        "CAM": 32.99,
+        "CAV": 32.99,
+        "CAX": 32.99,
+        "SLM": null
       }
     },
     {
@@ -87523,7 +87523,7 @@
         "SLM": null
       },
       "preco": {
-        "CAM": 31.99,
+        "CAM": 33.99,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -89306,7 +89306,7 @@
         "CAM": null,
         "CAV": null,
         "CAX": 10.0,
-        "SLM": 11.0
+        "SLM": 10.0
       },
       "preco": {
         "CAM": null,
@@ -89705,13 +89705,13 @@
         "CAM": 1.0,
         "CAV": 2.0,
         "CAX": 6.0,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": 128.99,
         "CAV": 128.99,
         "CAX": 128.99,
-        "SLM": 128.99
+        "SLM": null
       }
     },
     {
@@ -90576,7 +90576,7 @@
       "linha_pai": "REVESTIMENTOS",
       "fornecedor": "ARIELLE",
       "estoque": {
-        "CAM": 213.84,
+        "CAM": 201.69,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -90862,7 +90862,7 @@
       "fornecedor": "ANAUGER",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 3.0,
+        "CAV": 2.0,
         "CAX": 2.0,
         "SLM": 4.0
       },
@@ -91203,7 +91203,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "IQUINE",
       "estoque": {
-        "CAM": 3.0,
+        "CAM": 2.0,
         "CAV": 4.0,
         "CAX": 11.0,
         "SLM": 14.0
@@ -92191,7 +92191,7 @@
       "linha_pai": "REVESTIMENTOS",
       "fornecedor": "ARIELLE",
       "estoque": {
-        "CAM": 114.21,
+        "CAM": 92.34,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -92666,7 +92666,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "IQUINE",
       "estoque": {
-        "CAM": 4.0,
+        "CAM": 3.0,
         "CAV": 4.0,
         "CAX": 3.0,
         "SLM": 1.0
@@ -92973,13 +92973,13 @@
         "CAM": 4.0,
         "CAV": null,
         "CAX": 3.0,
-        "SLM": 12.0
+        "SLM": null
       },
       "preco": {
         "CAM": 23.9,
         "CAV": null,
         "CAX": 23.9,
-        "SLM": 23.9
+        "SLM": null
       }
     },
     {
@@ -92992,13 +92992,13 @@
         "CAM": 5.0,
         "CAV": null,
         "CAX": 2.0,
-        "SLM": 4.0
+        "SLM": null
       },
       "preco": {
         "CAM": 33.9,
         "CAV": null,
         "CAX": 33.9,
-        "SLM": 33.9
+        "SLM": null
       }
     },
     {
@@ -93180,7 +93180,7 @@
       "fornecedor": "TAF",
       "estoque": {
         "CAM": 5.0,
-        "CAV": 3.0,
+        "CAV": 1.0,
         "CAX": 8.0,
         "SLM": null
       },
@@ -93828,13 +93828,13 @@
         "CAM": 90.0,
         "CAV": 40.0,
         "CAX": 43.0,
-        "SLM": null
+        "SLM": 50.0
       },
       "preco": {
         "CAM": 6.9,
         "CAV": 6.9,
         "CAX": 6.9,
-        "SLM": null
+        "SLM": 6.9
       }
     },
     {
@@ -95877,13 +95877,13 @@
       "linha_pai": "Elétrica",
       "fornecedor": "KRONA",
       "estoque": {
-        "CAM": null,
+        "CAM": 4.0,
         "CAV": null,
         "CAX": null,
         "SLM": null
       },
       "preco": {
-        "CAM": null,
+        "CAM": 5.99,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -96469,7 +96469,7 @@
         "CAM": 1.0,
         "CAV": null,
         "CAX": 3.0,
-        "SLM": 2.0
+        "SLM": 1.0
       },
       "preco": {
         "CAM": 139.9,
@@ -97720,10 +97720,10 @@
       "linha_pai": "Pintura",
       "fornecedor": "MEGAÓ",
       "estoque": {
-        "CAM": 31.0,
-        "CAV": 81.0,
+        "CAM": 30.0,
+        "CAV": 78.0,
         "CAX": 57.0,
-        "SLM": 59.0
+        "SLM": 58.0
       },
       "preco": {
         "CAM": 35.9,
@@ -98823,7 +98823,7 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 11.0,
-        "CAV": 17.0,
+        "CAV": 16.0,
         "CAX": 15.0,
         "SLM": 9.0
       },
@@ -98882,13 +98882,13 @@
         "CAM": 7.0,
         "CAV": 7.0,
         "CAX": 5.0,
-        "SLM": null
+        "SLM": 20.0
       },
       "preco": {
         "CAM": 8.3,
         "CAV": 8.3,
         "CAX": 8.3,
-        "SLM": null
+        "SLM": 8.3
       }
     },
     {
@@ -99018,10 +99018,10 @@
         "SLM": 60.0
       },
       "preco": {
-        "CAM": 8.9,
-        "CAV": 8.9,
-        "CAX": 8.9,
-        "SLM": 8.9
+        "CAM": 10.8,
+        "CAV": 10.8,
+        "CAX": 10.8,
+        "SLM": 10.8
       }
     },
     {
@@ -99053,7 +99053,7 @@
         "CAM": 20.0,
         "CAV": 25.0,
         "CAX": 21.0,
-        "SLM": 37.0
+        "SLM": 36.0
       },
       "preco": {
         "CAM": 12.49,
@@ -99072,7 +99072,7 @@
         "CAM": 25.0,
         "CAV": 12.0,
         "CAX": 14.0,
-        "SLM": 21.0
+        "SLM": 19.0
       },
       "preco": {
         "CAM": 16.9,
@@ -99107,10 +99107,10 @@
       "linha_pai": "Elétrica",
       "fornecedor": "MEC-TRONIC",
       "estoque": {
-        "CAM": 22.0,
+        "CAM": 19.0,
         "CAV": 20.0,
         "CAX": 32.0,
-        "SLM": 34.0
+        "SLM": 33.0
       },
       "preco": {
         "CAM": 13.9,
@@ -99166,13 +99166,13 @@
       "estoque": {
         "CAM": 23.0,
         "CAV": 10.0,
-        "CAX": 10.0,
+        "CAX": null,
         "SLM": 22.0
       },
       "preco": {
         "CAM": 23.9,
         "CAV": 23.9,
-        "CAX": 23.9,
+        "CAX": null,
         "SLM": 23.9
       }
     },
@@ -99411,7 +99411,7 @@
       "linha_pai": "Elétrica",
       "fornecedor": "MEC-TRONIC",
       "estoque": {
-        "CAM": 30.0,
+        "CAM": 29.0,
         "CAV": 6.0,
         "CAX": 17.0,
         "SLM": 44.0
@@ -99431,15 +99431,15 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 28.0,
-        "CAV": 42.0,
+        "CAV": 41.0,
         "CAX": 16.0,
-        "SLM": 35.0
+        "SLM": null
       },
       "preco": {
         "CAM": 12.99,
         "CAV": 12.99,
         "CAX": 12.99,
-        "SLM": 12.99
+        "SLM": null
       }
     },
     {
@@ -99490,7 +99490,7 @@
         "CAM": 4.0,
         "CAV": 7.0,
         "CAX": 7.0,
-        "SLM": 11.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 11.2,
@@ -99509,7 +99509,7 @@
         "CAM": 22.0,
         "CAV": 22.0,
         "CAX": 35.0,
-        "SLM": 44.0
+        "SLM": 40.0
       },
       "preco": {
         "CAM": 10.99,
@@ -99642,13 +99642,13 @@
         "CAM": 6.0,
         "CAV": 6.0,
         "CAX": 6.0,
-        "SLM": null
+        "SLM": 9.0
       },
       "preco": {
         "CAM": 46.4,
         "CAV": 46.4,
         "CAX": 46.4,
-        "SLM": null
+        "SLM": 46.4
       }
     },
     {
@@ -99659,7 +99659,7 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 4.0,
-        "CAV": 7.0,
+        "CAV": 6.0,
         "CAX": 3.0,
         "SLM": 5.0
       },
@@ -99737,7 +99737,7 @@
         "CAM": 50.0,
         "CAV": 53.0,
         "CAX": 50.0,
-        "SLM": 40.0
+        "SLM": 39.0
       },
       "preco": {
         "CAM": 7.5,
@@ -99794,7 +99794,7 @@
         "CAM": 61.0,
         "CAV": 61.0,
         "CAX": 38.0,
-        "SLM": 71.0
+        "SLM": 70.0
       },
       "preco": {
         "CAM": 6.9,
@@ -99849,7 +99849,7 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 53.0,
-        "CAV": 46.0,
+        "CAV": 42.0,
         "CAX": 55.0,
         "SLM": 49.0
       },
@@ -100079,7 +100079,7 @@
         "CAM": 27.0,
         "CAV": 10.0,
         "CAX": 46.0,
-        "SLM": 12.0
+        "SLM": 11.0
       },
       "preco": {
         "CAM": 4.8,
@@ -100136,7 +100136,7 @@
         "CAM": 8.0,
         "CAV": 8.0,
         "CAX": 9.0,
-        "SLM": 12.0
+        "SLM": 11.0
       },
       "preco": {
         "CAM": 20.4,
@@ -100779,13 +100779,13 @@
       "linha_pai": "Complementos Hidráulicos",
       "fornecedor": "PLASTMAR IND E COM",
       "estoque": {
-        "CAM": 10.0,
+        "CAM": null,
         "CAV": 13.0,
         "CAX": 12.0,
         "SLM": 9.0
       },
       "preco": {
-        "CAM": 18.99,
+        "CAM": null,
         "CAV": 18.99,
         "CAX": 18.99,
         "SLM": 18.99
@@ -102282,13 +102282,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 2.0,
-        "CAX": 4.0,
+        "CAX": null,
         "SLM": 5.0
       },
       "preco": {
         "CAM": 129.9,
         "CAV": 129.9,
-        "CAX": 129.9,
+        "CAX": null,
         "SLM": 129.9
       }
     },
@@ -102850,7 +102850,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "MEGAÓ",
       "estoque": {
-        "CAM": 11.0,
+        "CAM": 10.0,
         "CAV": 6.0,
         "CAX": 7.0,
         "SLM": 22.0
@@ -102870,7 +102870,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 10.0,
-        "CAV": 10.0,
+        "CAV": 9.0,
         "CAX": 15.0,
         "SLM": 12.0
       },
@@ -102926,7 +102926,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "MEGAÓ",
       "estoque": {
-        "CAM": 16.0,
+        "CAM": 15.0,
         "CAV": 9.0,
         "CAX": 9.0,
         "SLM": 17.0
@@ -103233,7 +103233,7 @@
         "CAM": 62.0,
         "CAV": 47.0,
         "CAX": 34.0,
-        "SLM": 49.0
+        "SLM": 48.0
       },
       "preco": {
         "CAM": 89.9,
@@ -103252,7 +103252,7 @@
         "CAM": 191.0,
         "CAV": 166.0,
         "CAX": 149.0,
-        "SLM": 304.0
+        "SLM": 302.0
       },
       "preco": {
         "CAM": 54.99,
@@ -103404,13 +103404,13 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 54.72
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 42.9
+        "SLM": null
       }
     },
     {
@@ -103708,13 +103708,13 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 99.9
+        "SLM": null
       }
     },
     {
@@ -103820,7 +103820,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 27.0,
-        "CAV": 13.0,
+        "CAV": 12.0,
         "CAX": 7.0,
         "SLM": 68.0
       },
@@ -103839,9 +103839,9 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 17.0,
-        "CAV": 45.0,
+        "CAV": 44.0,
         "CAX": 44.0,
-        "SLM": 74.0
+        "SLM": 73.0
       },
       "preco": {
         "CAM": 84.99,
@@ -103858,9 +103858,9 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 103.0,
-        "CAV": 149.0,
+        "CAV": 147.0,
         "CAX": 66.0,
-        "SLM": 297.0
+        "SLM": 293.0
       },
       "preco": {
         "CAM": 84.99,
@@ -104562,13 +104562,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": 1.0,
-        "CAX": 2.0,
+        "CAX": null,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 239.9,
         "CAV": 239.9,
-        "CAX": 239.9,
+        "CAX": null,
         "SLM": 239.9
       }
     },
@@ -105171,13 +105171,13 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 8.32
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 73.9
+        "SLM": null
       }
     },
     {
@@ -105341,13 +105341,13 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": null,
-        "CAX": 1.0,
+        "CAX": null,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 14.9,
         "CAV": null,
-        "CAX": 14.9,
+        "CAX": null,
         "SLM": 14.9
       }
     },
@@ -105872,7 +105872,7 @@
       "fornecedor": "LUCONI",
       "estoque": {
         "CAM": 5.0,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": 16.0,
         "SLM": 1.0
       },
@@ -105948,7 +105948,7 @@
       "fornecedor": "LUCONI",
       "estoque": {
         "CAM": 20.0,
-        "CAV": 8.0,
+        "CAV": 7.0,
         "CAX": 13.0,
         "SLM": 7.0
       },
@@ -106100,13 +106100,13 @@
       "fornecedor": "KALIPSO",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 2.0,
+        "CAV": null,
         "CAX": 11.0,
         "SLM": null
       },
       "preco": {
         "CAM": 5.9,
-        "CAV": 5.9,
+        "CAV": null,
         "CAX": 5.9,
         "SLM": null
       }
@@ -107144,7 +107144,7 @@
       "linha_pai": "Ferragens",
       "fornecedor": "ARCELORMITTAL",
       "estoque": {
-        "CAM": 17.0,
+        "CAM": 16.0,
         "CAV": 1.0,
         "CAX": 3.0,
         "SLM": null
@@ -108380,7 +108380,7 @@
       "fornecedor": "STARRETT INDUSTRIA E COMERCIO",
       "estoque": {
         "CAM": 122.0,
-        "CAV": 106.0,
+        "CAV": 102.0,
         "CAX": 140.0,
         "SLM": null
       },
@@ -108741,13 +108741,13 @@
       "fornecedor": "Momfort",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 1.0,
+        "CAV": null,
         "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 35.9,
-        "CAV": 35.9,
+        "CAV": null,
         "CAX": 35.9,
         "SLM": 35.9
       }
@@ -110792,7 +110792,7 @@
       "linha_pai": "PISOS",
       "fornecedor": "POINTER",
       "estoque": {
-        "CAM": 46.69,
+        "CAM": 1.61,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -111780,10 +111780,10 @@
       "linha_pai": "Acessorios de banheiro",
       "fornecedor": "GRANPLAST",
       "estoque": {
-        "CAM": 81.0,
+        "CAM": 80.0,
         "CAV": 40.0,
         "CAX": 59.0,
-        "SLM": 78.0
+        "SLM": 75.0
       },
       "preco": {
         "CAM": 54.9,
@@ -112236,13 +112236,13 @@
       "linha_pai": "EPI",
       "fornecedor": "MARLUVAS",
       "estoque": {
-        "CAM": null,
+        "CAM": 3.0,
         "CAV": 2.0,
         "CAX": 6.0,
         "SLM": 4.0
       },
       "preco": {
-        "CAM": null,
+        "CAM": 59.9,
         "CAV": 59.9,
         "CAX": 59.9,
         "SLM": 59.9
@@ -115561,7 +115561,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "BRASFORT",
       "estoque": {
-        "CAM": 2.0,
+        "CAM": 1.0,
         "CAV": 3.0,
         "CAX": null,
         "SLM": 3.0
@@ -117065,13 +117065,13 @@
         "CAM": 8.0,
         "CAV": 10.0,
         "CAX": 3.0,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": 129.9,
         "CAV": 129.9,
         "CAX": 129.9,
-        "SLM": 129.9
+        "SLM": null
       }
     },
     {
@@ -118509,7 +118509,7 @@
         "CAM": 3.0,
         "CAV": 1.0,
         "CAX": 4.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 509.9,
@@ -119077,13 +119077,13 @@
       "fornecedor": "LGMAIS",
       "estoque": {
         "CAM": 5.0,
-        "CAV": null,
+        "CAV": 5.0,
         "CAX": null,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 153.9,
-        "CAV": null,
+        "CAV": 153.9,
         "CAX": null,
         "SLM": 153.9
       }
@@ -119478,7 +119478,7 @@
         "CAM": 6.0,
         "CAV": 11.0,
         "CAX": 12.0,
-        "SLM": 17.0
+        "SLM": 16.0
       },
       "preco": {
         "CAM": 11.9,
@@ -119535,7 +119535,7 @@
         "CAM": 9.0,
         "CAV": 7.0,
         "CAX": 6.0,
-        "SLM": 6.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 3.9,
@@ -119589,7 +119589,7 @@
       "linha_pai": "Ferramentas",
       "fornecedor": "PRATIMIX",
       "estoque": {
-        "CAM": 16.0,
+        "CAM": 14.0,
         "CAV": 10.0,
         "CAX": 16.0,
         "SLM": 11.0
@@ -119611,7 +119611,7 @@
         "CAM": 15.0,
         "CAV": 19.0,
         "CAX": 20.0,
-        "SLM": 19.0
+        "SLM": 18.0
       },
       "preco": {
         "CAM": 13.99,
@@ -119722,7 +119722,7 @@
       "linha_pai": "Complementos Hidráulicos",
       "fornecedor": "VIQUA",
       "estoque": {
-        "CAM": 6.0,
+        "CAM": 4.0,
         "CAV": 8.0,
         "CAX": 9.0,
         "SLM": 10.0
@@ -120352,7 +120352,7 @@
         "CAM": 43.0,
         "CAV": 41.0,
         "CAX": 33.0,
-        "SLM": 51.0
+        "SLM": 50.0
       },
       "preco": {
         "CAM": 4.9,
@@ -120390,13 +120390,13 @@
         "CAM": 10.0,
         "CAV": 10.0,
         "CAX": 16.0,
-        "SLM": null
+        "SLM": 15.0
       },
       "preco": {
         "CAM": 8.99,
         "CAV": 8.99,
         "CAX": 8.99,
-        "SLM": null
+        "SLM": 8.99
       }
     },
     {
@@ -120409,7 +120409,7 @@
         "CAM": 6.0,
         "CAV": 5.0,
         "CAX": 9.0,
-        "SLM": 8.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 10.9,
@@ -120542,7 +120542,7 @@
         "CAM": null,
         "CAV": null,
         "CAX": 1.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": null,
@@ -120561,7 +120561,7 @@
         "CAM": 10.0,
         "CAV": 7.0,
         "CAX": 7.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 69.99,
@@ -120640,10 +120640,10 @@
         "SLM": 5.0
       },
       "preco": {
-        "CAM": 104.9,
-        "CAV": 104.9,
-        "CAX": 104.9,
-        "SLM": 104.9
+        "CAM": 118.9,
+        "CAV": 118.9,
+        "CAX": 118.9,
+        "SLM": 118.9
       }
     },
     {
@@ -120678,10 +120678,10 @@
         "SLM": 4.0
       },
       "preco": {
-        "CAM": 104.9,
-        "CAV": 104.9,
-        "CAX": 104.9,
-        "SLM": 104.9
+        "CAM": 118.9,
+        "CAV": 118.9,
+        "CAX": 118.9,
+        "SLM": 118.9
       }
     },
     {
@@ -120811,10 +120811,10 @@
         "SLM": 2.0
       },
       "preco": {
-        "CAM": 249.99,
-        "CAV": 249.99,
-        "CAX": 249.99,
-        "SLM": 249.99
+        "CAM": 269.99,
+        "CAV": 269.99,
+        "CAX": 269.99,
+        "SLM": 269.99
       }
     },
     {
@@ -120827,13 +120827,13 @@
         "CAM": 3.0,
         "CAV": 2.0,
         "CAX": 2.0,
-        "SLM": null
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 349.99,
         "CAV": 349.99,
         "CAX": 349.99,
-        "SLM": null
+        "SLM": 349.99
       }
     },
     {
@@ -122081,7 +122081,7 @@
         "CAM": 19.0,
         "CAV": 12.0,
         "CAX": 13.0,
-        "SLM": 38.0
+        "SLM": 37.0
       },
       "preco": {
         "CAM": 89.9,
@@ -122195,13 +122195,13 @@
         "CAM": 5.0,
         "CAV": 1.0,
         "CAX": 4.0,
-        "SLM": null
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 239.9,
         "CAV": 239.9,
         "CAX": 239.9,
-        "SLM": null
+        "SLM": 239.9
       }
     },
     {
@@ -122364,7 +122364,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 14.0,
-        "CAV": 17.0,
+        "CAV": 16.0,
         "CAX": 17.0,
         "SLM": 28.0
       },
@@ -122534,14 +122534,14 @@
       "linha_pai": "PISOS",
       "fornecedor": "ARIELLE",
       "estoque": {
-        "CAM": 885.56,
+        "CAM": 872.46,
         "CAV": 7.86,
         "CAX": null,
         "SLM": null
       },
       "preco": {
-        "CAM": 29.9,
-        "CAV": 29.9,
+        "CAM": 32.99,
+        "CAV": 32.99,
         "CAX": null,
         "SLM": null
       }
@@ -122860,7 +122860,7 @@
         "CAM": 1.0,
         "CAV": 1.0,
         "CAX": 2.0,
-        "SLM": 2.0
+        "SLM": 1.0
       },
       "preco": {
         "CAM": 639.9,
@@ -123601,13 +123601,13 @@
         "CAM": 1.0,
         "CAV": 2.0,
         "CAX": 2.0,
-        "SLM": null
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 639.9,
         "CAV": 639.9,
         "CAX": 639.9,
-        "SLM": null
+        "SLM": 639.9
       }
     },
     {
@@ -124398,7 +124398,7 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 1.0,
-        "CAX": 21.0,
+        "CAX": 20.0,
         "SLM": 3.0
       },
       "preco": {
@@ -125214,7 +125214,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 26.0,
-        "CAV": 23.0,
+        "CAV": 22.0,
         "CAX": 49.0,
         "SLM": 47.0
       },
@@ -125233,7 +125233,7 @@
       "fornecedor": "ATLAS",
       "estoque": {
         "CAM": 19.0,
-        "CAV": 9.0,
+        "CAV": 8.0,
         "CAX": 39.0,
         "SLM": 8.0
       },
@@ -128614,10 +128614,10 @@
       "linha_pai": "Argamassas",
       "fornecedor": "DO MESTRE",
       "estoque": {
-        "CAM": 823.0,
+        "CAM": 793.0,
         "CAV": 136.0,
         "CAX": 102.0,
-        "SLM": 251.0
+        "SLM": 246.0
       },
       "preco": {
         "CAM": 33.9,
@@ -128633,10 +128633,10 @@
       "linha_pai": "Argamassas",
       "fornecedor": "DO MESTRE",
       "estoque": {
-        "CAM": 1059.0,
-        "CAV": 154.0,
+        "CAM": 1037.0,
+        "CAV": 151.0,
         "CAX": 112.0,
-        "SLM": 342.0
+        "SLM": 338.0
       },
       "preco": {
         "CAM": 16.9,
@@ -128655,7 +128655,7 @@
         "CAM": 315.0,
         "CAV": 17.0,
         "CAX": 59.0,
-        "SLM": 177.0
+        "SLM": 172.0
       },
       "preco": {
         "CAM": 53.99,
@@ -128690,10 +128690,10 @@
       "linha_pai": "Argamassas",
       "fornecedor": "DO MESTRE",
       "estoque": {
-        "CAM": 200.0,
+        "CAM": 199.0,
         "CAV": 38.0,
         "CAX": 32.0,
-        "SLM": 49.0
+        "SLM": 38.0
       },
       "preco": {
         "CAM": 11.5,
@@ -129071,7 +129071,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 131.0,
-        "CAV": 154.0,
+        "CAV": 150.0,
         "CAX": 141.0,
         "SLM": 193.0
       },
@@ -130004,13 +130004,13 @@
         "CAM": 2.0,
         "CAV": null,
         "CAX": 4.0,
-        "SLM": 6.0
+        "SLM": null
       },
       "preco": {
         "CAM": 139.99,
         "CAV": null,
         "CAX": 139.99,
-        "SLM": 139.99
+        "SLM": null
       }
     },
     {
@@ -130040,7 +130040,7 @@
       "fornecedor": "IQUINE",
       "estoque": {
         "CAM": 4.0,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": 7.0,
         "SLM": 1.0
       },
@@ -130061,13 +130061,13 @@
         "CAM": 7.0,
         "CAV": 4.0,
         "CAX": 7.0,
-        "SLM": 8.0
+        "SLM": null
       },
       "preco": {
         "CAM": 39.9,
         "CAV": 39.9,
         "CAX": 39.9,
-        "SLM": 39.9
+        "SLM": null
       }
     },
     {
@@ -130153,13 +130153,13 @@
       "linha_pai": "Impermeabilizante",
       "fornecedor": "VEDACIT",
       "estoque": {
-        "CAM": 2.0,
+        "CAM": null,
         "CAV": 1.0,
         "CAX": 1.0,
         "SLM": null
       },
       "preco": {
-        "CAM": 208.9,
+        "CAM": null,
         "CAV": 208.9,
         "CAX": 208.9,
         "SLM": null
@@ -130305,10 +130305,10 @@
       "linha_pai": "Impermeabilizante",
       "fornecedor": "VEDACIT",
       "estoque": {
-        "CAM": 2.0,
+        "CAM": 1.0,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 159.9,
@@ -130742,7 +130742,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "LEDVANCE",
       "estoque": {
-        "CAM": 44.0,
+        "CAM": 43.0,
         "CAV": 27.0,
         "CAX": 23.0,
         "SLM": null
@@ -131105,13 +131105,13 @@
       "estoque": {
         "CAM": 10.0,
         "CAV": 4.0,
-        "CAX": 5.0,
+        "CAX": null,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 51.3,
         "CAV": 51.3,
-        "CAX": 51.3,
+        "CAX": null,
         "SLM": 51.3
       }
     },
@@ -131315,13 +131315,13 @@
         "CAM": 4.0,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": null
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 36.9,
         "CAV": 36.9,
         "CAX": 36.9,
-        "SLM": null
+        "SLM": 36.9
       }
     },
     {
@@ -133327,13 +133327,13 @@
       "fornecedor": "INCENOR",
       "estoque": {
         "CAM": 2.32,
-        "CAV": 2.32,
+        "CAV": null,
         "CAX": 9.28,
         "SLM": null
       },
       "preco": {
         "CAM": 56.9,
-        "CAV": 56.9,
+        "CAV": null,
         "CAX": 56.9,
         "SLM": null
       }
@@ -133745,7 +133745,7 @@
       "fornecedor": "LEGRAND",
       "estoque": {
         "CAM": 8.0,
-        "CAV": 15.0,
+        "CAV": 14.0,
         "CAX": 26.0,
         "SLM": 26.0
       },
@@ -133764,13 +133764,13 @@
       "fornecedor": "LEGRAND",
       "estoque": {
         "CAM": 10.0,
-        "CAV": 6.0,
+        "CAV": null,
         "CAX": 16.0,
         "SLM": null
       },
       "preco": {
         "CAM": 17.9,
-        "CAV": 17.9,
+        "CAV": null,
         "CAX": 17.9,
         "SLM": null
       }
@@ -133802,7 +133802,7 @@
       "fornecedor": "LEGRAND",
       "estoque": {
         "CAM": 8.0,
-        "CAV": 12.0,
+        "CAV": 10.0,
         "CAX": 24.0,
         "SLM": null
       },
@@ -133821,7 +133821,7 @@
       "fornecedor": "LEGRAND",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 9.0,
+        "CAV": 7.0,
         "CAX": 12.0,
         "SLM": 7.0
       },
@@ -135780,7 +135780,7 @@
         "CAM": 3.0,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": 6.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 62.99,
@@ -135797,7 +135797,7 @@
       "fornecedor": "GRANPLAST",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 8.0,
+        "CAV": 7.0,
         "CAX": 7.0,
         "SLM": 1.0
       },
@@ -137072,7 +137072,7 @@
         "CAM": 67.0,
         "CAV": 153.0,
         "CAX": 85.0,
-        "SLM": 47.0
+        "SLM": 44.0
       },
       "preco": {
         "CAM": 8.9,
@@ -137110,7 +137110,7 @@
         "CAM": 7.0,
         "CAV": 47.0,
         "CAX": 39.0,
-        "SLM": 43.0
+        "SLM": 42.0
       },
       "preco": {
         "CAM": 18.9,
@@ -137508,13 +137508,13 @@
       "estoque": {
         "CAM": 11.0,
         "CAV": 9.0,
-        "CAX": null,
+        "CAX": 15.0,
         "SLM": 14.0
       },
       "preco": {
         "CAM": 14.9,
         "CAV": 14.9,
-        "CAX": null,
+        "CAX": 14.9,
         "SLM": 14.9
       }
     },
@@ -138192,13 +138192,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 110.9,
         "CAV": 110.9,
-        "CAX": null,
+        "CAX": 110.9,
         "SLM": 110.9
       }
     },
@@ -138231,13 +138231,13 @@
         "CAM": 6.0,
         "CAV": 4.0,
         "CAX": 4.0,
-        "SLM": 6.0
+        "SLM": null
       },
       "preco": {
         "CAM": 43.5,
         "CAV": 43.5,
         "CAX": 43.5,
-        "SLM": 43.5
+        "SLM": null
       }
     },
     {
@@ -138742,9 +138742,9 @@
       "fornecedor": "DO MESTRE",
       "estoque": {
         "CAM": 100.0,
-        "CAV": 37.0,
+        "CAV": 36.0,
         "CAX": 19.0,
-        "SLM": 35.0
+        "SLM": 33.0
       },
       "preco": {
         "CAM": 2.95,
@@ -139463,7 +139463,7 @@
       "linha_pai": "Elétrica",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 5.0,
+        "CAM": 4.0,
         "CAV": 1.0,
         "CAX": 8.0,
         "SLM": null
@@ -139482,7 +139482,7 @@
       "linha_pai": "Elétrica",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 4.0,
+        "CAM": 5.0,
         "CAV": 1.0,
         "CAX": null,
         "SLM": null
@@ -140242,7 +140242,7 @@
       "linha_pai": "PLÁSTICOS SANITÁRIOS",
       "fornecedor": "HERC",
       "estoque": {
-        "CAM": 6.0,
+        "CAM": 5.0,
         "CAV": 2.0,
         "CAX": 9.0,
         "SLM": 10.0
@@ -140282,14 +140282,14 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
-        "SLM": 3.0
+        "CAX": 3.0,
+        "SLM": null
       },
       "preco": {
         "CAM": 37.9,
         "CAV": 37.9,
-        "CAX": null,
-        "SLM": 37.9
+        "CAX": 37.9,
+        "SLM": null
       }
     },
     {
@@ -140796,7 +140796,7 @@
         "CAM": 19.0,
         "CAV": 17.0,
         "CAX": 34.0,
-        "SLM": 26.0
+        "SLM": 24.0
       },
       "preco": {
         "CAM": 6.9,
@@ -140986,7 +140986,7 @@
         "CAM": 40.0,
         "CAV": 22.0,
         "CAX": 20.0,
-        "SLM": 28.0
+        "SLM": 27.0
       },
       "preco": {
         "CAM": 12.9,
@@ -141040,8 +141040,8 @@
       "linha_pai": "Elétrica",
       "fornecedor": "MEC-TRONIC",
       "estoque": {
-        "CAM": 16.0,
-        "CAV": 8.0,
+        "CAM": 14.0,
+        "CAV": 7.0,
         "CAX": 29.0,
         "SLM": 20.0
       },
@@ -141404,7 +141404,7 @@
         "CAM": 8.0,
         "CAV": 23.0,
         "CAX": 12.0,
-        "SLM": 14.0
+        "SLM": 13.0
       },
       "preco": {
         "CAM": 22.9,
@@ -141441,13 +141441,13 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 4.0,
-        "CAX": 4.0,
+        "CAX": null,
         "SLM": 10.0
       },
       "preco": {
         "CAM": 31.9,
         "CAV": 31.9,
-        "CAX": 31.9,
+        "CAX": null,
         "SLM": 31.9
       }
     },
@@ -141613,7 +141613,7 @@
         "CAM": 3.0,
         "CAV": 4.0,
         "CAX": 4.0,
-        "SLM": 4.0
+        "SLM": 3.0
       },
       "preco": {
         "CAM": 124.9,
@@ -142069,7 +142069,7 @@
         "CAM": 2.0,
         "CAV": 6.0,
         "CAX": 2.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 219.9,
@@ -142333,13 +142333,13 @@
       "fornecedor": "BELLA PIA",
       "estoque": {
         "CAM": 2.0,
-        "CAV": null,
+        "CAV": 1.0,
         "CAX": 2.0,
         "SLM": 2.0
       },
       "preco": {
         "CAM": 259.9,
-        "CAV": null,
+        "CAV": 259.9,
         "CAX": 259.9,
         "SLM": 259.9
       }
@@ -142372,13 +142372,13 @@
       "estoque": {
         "CAM": 2.0,
         "CAV": null,
-        "CAX": 4.0,
+        "CAX": null,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 259.9,
         "CAV": null,
-        "CAX": 259.9,
+        "CAX": null,
         "SLM": 259.9
       }
     },
@@ -142449,13 +142449,13 @@
         "CAM": null,
         "CAV": 2.0,
         "CAX": 2.0,
-        "SLM": 7.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 47.9,
         "CAX": 47.9,
-        "SLM": 47.9
+        "SLM": null
       }
     },
     {
@@ -142487,13 +142487,13 @@
         "CAM": null,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 47.9,
         "CAX": 47.9,
-        "SLM": 47.9
+        "SLM": null
       }
     },
     {
@@ -142772,13 +142772,13 @@
         "CAM": 4.0,
         "CAV": 5.0,
         "CAX": 10.0,
-        "SLM": 8.0
+        "SLM": null
       },
       "preco": {
         "CAM": 26.9,
         "CAV": 26.9,
         "CAX": 26.9,
-        "SLM": 26.9
+        "SLM": null
       }
     },
     {
@@ -144140,7 +144140,7 @@
         "CAM": 10.0,
         "CAV": 20.0,
         "CAX": 24.0,
-        "SLM": 23.0
+        "SLM": 22.0
       },
       "preco": {
         "CAM": 7.5,
@@ -145051,7 +145051,7 @@
       "estoque": {
         "CAM": 7.0,
         "CAV": 2.0,
-        "CAX": 5.0,
+        "CAX": 4.0,
         "SLM": 5.0
       },
       "preco": {
@@ -145106,7 +145106,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "LEDVANCE",
       "estoque": {
-        "CAM": 21.0,
+        "CAM": 13.0,
         "CAV": 6.0,
         "CAX": 10.0,
         "SLM": null
@@ -145489,13 +145489,13 @@
         "CAM": 4.0,
         "CAV": null,
         "CAX": 7.0,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": 11.5,
         "CAV": null,
         "CAX": 11.5,
-        "SLM": 11.5
+        "SLM": null
       }
     },
     {
@@ -145584,7 +145584,7 @@
         "CAM": 33.0,
         "CAV": 25.0,
         "CAX": 23.0,
-        "SLM": 34.0
+        "SLM": 33.0
       },
       "preco": {
         "CAM": 18.99,
@@ -146132,7 +146132,7 @@
       "linha_pai": "REVESTIMENTOS",
       "fornecedor": "ARIELLE",
       "estoque": {
-        "CAM": 92.34,
+        "CAM": 87.48,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -146268,7 +146268,7 @@
         "CAM": 50.0,
         "CAV": 80.0,
         "CAX": 59.0,
-        "SLM": 38.0
+        "SLM": 36.0
       },
       "preco": {
         "CAM": 0.99,
@@ -146341,7 +146341,7 @@
       "linha_pai": "Elétrica",
       "fornecedor": "ADERE",
       "estoque": {
-        "CAM": 49.0,
+        "CAM": 48.0,
         "CAV": 49.0,
         "CAX": 81.0,
         "SLM": 64.0
@@ -146360,13 +146360,13 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 43.0,
-        "CAV": 54.0,
+        "CAM": null,
+        "CAV": 48.0,
         "CAX": 88.0,
         "SLM": 67.0
       },
       "preco": {
-        "CAM": 1.9,
+        "CAM": null,
         "CAV": 1.9,
         "CAX": 1.9,
         "SLM": 1.9
@@ -146380,15 +146380,15 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 26.0,
-        "CAV": 9.0,
+        "CAV": 7.0,
         "CAX": 37.0,
-        "SLM": 12.0
+        "SLM": null
       },
       "preco": {
         "CAM": 26.9,
         "CAV": 26.9,
         "CAX": 26.9,
-        "SLM": 26.9
+        "SLM": null
       }
     },
     {
@@ -146400,13 +146400,13 @@
       "estoque": {
         "CAM": 35.0,
         "CAV": 24.0,
-        "CAX": 69.0,
+        "CAX": null,
         "SLM": 23.0
       },
       "preco": {
         "CAM": 88.9,
         "CAV": 88.9,
-        "CAX": 88.9,
+        "CAX": null,
         "SLM": 88.9
       }
     },
@@ -146438,14 +146438,14 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 2.0,
-        "CAX": 3.0,
-        "SLM": 2.0
+        "CAX": null,
+        "SLM": null
       },
       "preco": {
         "CAM": 329.9,
         "CAV": 329.9,
-        "CAX": 329.9,
-        "SLM": 329.9
+        "CAX": null,
+        "SLM": null
       }
     },
     {
@@ -146513,7 +146513,7 @@
       "fornecedor": "TAF",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 3.0,
+        "CAV": 1.0,
         "CAX": 19.0,
         "SLM": 2.0
       },
@@ -146572,7 +146572,7 @@
         "CAM": 4.0,
         "CAV": 25.0,
         "CAX": 93.0,
-        "SLM": 46.0
+        "SLM": 44.0
       },
       "preco": {
         "CAM": 0.9,
@@ -146589,7 +146589,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 12.0,
-        "CAV": 35.0,
+        "CAV": 33.0,
         "CAX": 15.0,
         "SLM": 49.0
       },
@@ -146609,13 +146609,13 @@
       "estoque": {
         "CAM": 13.0,
         "CAV": 13.0,
-        "CAX": 26.0,
+        "CAX": null,
         "SLM": 11.0
       },
       "preco": {
         "CAM": 11.99,
         "CAV": 11.99,
-        "CAX": 11.99,
+        "CAX": null,
         "SLM": 11.99
       }
     },
@@ -146626,10 +146626,10 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 54.0,
-        "CAV": 34.0,
+        "CAM": 51.0,
+        "CAV": 33.0,
         "CAX": 101.0,
-        "SLM": 40.0
+        "SLM": 38.0
       },
       "preco": {
         "CAM": 6.9,
@@ -146702,10 +146702,10 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 69.0,
-        "CAV": 104.0,
+        "CAM": 53.0,
+        "CAV": 99.0,
         "CAX": 156.0,
-        "SLM": 71.0
+        "SLM": 70.0
       },
       "preco": {
         "CAM": 0.9,
@@ -147350,13 +147350,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 4.0,
-        "CAX": 6.0,
+        "CAX": null,
         "SLM": 9.0
       },
       "preco": {
         "CAM": 98.9,
         "CAV": 98.9,
-        "CAX": 98.9,
+        "CAX": null,
         "SLM": 98.9
       }
     },
@@ -147405,10 +147405,10 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 15.0,
-        "CAV": 58.0,
+        "CAM": 14.0,
+        "CAV": 57.0,
         "CAX": 29.0,
-        "SLM": 30.0
+        "SLM": 29.0
       },
       "preco": {
         "CAM": 1.2,
@@ -147425,7 +147425,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 6.0,
-        "CAV": 26.0,
+        "CAV": 24.0,
         "CAX": 19.0,
         "SLM": 38.0
       },
@@ -147541,7 +147541,7 @@
         "CAM": 27.0,
         "CAV": 31.0,
         "CAX": 105.0,
-        "SLM": 10.0
+        "SLM": 9.0
       },
       "preco": {
         "CAM": 1.49,
@@ -147653,9 +147653,9 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 21.0,
-        "CAV": 22.0,
+        "CAV": 20.0,
         "CAX": 12.0,
-        "SLM": 18.0
+        "SLM": 15.0
       },
       "preco": {
         "CAM": 3.8,
@@ -147750,13 +147750,13 @@
         "CAM": 34.0,
         "CAV": 38.0,
         "CAX": 10.0,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": 2.2,
         "CAV": 2.2,
         "CAX": 2.2,
-        "SLM": 2.2
+        "SLM": null
       }
     },
     {
@@ -147767,7 +147767,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 24.0,
-        "CAV": 20.0,
+        "CAV": 18.0,
         "CAX": 22.0,
         "SLM": 27.0
       },
@@ -148013,8 +148013,8 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 12.0,
-        "CAV": 44.0,
+        "CAM": 8.0,
+        "CAV": 39.0,
         "CAX": 36.0,
         "SLM": 17.0
       },
@@ -148033,7 +148033,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 28.0,
-        "CAV": 12.0,
+        "CAV": 11.0,
         "CAX": 29.0,
         "SLM": null
       },
@@ -148187,7 +148187,7 @@
         "CAM": 14.0,
         "CAV": 4.0,
         "CAX": 17.0,
-        "SLM": 9.0
+        "SLM": 6.0
       },
       "preco": {
         "CAM": 10.99,
@@ -148204,7 +148204,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 16.0,
-        "CAV": 16.0,
+        "CAV": 14.0,
         "CAX": 14.0,
         "SLM": 22.0
       },
@@ -148318,7 +148318,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 23.0,
-        "CAV": 17.0,
+        "CAV": 16.0,
         "CAX": 29.0,
         "SLM": 20.0
       },
@@ -148339,7 +148339,7 @@
         "CAM": 29.0,
         "CAV": 1.0,
         "CAX": 41.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 7.9,
@@ -148412,7 +148412,7 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 11.0,
+        "CAM": 10.0,
         "CAV": 12.0,
         "CAX": 22.0,
         "SLM": 20.0
@@ -148489,9 +148489,9 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 17.0,
-        "CAV": 11.0,
+        "CAV": 8.0,
         "CAX": 20.0,
-        "SLM": 10.0
+        "SLM": 9.0
       },
       "preco": {
         "CAM": 10.9,
@@ -148678,10 +148678,10 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 34.0,
+        "CAM": 32.0,
         "CAV": 44.0,
         "CAX": 45.0,
-        "SLM": 39.0
+        "SLM": 38.0
       },
       "preco": {
         "CAM": 1.29,
@@ -148698,7 +148698,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 13.0,
-        "CAV": 26.0,
+        "CAV": 25.0,
         "CAX": 34.0,
         "SLM": 24.0
       },
@@ -148831,7 +148831,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 10.0,
-        "CAV": 6.0,
+        "CAV": 4.0,
         "CAX": 3.0,
         "SLM": 5.0
       },
@@ -148926,7 +148926,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 3.0,
+        "CAV": 2.0,
         "CAX": 4.0,
         "SLM": 2.0
       },
@@ -149020,7 +149020,7 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 20.0,
+        "CAM": 16.0,
         "CAV": 69.0,
         "CAX": 87.0,
         "SLM": 70.0
@@ -149194,7 +149194,7 @@
         "CAM": 13.0,
         "CAV": 24.0,
         "CAX": 17.0,
-        "SLM": 25.0
+        "SLM": 23.0
       },
       "preco": {
         "CAM": 5.99,
@@ -149211,7 +149211,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": null,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": null,
         "SLM": 4.0
       },
@@ -149248,7 +149248,7 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 10.0,
+        "CAM": 5.0,
         "CAV": 2.0,
         "CAX": 9.0,
         "SLM": null
@@ -149286,7 +149286,7 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 17.0,
+        "CAM": 16.0,
         "CAV": 10.0,
         "CAX": 8.0,
         "SLM": null
@@ -149308,7 +149308,7 @@
         "CAM": 24.0,
         "CAV": 26.0,
         "CAX": 89.0,
-        "SLM": 25.0
+        "SLM": 24.0
       },
       "preco": {
         "CAM": 7.9,
@@ -149761,7 +149761,7 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 32.0,
+        "CAM": 31.0,
         "CAV": 38.0,
         "CAX": 22.0,
         "SLM": 33.0
@@ -149799,8 +149799,8 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 54.0,
-        "CAV": 32.0,
+        "CAM": 53.0,
+        "CAV": 30.0,
         "CAX": 54.0,
         "SLM": 36.0
       },
@@ -149819,7 +149819,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": null,
-        "CAV": 13.0,
+        "CAV": 10.0,
         "CAX": 5.0,
         "SLM": null
       },
@@ -150049,7 +150049,7 @@
         "CAM": 27.0,
         "CAV": 19.0,
         "CAX": 25.0,
-        "SLM": 5.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 2.39,
@@ -150141,7 +150141,7 @@
       "linha_pai": "Conexões",
       "fornecedor": "FORTLEV",
       "estoque": {
-        "CAM": 32.0,
+        "CAM": 30.0,
         "CAV": 48.0,
         "CAX": 25.0,
         "SLM": 7.0
@@ -150161,7 +150161,7 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 47.0,
-        "CAV": 29.0,
+        "CAV": 27.0,
         "CAX": 19.0,
         "SLM": 13.0
       },
@@ -150315,7 +150315,7 @@
         "CAM": 5.0,
         "CAV": 4.0,
         "CAX": 9.0,
-        "SLM": 6.0
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 11.9,
@@ -150353,7 +150353,7 @@
         "CAM": 13.0,
         "CAV": 34.0,
         "CAX": 54.0,
-        "SLM": 28.0
+        "SLM": 27.0
       },
       "preco": {
         "CAM": 2.4,
@@ -150809,7 +150809,7 @@
         "CAM": 8.0,
         "CAV": 14.0,
         "CAX": 11.0,
-        "SLM": 14.0
+        "SLM": 13.0
       },
       "preco": {
         "CAM": 94.99,
@@ -151623,7 +151623,7 @@
       "linha_pai": "Elétrica",
       "fornecedor": "MEC-TRONIC",
       "estoque": {
-        "CAM": 20.0,
+        "CAM": 18.0,
         "CAV": 29.0,
         "CAX": 20.0,
         "SLM": 20.0
@@ -151721,7 +151721,7 @@
         "CAM": 35.0,
         "CAV": 38.0,
         "CAX": 16.0,
-        "SLM": 20.0
+        "SLM": 16.0
       },
       "preco": {
         "CAM": 9.99,
@@ -151928,9 +151928,9 @@
       "fornecedor": "INCENOR",
       "estoque": {
         "CAM": 1307.84,
-        "CAV": 763.8,
+        "CAV": 753.08,
         "CAX": 2189.56,
-        "SLM": 93.8
+        "SLM": 29.48
       },
       "preco": {
         "CAM": 29.9,
@@ -151947,13 +151947,13 @@
       "fornecedor": "LEDVANCE",
       "estoque": {
         "CAM": 11.0,
-        "CAV": null,
+        "CAV": 3.0,
         "CAX": 4.0,
         "SLM": 1.0
       },
       "preco": {
         "CAM": 51.9,
-        "CAV": null,
+        "CAV": 51.9,
         "CAX": 51.9,
         "SLM": 51.9
       }
@@ -152348,7 +152348,7 @@
         "CAM": 3.0,
         "CAV": 6.0,
         "CAX": 11.0,
-        "SLM": 12.0
+        "SLM": 11.0
       },
       "preco": {
         "CAM": 94.9,
@@ -152479,7 +152479,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 8.0,
+        "CAV": 3.0,
         "CAX": 4.0,
         "SLM": null
       },
@@ -152595,7 +152595,7 @@
         "CAM": 6.0,
         "CAV": 11.0,
         "CAX": 7.0,
-        "SLM": 12.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 32.9,
@@ -152614,7 +152614,7 @@
         "CAM": 6.0,
         "CAV": 7.0,
         "CAX": 4.0,
-        "SLM": 10.0
+        "SLM": 9.0
       },
       "preco": {
         "CAM": 29.9,
@@ -152745,7 +152745,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 7.0,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": 7.0,
         "SLM": 6.0
       },
@@ -152802,13 +152802,13 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 3.0,
+        "CAV": null,
         "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 32.9,
-        "CAV": 32.9,
+        "CAV": null,
         "CAX": 32.9,
         "SLM": null
       }
@@ -153581,7 +153581,7 @@
       "fornecedor": "MEGAÓ",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": 7.0,
         "SLM": 6.0
       },
@@ -153828,9 +153828,9 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 18.0,
-        "CAV": 22.0,
+        "CAV": 21.0,
         "CAX": 53.0,
-        "SLM": 23.0
+        "SLM": 21.0
       },
       "preco": {
         "CAM": 9.9,
@@ -154020,7 +154020,7 @@
         "CAM": 3.0,
         "CAV": 6.0,
         "CAX": 5.0,
-        "SLM": 6.0
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 68.99,
@@ -154131,7 +154131,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "MEGAÓ",
       "estoque": {
-        "CAM": 6.0,
+        "CAM": 5.0,
         "CAV": 3.0,
         "CAX": 6.0,
         "SLM": 5.0
@@ -154226,7 +154226,7 @@
       "linha_pai": "Pintura",
       "fornecedor": "MEGAÓ",
       "estoque": {
-        "CAM": 7.0,
+        "CAM": 6.0,
         "CAV": 9.0,
         "CAX": 7.0,
         "SLM": 6.0
@@ -154264,10 +154264,10 @@
       "linha_pai": "Pintura",
       "fornecedor": "MEGAÓ",
       "estoque": {
-        "CAM": 20.0,
-        "CAV": 22.0,
+        "CAM": 19.0,
+        "CAV": 21.0,
         "CAX": 39.0,
-        "SLM": 43.0
+        "SLM": 42.0
       },
       "preco": {
         "CAM": 32.9,
@@ -154343,7 +154343,7 @@
         "CAM": 21.0,
         "CAV": 23.0,
         "CAX": 19.0,
-        "SLM": 46.0
+        "SLM": 45.0
       },
       "preco": {
         "CAM": 31.99,
@@ -156280,13 +156280,13 @@
       "estoque": {
         "CAM": 36.0,
         "CAV": 24.0,
-        "CAX": null,
+        "CAX": 30.0,
         "SLM": 35.0
       },
       "preco": {
         "CAM": 12.9,
         "CAV": 12.9,
-        "CAX": null,
+        "CAX": 12.9,
         "SLM": 12.9
       }
     },
@@ -156696,7 +156696,7 @@
       "linha_pai": "Utilidades",
       "fornecedor": "MYPA",
       "estoque": {
-        "CAM": 7.0,
+        "CAM": 2.0,
         "CAV": 7.0,
         "CAX": 3.0,
         "SLM": null
@@ -157345,7 +157345,7 @@
         "CAM": 4.0,
         "CAV": 14.0,
         "CAX": 12.0,
-        "SLM": 18.0
+        "SLM": 17.0
       },
       "preco": {
         "CAM": 8.9,
@@ -158121,7 +158121,7 @@
       "linha_pai": "Utilidades",
       "fornecedor": "MULT MIX IMPORTADORA",
       "estoque": {
-        "CAM": 58.0,
+        "CAM": 57.0,
         "CAV": 192.0,
         "CAX": 110.0,
         "SLM": 23.0
@@ -158615,7 +158615,7 @@
       "linha_pai": "Utilidades",
       "fornecedor": "MULT MIX IMPORTADORA",
       "estoque": {
-        "CAM": 4.0,
+        "CAM": 3.0,
         "CAV": 5.0,
         "CAX": 5.0,
         "SLM": 2.0
@@ -159092,13 +159092,13 @@
       "estoque": {
         "CAM": 1.0,
         "CAV": 2.0,
-        "CAX": null,
+        "CAX": 5.0,
         "SLM": null
       },
       "preco": {
         "CAM": 31.9,
         "CAV": 31.9,
-        "CAX": null,
+        "CAX": 31.9,
         "SLM": null
       }
     },
@@ -159302,7 +159302,7 @@
         "CAM": 18.0,
         "CAV": 5.0,
         "CAX": 17.0,
-        "SLM": 15.0
+        "SLM": 13.0
       },
       "preco": {
         "CAM": 13.9,
@@ -160214,13 +160214,13 @@
         "CAM": 7.0,
         "CAV": 6.0,
         "CAX": 7.0,
-        "SLM": 6.0
+        "SLM": 5.0
       },
       "preco": {
-        "CAM": 98.9,
-        "CAV": 98.9,
-        "CAX": 98.9,
-        "SLM": 98.9
+        "CAM": 108.9,
+        "CAV": 108.9,
+        "CAX": 108.9,
+        "SLM": 108.9
       }
     },
     {
@@ -160231,7 +160231,7 @@
       "fornecedor": "Perfilplast Industria e Comerc",
       "estoque": {
         "CAM": 5.0,
-        "CAV": 7.0,
+        "CAV": 6.0,
         "CAX": 8.0,
         "SLM": 8.0
       },
@@ -160274,10 +160274,10 @@
         "SLM": 5.0
       },
       "preco": {
-        "CAM": 98.9,
+        "CAM": 108.9,
         "CAV": null,
-        "CAX": 98.9,
-        "SLM": 98.9
+        "CAX": 108.9,
+        "SLM": 108.9
       }
     },
     {
@@ -160331,10 +160331,10 @@
         "SLM": 4.0
       },
       "preco": {
-        "CAM": 98.9,
-        "CAV": 98.9,
-        "CAX": 98.9,
-        "SLM": 98.9
+        "CAM": 108.9,
+        "CAV": 108.9,
+        "CAX": 108.9,
+        "SLM": 108.9
       }
     },
     {
@@ -160388,10 +160388,10 @@
         "SLM": 3.0
       },
       "preco": {
-        "CAM": 98.9,
-        "CAV": 98.9,
-        "CAX": 98.9,
-        "SLM": 98.9
+        "CAM": 108.9,
+        "CAV": 108.9,
+        "CAX": 108.9,
+        "SLM": 108.9
       }
     },
     {
@@ -160404,7 +160404,7 @@
         "CAM": 1.0,
         "CAV": null,
         "CAX": 3.0,
-        "SLM": 5.0
+        "SLM": 3.0
       },
       "preco": {
         "CAM": 114.9,
@@ -160497,7 +160497,7 @@
       "fornecedor": "Perfilplast Industria e Comerc",
       "estoque": {
         "CAM": 48.0,
-        "CAV": 36.6,
+        "CAV": 34.2,
         "CAX": 7.2,
         "SLM": 101.8
       },
@@ -161867,13 +161867,13 @@
         "CAM": null,
         "CAV": 1.0,
         "CAX": 5.0,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 96.9,
         "CAX": 96.9,
-        "SLM": 96.9
+        "SLM": null
       }
     },
     {
@@ -162285,13 +162285,13 @@
         "CAM": 2.0,
         "CAV": 1.0,
         "CAX": 3.0,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": 249.9,
         "CAV": 249.9,
         "CAX": 249.9,
-        "SLM": 249.9
+        "SLM": null
       }
     },
     {
@@ -162361,7 +162361,7 @@
         "CAM": 21.0,
         "CAV": 3.0,
         "CAX": 9.0,
-        "SLM": 8.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 12.9,
@@ -162554,7 +162554,7 @@
         "SLM": null
       },
       "preco": {
-        "CAM": 39.99,
+        "CAM": 38.99,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -162795,13 +162795,13 @@
       "linha_pai": "Utilidades",
       "fornecedor": "METALURGICA MOR S/A",
       "estoque": {
-        "CAM": 1.0,
+        "CAM": null,
         "CAV": 2.0,
         "CAX": 3.0,
         "SLM": 1.0
       },
       "preco": {
-        "CAM": 269.9,
+        "CAM": null,
         "CAV": 269.9,
         "CAX": 269.9,
         "SLM": 269.9
@@ -163162,10 +163162,10 @@
         "SLM": 2.0
       },
       "preco": {
-        "CAM": 249.99,
-        "CAV": 249.99,
-        "CAX": 249.99,
-        "SLM": 249.99
+        "CAM": 289.9,
+        "CAV": 289.9,
+        "CAX": 289.9,
+        "SLM": 289.9
       }
     },
     {
@@ -163195,15 +163195,15 @@
       "fornecedor": "BELLA PIA",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 2.0,
+        "CAV": 1.0,
         "CAX": 2.0,
         "SLM": 3.0
       },
       "preco": {
-        "CAM": 249.99,
-        "CAV": 249.99,
-        "CAX": 249.99,
-        "SLM": 249.99
+        "CAM": 289.9,
+        "CAV": 289.9,
+        "CAX": 289.9,
+        "SLM": 289.9
       }
     },
     {
@@ -163367,13 +163367,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": null,
+        "CAX": 8.0,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 58.9,
         "CAV": 58.9,
-        "CAX": null,
+        "CAX": 58.9,
         "SLM": 58.9
       }
     },
@@ -163995,7 +163995,7 @@
         "CAM": 119.34,
         "CAV": null,
         "CAX": 11.05,
-        "SLM": 30.94
+        "SLM": 24.31
       },
       "preco": {
         "CAM": 29.9,
@@ -164185,7 +164185,7 @@
         "CAM": 4.0,
         "CAV": 10.0,
         "CAX": 11.0,
-        "SLM": 32.0
+        "SLM": 30.0
       },
       "preco": {
         "CAM": 5.9,
@@ -165152,7 +165152,7 @@
       "fornecedor": "IQUINE",
       "estoque": {
         "CAM": 5.0,
-        "CAV": 8.0,
+        "CAV": 7.0,
         "CAX": 2.0,
         "SLM": 5.0
       },
@@ -166047,7 +166047,7 @@
         "CAM": 10.0,
         "CAV": 4.0,
         "CAX": 6.0,
-        "SLM": 8.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 4.9,
@@ -166142,7 +166142,7 @@
         "CAM": 170.19,
         "CAV": 145.08,
         "CAX": null,
-        "SLM": 237.15
+        "SLM": 139.5
       },
       "preco": {
         "CAM": 35.9,
@@ -166180,13 +166180,13 @@
         "CAM": 6.63,
         "CAV": 35.36,
         "CAX": null,
-        "SLM": null
+        "SLM": 2.21
       },
       "preco": {
         "CAM": 35.9,
         "CAV": 35.9,
         "CAX": null,
-        "SLM": null
+        "SLM": 35.9
       }
     },
     {
@@ -166329,7 +166329,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "LEDVANCE",
       "estoque": {
-        "CAM": 24.0,
+        "CAM": 6.0,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -166443,7 +166443,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "LEDVANCE",
       "estoque": {
-        "CAM": 23.0,
+        "CAM": 15.0,
         "CAV": 3.0,
         "CAX": 5.0,
         "SLM": null
@@ -166674,13 +166674,13 @@
         "CAM": 11.0,
         "CAV": 5.0,
         "CAX": 6.0,
-        "SLM": 9.0
+        "SLM": null
       },
       "preco": {
         "CAM": 109.9,
         "CAV": 109.9,
         "CAX": 109.9,
-        "SLM": 109.9
+        "SLM": null
       }
     },
     {
@@ -166749,13 +166749,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": 3.0,
-        "CAX": 4.0,
+        "CAX": null,
         "SLM": 3.0
       },
       "preco": {
         "CAM": 219.9,
         "CAV": 219.9,
-        "CAX": 219.9,
+        "CAX": null,
         "SLM": 219.9
       }
     },
@@ -167014,13 +167014,13 @@
       "fornecedor": "METAIS LEAO",
       "estoque": {
         "CAM": 4.0,
-        "CAV": 1.0,
+        "CAV": null,
         "CAX": 3.0,
         "SLM": null
       },
       "preco": {
         "CAM": 51.9,
-        "CAV": 51.9,
+        "CAV": null,
         "CAX": 51.9,
         "SLM": null
       }
@@ -167548,13 +167548,13 @@
         "CAM": 2.0,
         "CAV": null,
         "CAX": 16.0,
-        "SLM": 10.0
+        "SLM": null
       },
       "preco": {
         "CAM": 9.9,
         "CAV": null,
         "CAX": 9.9,
-        "SLM": 9.9
+        "SLM": null
       }
     },
     {
@@ -167643,7 +167643,7 @@
         "CAM": 4.0,
         "CAV": 3.0,
         "CAX": 5.0,
-        "SLM": 2.0
+        "SLM": 1.0
       },
       "preco": {
         "CAM": 34.9,
@@ -167868,7 +167868,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
-        "CAM": 9.0,
+        "CAM": 7.0,
         "CAV": 23.0,
         "CAX": 11.0,
         "SLM": 2.0
@@ -167888,7 +167888,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 6.0,
-        "CAV": 7.0,
+        "CAV": 6.0,
         "CAX": 7.0,
         "SLM": 16.0
       },
@@ -168080,13 +168080,13 @@
         "CAM": 3.0,
         "CAV": 7.0,
         "CAX": 7.0,
-        "SLM": null
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 5.4,
         "CAV": 5.4,
         "CAX": 5.4,
-        "SLM": null
+        "SLM": 5.4
       }
     },
     {
@@ -168154,9 +168154,9 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 111.0,
-        "CAV": 29.0,
+        "CAV": 25.0,
         "CAX": 31.0,
-        "SLM": 141.0
+        "SLM": 140.0
       },
       "preco": {
         "CAM": 2.99,
@@ -168194,7 +168194,7 @@
         "CAM": 9.0,
         "CAV": 7.0,
         "CAX": 12.0,
-        "SLM": 8.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 39.9,
@@ -168343,7 +168343,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
-        "CAM": 16.0,
+        "CAM": 15.0,
         "CAV": 11.0,
         "CAX": 14.0,
         "SLM": 15.0
@@ -168441,7 +168441,7 @@
         "CAM": 10.0,
         "CAV": 3.0,
         "CAX": 8.0,
-        "SLM": 9.0
+        "SLM": 8.0
       },
       "preco": {
         "CAM": 7.9,
@@ -168571,16 +168571,16 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
-        "CAM": 8.0,
+        "CAM": 7.0,
         "CAV": 7.0,
         "CAX": 3.0,
-        "SLM": null
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 1.99,
         "CAV": 1.99,
         "CAX": 1.99,
-        "SLM": null
+        "SLM": 1.99
       }
     },
     {
@@ -168612,7 +168612,7 @@
         "CAM": 6.0,
         "CAV": 4.0,
         "CAX": 5.0,
-        "SLM": 6.0
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 5.99,
@@ -168687,13 +168687,13 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 5.0,
-        "CAX": 6.0,
+        "CAX": null,
         "SLM": 4.0
       },
       "preco": {
         "CAM": 30.5,
         "CAV": 30.5,
-        "CAX": 30.5,
+        "CAX": null,
         "SLM": 30.5
       }
     },
@@ -169274,7 +169274,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
-        "CAM": 7.0,
+        "CAM": 6.0,
         "CAV": 5.0,
         "CAX": 1.0,
         "SLM": 5.0
@@ -169334,7 +169334,7 @@
         "CAM": 15.0,
         "CAV": 2.0,
         "CAX": 10.0,
-        "SLM": 4.0
+        "SLM": 3.0
       },
       "preco": {
         "CAM": 3.9,
@@ -169733,7 +169733,7 @@
         "CAM": 3.0,
         "CAV": 3.0,
         "CAX": 7.0,
-        "SLM": 5.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 38.9,
@@ -169864,7 +169864,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 10.0,
-        "CAV": 18.0,
+        "CAV": 17.0,
         "CAX": 9.0,
         "SLM": 12.0
       },
@@ -169882,7 +169882,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
-        "CAM": 12.0,
+        "CAM": 10.0,
         "CAV": 22.0,
         "CAX": 11.0,
         "SLM": 2.0
@@ -169923,7 +169923,7 @@
         "CAM": 6.0,
         "CAV": 7.0,
         "CAX": 3.0,
-        "SLM": 8.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 8.4,
@@ -170035,7 +170035,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 98.0,
-        "CAV": 54.0,
+        "CAV": 50.0,
         "CAX": 54.0,
         "SLM": 62.0
       },
@@ -170054,7 +170054,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 106.0,
-        "CAV": 22.0,
+        "CAV": 21.0,
         "CAX": 34.0,
         "SLM": 24.0
       },
@@ -170835,7 +170835,7 @@
         "CAM": 10.0,
         "CAV": 5.0,
         "CAX": 6.0,
-        "SLM": 12.0
+        "SLM": 11.0
       },
       "preco": {
         "CAM": 12.9,
@@ -170890,7 +170890,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 33.0,
-        "CAV": 22.0,
+        "CAV": 21.0,
         "CAX": 23.0,
         "SLM": 29.0
       },
@@ -170928,7 +170928,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 13.0,
-        "CAV": 6.0,
+        "CAV": 5.0,
         "CAX": 9.0,
         "SLM": 6.0
       },
@@ -171003,7 +171003,7 @@
       "linha_pai": "Acessorios de Ferramentas",
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
-        "CAM": 2.0,
+        "CAM": 1.0,
         "CAV": 4.0,
         "CAX": 3.0,
         "SLM": 5.0
@@ -171120,7 +171120,7 @@
         "CAM": 53.0,
         "CAV": 31.0,
         "CAX": 90.0,
-        "SLM": 116.0
+        "SLM": 115.0
       },
       "preco": {
         "CAM": 1.9,
@@ -171139,7 +171139,7 @@
         "CAM": 20.0,
         "CAV": 24.0,
         "CAX": 72.0,
-        "SLM": 81.0
+        "SLM": 80.0
       },
       "preco": {
         "CAM": 1.2,
@@ -171158,7 +171158,7 @@
         "CAM": 19.0,
         "CAV": 13.0,
         "CAX": 12.0,
-        "SLM": 14.0
+        "SLM": 13.0
       },
       "preco": {
         "CAM": 7.99,
@@ -171175,7 +171175,7 @@
       "fornecedor": "FERTAK COMERCIO E IMPORTAÇÃO",
       "estoque": {
         "CAM": 14.0,
-        "CAV": 9.0,
+        "CAV": 8.0,
         "CAX": 14.0,
         "SLM": 10.0
       },
@@ -171765,13 +171765,13 @@
       "estoque": {
         "CAM": 725.4,
         "CAV": 228.78,
-        "CAX": 64.17,
+        "CAX": null,
         "SLM": 295.74
       },
       "preco": {
         "CAM": 34.99,
         "CAV": 34.99,
-        "CAX": 34.99,
+        "CAX": null,
         "SLM": 34.99
       }
     },
@@ -171804,7 +171804,7 @@
         "CAM": 619.08,
         "CAV": null,
         "CAX": 131.32,
-        "SLM": 83.08
+        "SLM": 67.0
       },
       "preco": {
         "CAM": 34.59,
@@ -172943,13 +172943,13 @@
       "estoque": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 6.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": null,
-        "CAX": null,
+        "CAX": 245.9,
         "SLM": null
       }
     },
@@ -173967,13 +173967,13 @@
       "linha_pai": "Portas e Esquadrias",
       "fornecedor": "QUALITY",
       "estoque": {
-        "CAM": 2.0,
+        "CAM": null,
         "CAV": 2.0,
         "CAX": 1.0,
         "SLM": 1.0
       },
       "preco": {
-        "CAM": 699.9,
+        "CAM": null,
         "CAV": 699.9,
         "CAX": 699.9,
         "SLM": 699.9
@@ -174006,9 +174006,9 @@
       "fornecedor": "FORTLEV",
       "estoque": {
         "CAM": 112.0,
-        "CAV": 92.0,
+        "CAV": 70.0,
         "CAX": 34.0,
-        "SLM": 294.0
+        "SLM": 293.0
       },
       "preco": {
         "CAM": 1.69,
@@ -174291,7 +174291,7 @@
       "fornecedor": "BLUKIT",
       "estoque": {
         "CAM": 7.0,
-        "CAV": 6.0,
+        "CAV": 5.0,
         "CAX": 12.0,
         "SLM": 10.0
       },
@@ -174613,7 +174613,7 @@
       "linha_pai": "Argamassas",
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
-        "CAM": 230.0,
+        "CAM": 216.0,
         "CAV": 120.0,
         "CAX": 38.0,
         "SLM": 130.0
@@ -175471,13 +175471,13 @@
         "CAM": 4.0,
         "CAV": 2.0,
         "CAX": 4.0,
-        "SLM": null
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 72.99,
         "CAV": 72.99,
         "CAX": 72.99,
-        "SLM": null
+        "SLM": 72.99
       }
     },
     {
@@ -175564,7 +175564,7 @@
       "fornecedor": "BLUKIT",
       "estoque": {
         "CAM": 14.0,
-        "CAV": 35.0,
+        "CAV": 34.0,
         "CAX": 27.0,
         "SLM": 9.0
       },
@@ -175696,15 +175696,15 @@
       "linha_pai": "Hidráulica",
       "fornecedor": "BLUKIT",
       "estoque": {
-        "CAM": 13.0,
+        "CAM": 12.0,
         "CAV": 17.0,
-        "CAX": 14.0,
+        "CAX": null,
         "SLM": 7.0
       },
       "preco": {
         "CAM": 56.9,
         "CAV": 56.9,
-        "CAX": 56.9,
+        "CAX": null,
         "SLM": 56.9
       }
     },
@@ -175736,7 +175736,7 @@
       "estoque": {
         "CAM": 8.0,
         "CAV": 17.0,
-        "CAX": 17.0,
+        "CAX": 16.0,
         "SLM": 14.0
       },
       "preco": {
@@ -175778,10 +175778,10 @@
         "SLM": 3.0
       },
       "preco": {
-        "CAM": 649.9,
-        "CAV": 649.9,
-        "CAX": 649.9,
-        "SLM": 649.9
+        "CAM": 749.9,
+        "CAV": 749.9,
+        "CAX": 749.9,
+        "SLM": 749.9
       }
     },
     {
@@ -175797,10 +175797,10 @@
         "SLM": 4.0
       },
       "preco": {
-        "CAM": 649.9,
-        "CAV": 649.9,
-        "CAX": 649.9,
-        "SLM": 649.9
+        "CAM": 749.9,
+        "CAV": 749.9,
+        "CAX": 749.9,
+        "SLM": 749.9
       }
     },
     {
@@ -175946,7 +175946,7 @@
         "CAM": 7.0,
         "CAV": 1.0,
         "CAX": 4.0,
-        "SLM": 8.0
+        "SLM": 7.0
       },
       "preco": {
         "CAM": 279.99,
@@ -176039,7 +176039,7 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 19.0,
-        "CAV": 12.0,
+        "CAV": 11.0,
         "CAX": 4.0,
         "SLM": 4.0
       },
@@ -176096,7 +176096,7 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 12.0,
-        "CAV": 21.0,
+        "CAV": 20.0,
         "CAX": 28.0,
         "SLM": 29.0
       },
@@ -176114,16 +176114,16 @@
       "linha_pai": "Elétrica",
       "fornecedor": "MEC-TRONIC",
       "estoque": {
-        "CAM": 24.0,
-        "CAV": 38.0,
+        "CAM": 23.0,
+        "CAV": 37.0,
         "CAX": 36.0,
-        "SLM": null
+        "SLM": 45.0
       },
       "preco": {
         "CAM": 12.9,
         "CAV": 12.9,
         "CAX": 12.9,
-        "SLM": null
+        "SLM": 12.9
       }
     },
     {
@@ -176191,9 +176191,9 @@
       "fornecedor": "MEC-TRONIC",
       "estoque": {
         "CAM": 48.0,
-        "CAV": 53.0,
+        "CAV": 47.0,
         "CAX": 46.0,
-        "SLM": 72.0
+        "SLM": 67.0
       },
       "preco": {
         "CAM": 13.9,
@@ -179154,7 +179154,7 @@
       "linha_pai": "Complementos de Pintura",
       "fornecedor": "WEBER QUARTZOLIT",
       "estoque": {
-        "CAM": 4.0,
+        "CAM": 2.0,
         "CAV": null,
         "CAX": 49.0,
         "SLM": 61.0
@@ -179214,7 +179214,7 @@
         "CAM": null,
         "CAV": 61.0,
         "CAX": 2.0,
-        "SLM": 159.0
+        "SLM": 156.0
       },
       "preco": {
         "CAM": null,
@@ -180053,9 +180053,9 @@
         "SLM": null
       },
       "preco": {
-        "CAM": 159.9,
-        "CAV": 159.9,
-        "CAX": 159.9,
+        "CAM": 169.9,
+        "CAV": 169.9,
+        "CAX": 169.9,
         "SLM": null
       }
     },
@@ -180562,14 +180562,14 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": null,
-        "CAX": 3.0,
-        "SLM": 6.0
+        "CAX": null,
+        "SLM": null
       },
       "preco": {
         "CAM": 56.99,
         "CAV": null,
-        "CAX": 56.99,
-        "SLM": 56.99
+        "CAX": null,
+        "SLM": null
       }
     },
     {
@@ -180905,13 +180905,13 @@
         "CAM": null,
         "CAV": 4.0,
         "CAX": 4.0,
-        "SLM": 3.0
+        "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 129.99,
         "CAX": 129.99,
-        "SLM": 129.99
+        "SLM": null
       }
     },
     {
@@ -180941,13 +180941,13 @@
       "fornecedor": "ROCA",
       "estoque": {
         "CAM": null,
-        "CAV": 13.0,
+        "CAV": null,
         "CAX": 4.0,
         "SLM": 4.0
       },
       "preco": {
         "CAM": null,
-        "CAV": 63.9,
+        "CAV": null,
         "CAX": 63.9,
         "SLM": 63.9
       }
@@ -181549,9 +181549,9 @@
       "fornecedor": "PADRAO FORTE",
       "estoque": {
         "CAM": 7.0,
-        "CAV": 3.0,
+        "CAV": 2.0,
         "CAX": 2.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 16.1,
@@ -181608,7 +181608,7 @@
         "CAM": 6.0,
         "CAV": 2.0,
         "CAX": 5.0,
-        "SLM": 2.0
+        "SLM": 1.0
       },
       "preco": {
         "CAM": 24.9,
@@ -181796,9 +181796,9 @@
       "fornecedor": "PADRAO FORTE",
       "estoque": {
         "CAM": null,
-        "CAV": 4.0,
+        "CAV": 2.0,
         "CAX": 8.0,
-        "SLM": 5.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": null,
@@ -182289,7 +182289,7 @@
       "linha_pai": "REVESTIMENTOS",
       "fornecedor": "TECNOGRES",
       "estoque": {
-        "CAM": 338.4,
+        "CAM": 331.2,
         "CAV": null,
         "CAX": 60.48,
         "SLM": 46.08
@@ -182878,7 +182878,7 @@
       "linha_pai": "Iluminação",
       "fornecedor": "LEDVANCE",
       "estoque": {
-        "CAM": 23.0,
+        "CAM": 18.0,
         "CAV": 4.0,
         "CAX": null,
         "SLM": 5.0
@@ -182919,7 +182919,7 @@
         "CAM": 1.0,
         "CAV": 4.0,
         "CAX": 6.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 95.9,
@@ -183885,7 +183885,7 @@
       "linha_pai": "ELETRINHOS",
       "fornecedor": "BLACK DECKER",
       "estoque": {
-        "CAM": 9.0,
+        "CAM": 8.0,
         "CAV": 12.0,
         "CAX": 21.0,
         "SLM": 10.0
@@ -183907,7 +183907,7 @@
         "CAM": 2.0,
         "CAV": 2.0,
         "CAX": 3.0,
-        "SLM": 3.0
+        "SLM": 2.0
       },
       "preco": {
         "CAM": 199.9,
@@ -184401,7 +184401,7 @@
         "CAM": 48.0,
         "CAV": 41.0,
         "CAX": 68.0,
-        "SLM": 64.0
+        "SLM": 56.0
       },
       "preco": {
         "CAM": 7.9,
@@ -184648,7 +184648,7 @@
         "CAM": 1.0,
         "CAV": 187.0,
         "CAX": 170.0,
-        "SLM": 46.0
+        "SLM": 44.0
       },
       "preco": {
         "CAM": 1.2,
@@ -185066,7 +185066,7 @@
         "CAM": 153.0,
         "CAV": 26.0,
         "CAX": 48.0,
-        "SLM": 18.0
+        "SLM": 17.0
       },
       "preco": {
         "CAM": 54.9,
@@ -185861,7 +185861,7 @@
       "linha_pai": "Louças",
       "fornecedor": "LUZARTE",
       "estoque": {
-        "CAM": 6.0,
+        "CAM": 5.0,
         "CAV": 9.0,
         "CAX": 27.0,
         "SLM": 11.0
@@ -185956,7 +185956,7 @@
       "linha_pai": "Básicos",
       "fornecedor": "Perfilplast Industria e Comerc",
       "estoque": {
-        "CAM": 22.0,
+        "CAM": 20.0,
         "CAV": 25.0,
         "CAX": 41.0,
         "SLM": 33.0
@@ -186016,13 +186016,13 @@
         "CAM": 25.0,
         "CAV": null,
         "CAX": 81.0,
-        "SLM": 26.0
+        "SLM": null
       },
       "preco": {
         "CAM": 8.9,
         "CAV": null,
         "CAX": 8.9,
-        "SLM": 8.9
+        "SLM": null
       }
     },
     {
@@ -186033,13 +186033,13 @@
       "fornecedor": "NITROLUX",
       "estoque": {
         "CAM": null,
-        "CAV": 2.0,
+        "CAV": null,
         "CAX": 12.0,
         "SLM": null
       },
       "preco": {
         "CAM": null,
-        "CAV": 28.9,
+        "CAV": null,
         "CAX": 28.9,
         "SLM": null
       }
@@ -186244,13 +186244,13 @@
         "CAM": 3.0,
         "CAV": 4.0,
         "CAX": 4.0,
-        "SLM": 5.0
+        "SLM": null
       },
       "preco": {
         "CAM": 79.99,
         "CAV": 79.99,
         "CAX": 79.99,
-        "SLM": 79.99
+        "SLM": null
       }
     },
     {
@@ -186339,13 +186339,13 @@
         "CAM": null,
         "CAV": 3.0,
         "CAX": 3.0,
-        "SLM": null
+        "SLM": 2.0
       },
       "preco": {
         "CAM": null,
         "CAV": 118.9,
         "CAX": 118.9,
-        "SLM": null
+        "SLM": 118.9
       }
     },
     {
@@ -186741,7 +186741,7 @@
         "SLM": null
       },
       "preco": {
-        "CAM": 31.99,
+        "CAM": 32.99,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -187763,13 +187763,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 4.0,
-        "CAX": 3.0,
+        "CAX": null,
         "SLM": 5.0
       },
       "preco": {
         "CAM": null,
         "CAV": 18.9,
-        "CAX": 18.9,
+        "CAX": null,
         "SLM": 18.9
       }
     },
@@ -188104,7 +188104,7 @@
       "fornecedor": "",
       "estoque": {
         "CAM": 37.0,
-        "CAV": 36.0,
+        "CAV": 35.0,
         "CAX": 45.0,
         "SLM": 6.0
       },
@@ -188255,7 +188255,7 @@
       "linha_pai": "",
       "fornecedor": "",
       "estoque": {
-        "CAM": 52.14,
+        "CAM": 23.7,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -188391,7 +188391,7 @@
         "CAM": 28.0,
         "CAV": 53.0,
         "CAX": 32.0,
-        "SLM": 75.0
+        "SLM": 73.0
       },
       "preco": {
         "CAM": 39.9,
@@ -188505,7 +188505,7 @@
         "CAM": 3.0,
         "CAV": 5.0,
         "CAX": 6.0,
-        "SLM": 6.0
+        "SLM": 5.0
       },
       "preco": {
         "CAM": 39.9,
@@ -188770,7 +188770,7 @@
       "estoque": {
         "CAM": 3.0,
         "CAV": 3.0,
-        "CAX": 4.0,
+        "CAX": 3.0,
         "SLM": 4.0
       },
       "preco": {
@@ -188885,7 +188885,7 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 14.0
+        "SLM": 13.0
       },
       "preco": {
         "CAM": null,
@@ -189227,7 +189227,7 @@
         "CAM": 2.0,
         "CAV": 2.0,
         "CAX": null,
-        "SLM": 12.0
+        "SLM": 11.0
       },
       "preco": {
         "CAM": 35.9,
@@ -189264,7 +189264,7 @@
       "estoque": {
         "CAM": 6.0,
         "CAV": 4.0,
-        "CAX": 4.0,
+        "CAX": 3.0,
         "SLM": 12.0
       },
       "preco": {
@@ -189626,7 +189626,7 @@
         "CAM": null,
         "CAV": null,
         "CAX": null,
-        "SLM": 19.0
+        "SLM": 18.0
       },
       "preco": {
         "CAM": null,
@@ -189854,7 +189854,7 @@
         "CAM": 8.0,
         "CAV": 12.0,
         "CAX": 9.0,
-        "SLM": 22.0
+        "SLM": 21.0
       },
       "preco": {
         "CAM": 11.9,
@@ -189892,7 +189892,7 @@
         "CAM": 68.0,
         "CAV": 35.0,
         "CAX": 40.0,
-        "SLM": 62.0
+        "SLM": 60.0
       },
       "preco": {
         "CAM": 11.9,
@@ -190289,7 +190289,7 @@
       "fornecedor": "",
       "estoque": {
         "CAM": 8.0,
-        "CAV": 6.0,
+        "CAV": 5.0,
         "CAX": null,
         "SLM": 8.0
       },
@@ -190403,7 +190403,7 @@
       "fornecedor": "",
       "estoque": {
         "CAM": null,
-        "CAV": 11.0,
+        "CAV": 9.0,
         "CAX": 12.0,
         "SLM": null
       },
@@ -190480,13 +190480,13 @@
       "estoque": {
         "CAM": null,
         "CAV": 10.0,
-        "CAX": 12.0,
+        "CAX": null,
         "SLM": null
       },
       "preco": {
         "CAM": null,
         "CAV": 4.99,
-        "CAX": 4.99,
+        "CAX": null,
         "SLM": null
       }
     },
@@ -190498,7 +190498,7 @@
       "fornecedor": "",
       "estoque": {
         "CAM": null,
-        "CAV": 11.0,
+        "CAV": 7.0,
         "CAX": 12.0,
         "SLM": null
       },
@@ -190612,7 +190612,7 @@
       "fornecedor": "",
       "estoque": {
         "CAM": 3.0,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": 4.0,
         "SLM": 3.0
       },
@@ -190955,13 +190955,13 @@
       "estoque": {
         "CAM": 4.0,
         "CAV": null,
-        "CAX": 1.0,
+        "CAX": null,
         "SLM": null
       },
       "preco": {
         "CAM": 5.9,
         "CAV": null,
-        "CAX": 5.9,
+        "CAX": null,
         "SLM": null
       }
     },
@@ -191086,7 +191086,7 @@
       "linha_pai": "",
       "fornecedor": "",
       "estoque": {
-        "CAM": 266.24,
+        "CAM": 256.0,
         "CAV": null,
         "CAX": null,
         "SLM": 40.96
@@ -191162,7 +191162,7 @@
       "linha_pai": "",
       "fornecedor": "",
       "estoque": {
-        "CAM": 13.0,
+        "CAM": 10.0,
         "CAV": 14.0,
         "CAX": 1.0,
         "SLM": null
@@ -191222,7 +191222,7 @@
         "CAM": 10.0,
         "CAV": 10.0,
         "CAX": 5.0,
-        "SLM": 5.0
+        "SLM": 4.0
       },
       "preco": {
         "CAM": 42.9,
@@ -191352,7 +191352,7 @@
       "linha_pai": "",
       "fornecedor": "",
       "estoque": {
-        "CAM": 92.82,
+        "CAM": 88.4,
         "CAV": null,
         "CAX": null,
         "SLM": null
@@ -191429,7 +191429,7 @@
       "fornecedor": "",
       "estoque": {
         "CAM": 2.0,
-        "CAV": 4.0,
+        "CAV": 3.0,
         "CAX": 4.0,
         "SLM": null
       },
@@ -191450,13 +191450,13 @@
         "CAM": 6.0,
         "CAV": 5.0,
         "CAX": 6.0,
-        "SLM": 1.0
+        "SLM": null
       },
       "preco": {
         "CAM": 49.9,
         "CAV": 49.9,
         "CAX": 49.9,
-        "SLM": 49.9
+        "SLM": null
       }
     },
     {
@@ -191486,9 +191486,9 @@
       "fornecedor": "",
       "estoque": {
         "CAM": 46.0,
-        "CAV": 31.0,
+        "CAV": 28.0,
         "CAX": 100.0,
-        "SLM": 52.0
+        "SLM": 51.0
       },
       "preco": {
         "CAM": 7.9,
@@ -191543,8 +191543,8 @@
       "fornecedor": "",
       "estoque": {
         "CAM": 9.0,
-        "CAV": 3.0,
-        "CAX": 12.0,
+        "CAV": 2.0,
+        "CAX": 11.0,
         "SLM": 2.0
       },
       "preco": {
@@ -191962,13 +191962,13 @@
       "estoque": {
         "CAM": 32.0,
         "CAV": 18.0,
-        "CAX": 37.0,
+        "CAX": null,
         "SLM": null
       },
       "preco": {
         "CAM": 8.99,
         "CAV": 8.99,
-        "CAX": 8.99,
+        "CAX": null,
         "SLM": null
       }
     },
