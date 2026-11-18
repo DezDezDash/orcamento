@@ -2,8 +2,12 @@ name: Atualizar Estoque DezDez
 
 on:
   schedule:
-    # 22:00 horário de Brasília (UTC-3, sem DST desde 2019) = 01:00 UTC
-    - cron: '0 1 * * *'
+    # 19:41 de Brasília (UTC-3) = 22:41 UTC. O GitHub vinha disparando o
+    # agendamento antigo (01:00 UTC, minuto cheio = horário mais congestionado)
+    # com 5 a 8h de atraso, empurrando a 2ª leva de jobs para o horário
+    # comercial, quando a sessão do webapp cai e a coleta volta só "N/D".
+    # Minuto quebrado + início mais cedo para terminar antes das lojas abrirem.
+    - cron: '41 22 * * *'
   workflow_dispatch:    # botão "Run workflow" na aba Actions
 
 permissions:
