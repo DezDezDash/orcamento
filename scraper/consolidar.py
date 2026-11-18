@@ -22,6 +22,8 @@ Saída (estoque.json):
 """
 import argparse
 import json
+import os
+import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -135,6 +137,21 @@ def main():
     print(f"Produtos com algum estoque coletado: {com_estoque}")
     print(f"Produtos sem nenhum dado coletado:   {sem_estoque}")
     print(f"Cobertura por loja: {por_loja}")
+
+    # Trava: não publica se alguma loja vier com cobertura muito abaixo do normal
+    # (sinal de sessão do webapp caída, que devolve "N/D" para tudo).
+    ref_path = Path(__file__).with_name("cobertura_referencia.json")
+    if ref_path.exists() and os.environ.get("FORCAR_PUBLICACAO") != "1":
+        ref = json.loads(ref_path.read_text(encoding="utf-8"))
+        minimo = ref.get("minimo_pct", 90) / 100
+        baixas = {l: (por_loja[l], ref["cobertura"][l]) for l in LOJAS
+                  if l in ref["cobertura"] and por_loja[l] < ref["cobertura"][l] * minimo}
+        if baixas:
+            for l, (atual, normal) in baixas.items():
+                print(f"❌ {l}: {atual} produtos com dado, esperado ≥ {int(normal * minimo)} (normal ≈ {normal})")
+            print("Publicação bloqueada para não publicar estoque falso. "
+                  "Para publicar mesmo assim, rode com FORCAR_PUBLICACAO=1.")
+            sys.exit(1)
 
     # 4) Grava saída ordenada por código numérico quando possível
     def sort_key(p):

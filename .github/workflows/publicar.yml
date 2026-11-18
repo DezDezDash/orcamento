@@ -3,6 +3,10 @@ name: Publicar estoque.json (sem scrape)
 on:
   workflow_dispatch:
     inputs:
+      forcar:
+        description: 'Publicar mesmo se a cobertura de alguma loja vier baixa'
+        type: boolean
+        default: false
       run_id:
         description: 'ID do run com os artefatos (deixe vazio para usar o mais recente)'
         required: false
@@ -44,6 +48,8 @@ jobs:
           echo "JSONs: $(find resultados -name '*.json' | wc -l)"
 
       - name: Consolida estoque.json
+        env:
+          FORCAR_PUBLICACAO: ${{ inputs.forcar && '1' || '0' }}
         run: |
           python scraper/consolidar.py \
             --inputs   resultados \

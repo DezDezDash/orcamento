@@ -1,0 +1,10 @@
+{
+  "_comentario": "Cobertura normal por loja (mediana de 03 a 09/11/2026). O consolidar.py bloqueia a publicação se alguma loja ficar abaixo de minimo_pct% desse valor.",
+  "minimo_pct": 90,
+  "cobertura": {
+    "CAM": 4809,
+    "CAV": 3917,
+    "CAX": 3534,
+    "SLM": 4024
+  }
+}

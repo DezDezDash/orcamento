@@ -18,6 +18,10 @@ DEFAULT_COMPANIES = [
 ]
 
 
+ND_SEGUIDOS_LIMITE = 15   # N/D seguidos que disparam re-login + re-busca
+MAX_RECUPERACOES = 25     # acima disso o job falha em vez de publicar lixo
+
+
 def log(x): print(time.strftime("%H:%M:%S"), "|", x, flush=True)
 def nap(s=0.30): time.sleep(s)
 
@@ -252,7 +256,13 @@ def clear_filters(page):
         pass
 
 
+class SessaoPerdida(Exception):
+    """A página voltou para a tela de login no meio da coleta."""
+
+
 def find_code_input(page):
+    if sessao_expirada(page):
+        raise SessaoPerdida("tela de login no lugar da busca de produtos")
     for xp in [
         "xpath=//input[contains(@id,':codigo') and @type='text' and not(@role='combobox')]",
         "xpath=//input[contains(@name,':codigo') and @type='text' and not(@role='combobox')]",
@@ -265,7 +275,12 @@ def find_code_input(page):
             return loc
         except:
             continue
-    loc = page.locator("css=input[type='text']:not([role='combobox'])").first
+    # Nunca cair no campo de usuário do login: era isso que fazia o robô
+    # "buscar" códigos digitando-os na tela de login depois da sessão cair.
+    loc = page.locator(
+        "css=input[type='text']:not([role='combobox'])"
+        ":not([name='j_username']):not([id*='username']):not([id*='login']):not([id*='usuario'])"
+    ).first
     loc.wait_for(state="visible", timeout=2500)
     print(f"Campo de código (fallback): id='{loc.get_attribute('id')}'", flush=True)
     return loc
@@ -440,34 +455,81 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
             lojas = matched
             log(f"Filtrando para empresa: {lojas[0]}")
 
+        def recuperar_sessao(loja, motivo):
+            log(f"Recuperando sessão ({motivo})...")
+            # Limpa cookies para garantir um login novo mesmo quando a sessão
+            # "morreu" sem redirecionar para a tela de login.
+            ctx.clear_cookies()
+            page.goto(URL, timeout=60000)
+            if username and password:
+                do_login(page, username, password)
+            go_to_produtos(page, username, password)
+            select_company(page, loja)
+
         for loja in lojas:
             go_to_produtos(page, username, password)
             select_company(page, loja)
             erros_seguidos = 0
-            for code in codigos:
+            nd_seq = []           # códigos da sequência atual de N/D
+            retentados = set()    # cada código é re-buscado no máximo uma vez
+            recuperacoes = 0
+            fila = list(codigos)
+            i = 0
+            while i < len(fila):
+                code = fila[i]
                 try:
                     buscar_codigo(page, code)
                     data = ler_linha(page, code)
-                    if data is None:
-                        rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": "N/D", "LINHA": "", "PRECO": ""})
-                    else:
-                        data["EMPRESA"] = loja
-                        rows.append(data)
-                    log(f"[{loja}] {code} => {rows[-1]['ESTOQUE']}")
-                    erros_seguidos = 0
+                except SessaoPerdida as e:
+                    recuperacoes += 1
+                    if recuperacoes > MAX_RECUPERACOES:
+                        raise RuntimeError(f"Sessão caiu {recuperacoes} vezes — abortando para não publicar dados falsos") from e
+                    recuperar_sessao(loja, str(e))
+                    continue  # repete o mesmo código, sem avançar
                 except Exception as e:
+                    i += 1
                     rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": f"ERRO: {e}", "LINHA": "", "PRECO": ""})
                     log(f"[{loja}] {code} => ERRO {e}")
+                    nd_seq = []
                     erros_seguidos += 1
-                    # 5 erros seguidos = sessão provavelmente expirou → recupera
                     if erros_seguidos >= 5:
-                        log("5 erros consecutivos — tentando recuperar sessão...")
+                        recuperacoes += 1
+                        if recuperacoes > MAX_RECUPERACOES:
+                            raise RuntimeError("Erros em sequência sem recuperação — abortando")
                         try:
-                            go_to_produtos(page, username, password)
-                            select_company(page, loja)
+                            recuperar_sessao(loja, "5 erros seguidos")
                         except Exception as rec_e:
                             log(f"Recuperação falhou: {rec_e}")
                         erros_seguidos = 0
+                    continue
+
+                i += 1
+                erros_seguidos = 0
+                if data is None:
+                    rows.append({"EMPRESA": loja, "CODIGO": code, "DESCRICAO": "", "ESTOQUE": "N/D", "LINHA": "", "PRECO": ""})
+                    nd_seq.append(code)
+                else:
+                    data["EMPRESA"] = loja
+                    rows.append(data)
+                    nd_seq = []
+                log(f"[{loja}] {code} => {rows[-1]['ESTOQUE']}")
+
+                # Sequência longa de N/D = sessão possivelmente degradada sem
+                # voltar ao login. Refaz a sessão e re-busca esses códigos uma vez.
+                if len(nd_seq) >= ND_SEGUIDOS_LIMITE:
+                    refazer = [c for c in nd_seq if c not in retentados]
+                    if refazer:
+                        recuperacoes += 1
+                        if recuperacoes > MAX_RECUPERACOES:
+                            raise RuntimeError("N/D em sequência persistente — abortando para não publicar dados falsos")
+                        recuperar_sessao(loja, f"{len(nd_seq)} N/D seguidos")
+                        retentados.update(refazer)
+                        # remove só as linhas N/D que serão re-buscadas
+                        cauda = rows[-len(nd_seq):]
+                        del rows[-len(nd_seq):]
+                        rows.extend(r for r in cauda if r["CODIGO"] not in refazer)
+                        fila[i:i] = refazer
+                    nd_seq = []
 
         saida.parent.mkdir(parents=True, exist_ok=True)
         df_out = pd.DataFrame(rows).sort_values(["EMPRESA", "CODIGO"])

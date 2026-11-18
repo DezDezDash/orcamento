@@ -2,13 +2,18 @@ name: Atualizar Estoque DezDez
 
 on:
   schedule:
-    # 19:41 de Brasília (UTC-3) = 22:41 UTC. O GitHub vinha disparando o
-    # agendamento antigo (01:00 UTC, minuto cheio = horário mais congestionado)
-    # com 5 a 8h de atraso, empurrando a 2ª leva de jobs para o horário
-    # comercial, quando a sessão do webapp cai e a coleta volta só "N/D".
-    # Minuto quebrado + início mais cedo para terminar antes das lojas abrirem.
-    - cron: '41 22 * * *'
+    # 18:41 de Brasília (UTC-3) = 21:41 UTC, logo após as lojas fecharem (18h).
+    # O GitHub vinha disparando o agendamento antigo (01:00 UTC, minuto cheio =
+    # horário mais congestionado) com 5 a 8h de atraso, empurrando a 2ª leva de
+    # jobs para o horário comercial, quando a sessão do webapp cai e a coleta
+    # volta só "N/D". Minuto quebrado + início cedo para terminar antes da abertura.
+    - cron: '41 21 * * *'
   workflow_dispatch:    # botão "Run workflow" na aba Actions
+    inputs:
+      forcar:
+        description: 'Publicar mesmo se a cobertura de alguma loja vier baixa'
+        type: boolean
+        default: false
 
 permissions:
   contents: write       # job consolidar precisa commitar estoque.json
@@ -107,6 +112,8 @@ jobs:
           echo "Total de JSONs: $(find resultados -name '*.json' | wc -l)"
 
       - name: Consolida estoque.json
+        env:
+          FORCAR_PUBLICACAO: ${{ inputs.forcar && '1' || '0' }}
         run: |
           python scraper/consolidar.py \
             --inputs   resultados \
