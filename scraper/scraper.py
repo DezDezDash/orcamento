@@ -20,6 +20,8 @@ DEFAULT_COMPANIES = [
 
 ND_SEGUIDOS_LIMITE = 15   # N/D seguidos que disparam re-login + re-busca
 MAX_RECUPERACOES = 25     # acima disso o job falha em vez de publicar lixo
+TENTATIVAS_WEBAPP = 10    # tentativas de reabrir o webapp quando ele não responde
+ESPERA_WEBAPP_S = 60      # espera entre essas tentativas (10 × ~2 min ≈ 15-20 min)
 
 
 def log(x): print(time.strftime("%H:%M:%S"), "|", x, flush=True)
@@ -437,7 +439,15 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
         browser = p.chromium.launch(headless=not headful)
         ctx = browser.new_context(viewport={"width": 1400, "height": 900})
         page = ctx.new_page()
-        page.goto(URL, timeout=60000)
+        for tentativa in range(1, TENTATIVAS_WEBAPP + 1):
+            try:
+                page.goto(URL, timeout=60000)
+                break
+            except Exception as e:
+                if tentativa == TENTATIVAS_WEBAPP:
+                    raise
+                log(f"Webapp indisponível na abertura (tentativa {tentativa}): {e} — aguardando {ESPERA_WEBAPP_S}s")
+                time.sleep(ESPERA_WEBAPP_S)
 
         if username and password:
             do_login(page, username, password)
@@ -457,14 +467,25 @@ def run(produtos: Path, saida: Path, json_out, username: str, password: str, hea
 
         def recuperar_sessao(loja, motivo):
             log(f"Recuperando sessão ({motivo})...")
-            # Limpa cookies para garantir um login novo mesmo quando a sessão
-            # "morreu" sem redirecionar para a tela de login.
-            ctx.clear_cookies()
-            page.goto(URL, timeout=60000)
-            if username and password:
-                do_login(page, username, password)
-            go_to_produtos(page, username, password)
-            select_company(page, loja)
+            # O servidor do webapp às vezes fica fora do ar por alguns minutos
+            # (quedas, reinícios, atualizações). Em vez de desistir na primeira
+            # falha, espera e tenta de novo por até ~15 minutos.
+            for tentativa in range(1, TENTATIVAS_WEBAPP + 1):
+                try:
+                    # Limpa cookies para garantir um login novo mesmo quando a
+                    # sessão "morreu" sem redirecionar para a tela de login.
+                    ctx.clear_cookies()
+                    page.goto(URL, timeout=60000)
+                    if username and password:
+                        do_login(page, username, password)
+                    go_to_produtos(page, username, password)
+                    select_company(page, loja)
+                    return
+                except Exception as e:
+                    if tentativa == TENTATIVAS_WEBAPP:
+                        raise
+                    log(f"Webapp indisponível (tentativa {tentativa}/{TENTATIVAS_WEBAPP}): {e} — aguardando {ESPERA_WEBAPP_S}s")
+                    time.sleep(ESPERA_WEBAPP_S)
 
         for loja in lojas:
             go_to_produtos(page, username, password)
